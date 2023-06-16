@@ -1,0 +1,240 @@
+<section id="all" class="pt-md-4 pt-xl-5 pb-lg-3 pb-xl-5 container-fluid">
+  <div class="container">
+      <div class="g-4 row row-cols-md-3 row-cols-sm-2 row-cols-1">
+          <div class="p-sm-4" data-aos="zoom-in-down" data-aos-duration="1500">
+              <div class="d-sm-flex justify-content-between align-items-center mb-2">
+                  <div class="d-flex mb-3" style="width:56px">
+                      <span>
+                          <img src="/assetss-change/icons/indus/6.png" alt="">
+                      </span>
+                  </div>
+                  <!-- Rating -->
+                  <ul class="list-inline small mb-0">
+                      <li class="list-inline-item me-0"><i class="fa-solid fa-star text-warning"></i></li>
+                      <li class="list-inline-item me-0">
+                          <p class="text-danger">Top Rated</p>
+                      </li>
+                  </ul>
+              </div>
+              <!-- Title -->
+              <h4 class="common-font">Saas</h4>
+              <p class="fs-6 mb-3 common-font">We build SAAS applications that are user centric and solves the
+                  real time
+                  problems. This can involve designing and building the user interface, implementing
+                  features and functionality, and integrating the application with other systems or
+                  services as needed.</p>
+              <!-- Button -->
+              <a href="#" class="btn btn-primary-soft mb-0 mt-3 text-primary"
+                  style="--bs-btn-padding-x: 1rem;--bs-btn-padding-y: 0.5rem;">Let's talk</a>
+          </div>
+          <div class="p-sm-4" data-aos="zoom-in-down" data-aos-duration="1500">
+              <div class="d-sm-flex justify-content-between align-items-center mb-2">
+                  <div class="d-flex mb-3" style="width:56px">
+                      <span>
+                          <img src="/assetss-change/icons/indus/2.png" alt="">
+                      </span>
+                  </div>
+                  <!-- Rating -->
+                  <ul class="list-inline small mb-0">
+                      <li class="list-inline-item me-0"><i class="fa-solid fa-star text-warning"></i></li>
+                      <li class="list-inline-item me-0">
+                          <p class="text-danger">Top Rated</p>
+                      </li>
+                  </ul>
+              </div>
+              <!-- Title -->
+              <h4 class="common-font">Healthcare</h4>
+              <p class="fs-6 mb-3 common-font">We ensure building our healthcare software which meets relevant
+                  regulations
+                  and compliance standards such as HIPAA compliance. Unique needs and challenges faced by
+                  healthcare industry is being addressed and combine it with right technical expertise.</p>
+              <!-- Button -->
+              <a href="#" class="btn btn-primary-soft mb-0 mt-3 text-primary"
+                  style="--bs-btn-padding-x: 1rem;--bs-btn-padding-y: 0.5rem;">Let's talk</a>
+          </div>
+          <div class="p-sm-4" data-aos="zoom-in-down" data-aos-duration="1500">
+              <div class="d-sm-flex justify-content-between align-items-center mb-2">
+                  <div class="d-flex mb-3" style="width:56px">
+                      <span>
+                          <img src="/assetss-change/icons/indus/1.png" alt="">
+                      </span>
+                  </div>
+                  <!-- Rating -->
+                  <ul class="list-inline small mb-0">
+                      <li class="list-inline-item me-0"><i class="fa-solid fa-star text-warning"></i></li>
+                      <li class="list-inline-item me-0">
+                          <p class="text-danger">Top Rated</p>
+                      </li>
+                  </ul>
+              </div>
+              <!-- Title -->
+              <h4 class="common-font">Realestate</h4>
+              <p class="fs-6 mb-3 common-font">Designing a user friendly interface, ensuring scalable
+                  software,
+                  collaborative, Robust testing and quality assurance processes to ensure the software is
+                  reliable and performs well. Ensuring the software meets relevant regulations and compliance
+                  standards.</p>
+              <!-- Button -->
+              <a href="#" class="btn btn-primary-soft mb-0 mt-3 text-primary"
+                  style="--bs-btn-padding-x: 1rem;--bs-btn-padding-y: 0.5rem;">Let's talk</a>
+          </div>
+          <div class="p-sm-4" data-aos="zoom-in-down" data-aos-duration="1500">
+              <div class="d-sm-flex justify-content-between align-items-center mb-2">
+                  <div class="d-flex mb-3" style="width:56px">
+                      <span>
+                          <img src="/assetss-change/icons/indus/9.png" alt="">
+                      </span>
+                  </div>
+                  <!-- Rating -->
+                  <ul class="list-inline small mb-0">
+                      <li class="list-inline-item me-0"><i class="fa-solid fa-star text-warning"></i></li>
+                      <li class="list-inline-item me-0">
+                          <p class="text-danger">Top Rated</p>
+                      </li>
+                  </ul>
+              </div>
+              <!-- Title -->
+              <h4 class="common-font">Travel</h4>
+              <p class="fs-6 mb-3 common-font">We build software applications with reference to travel and
+                  tourism
+                  industry and which will ensure collaborations with online bookings, travel agency software,
+                  destination management system and other hospitality management systems.</p>
+              <!-- Button -->
+              <a href="#" class="btn btn-primary-soft mb-0 mt-3 text-primary"
+                  style="--bs-btn-padding-x: 1rem;--bs-btn-padding-y: 0.5rem;">Let's talk</a>
+          </div>
+          <div class="p-sm-4" data-aos="zoom-in-down" data-aos-duration="1500">
+              <div class="d-sm-flex justify-content-between align-items-center mb-2">
+                  <div class="d-flex mb-3" style="width:56px">
+                      <span>
+                          <img src="/assetss-change/icons/indus/8.png" alt="">
+                      </span>
+                  </div>
+                  <!-- Rating -->
+                  <ul class="list-inline small mb-0">
+                      <li class="list-inline-item me-0"><i class="fa-solid fa-star text-warning"></i></li>
+                      <li class="list-inline-item me-0">
+                          <p class="text-danger">Top Rated</p>
+                      </li>
+                  </ul>
+              </div>
+              <!-- Title -->
+              <h4 class="common-font">Entertainment</h4>
+              <p class="fs-6 mb-3 common-font">We build applications or systems specifically designed for the
+                  media and
+                  entertainment industry. These types of software can be used by various stakeholders in the
+                  industry, including content creators, broadcasters and consumers.</p>
+              <!-- Button -->
+              <a href="#" class="btn btn-primary-soft mb-0 mt-3 text-primary"
+                  style="--bs-btn-padding-x: 1rem;--bs-btn-padding-y: 0.5rem;">Let's talk</a>
+          </div>
+          <div class="p-sm-4" data-aos="zoom-in-down" data-aos-duration="1500">
+              <div class="d-sm-flex justify-content-between align-items-center mb-2">
+                  <div class="d-flex mb-3" style="width:56px">
+                      <span>
+                          <img src="/assetss-change/icons/indus/4.png" alt="">
+                      </span>
+                  </div>
+                  <!-- Rating -->
+                  <ul class="list-inline small mb-0">
+                      <li class="list-inline-item me-0"><i class="fa-solid fa-star text-warning"></i></li>
+                      <li class="list-inline-item me-0">
+                          <p class="text-danger">Top Rated</p>
+                      </li>
+                  </ul>
+              </div>
+              <!-- Title -->
+              <h4 class="common-font">Ed-tech</h4>
+              <p class="fs-6 mb-3 common-font">We build applications and systems specifically designed for
+                  online
+                  education and training. Major applications we'd built are LMS, Virtual classroom software,
+                  Educational gaming and simulations and Education assessment software.</p>
+              <!-- Button -->
+              <a href="#" class="btn btn-primary-soft mb-0 mt-3 text-primary"
+                  style="--bs-btn-padding-x: 1rem;--bs-btn-padding-y: 0.5rem;">Let's talk</a>
+          </div>
+          <div class="p-sm-4" data-aos="zoom-in-down" data-aos-duration="1500">
+              <div class="d-sm-flex justify-content-between align-items-center mb-2">
+                  <div class="d-flex mb-3" style="width:56px">
+                      <span>
+                          <img src="/assetss-change/icons/indus/5.png" alt="">
+                      </span>
+                  </div>
+                  <!-- Rating -->
+                  <ul class="list-inline small mb-0">
+                      <li class="list-inline-item me-0"><i class="fa-solid fa-star text-warning"></i></li>
+                      <li class="list-inline-item me-0">
+                          <p class="text-danger">Top Rated</p>
+                      </li>
+                  </ul>
+              </div>
+              <!-- Title -->
+              <h4 class="common-font">Restaraunts</h4>
+              <p class="fs-6 mb-3 common-font">Our restaurant use case software can be used by various
+                  stakeholders in the
+                  industry, including restaurants, customers, and food delivery companies. We build Online
+                  ordering systems, Point of sale systems, Restaurant management software, Food delivery
+                  platforms, Recipe management software and many more.</p>
+              <!-- Button -->
+              <a href="#" class="btn btn-primary-soft mb-0 mt-3 text-primary"
+                  style="--bs-btn-padding-x: 1rem;--bs-btn-padding-y: 0.5rem;">Let's talk</a>
+          </div>
+          <div class="p-sm-4" data-aos="zoom-in-down" data-aos-duration="1500">
+              <div class="d-sm-flex justify-content-between align-items-center mb-2">
+                  <div class="d-flex mb-3" style="width:56px">
+                      <span>
+                          <img src="/assetss-change/icons/indus/7.png" alt="">
+                      </span>
+                  </div>
+                  <!-- Rating -->
+                  <ul class="list-inline small mb-0">
+                      <li class="list-inline-item me-0"><i class="fa-solid fa-star text-warning"></i></li>
+                      <li class="list-inline-item me-0">
+                          <p class="text-danger">Top Rated</p>
+                      </li>
+                  </ul>
+              </div>
+              <!-- Title -->
+              <h4 class="common-font">E-commerce</h4>
+              <p class="fs-6 mb-3 common-font">Software applications specifically designed for online shopping
+                  and
+                  business transactions. These software's can be used by various stakeholders in e-commerce
+                  industry, including payment processors. Our main focus involves Online shopping platforms, E
+                  commerce payment systems, Shipment and Fullfillment.</p>
+              <!-- Button -->
+              <a href="#" class="btn btn-primary-soft mb-0 mt-3 text-primary"
+                  style="--bs-btn-padding-x: 1rem;--bs-btn-padding-y: 0.5rem;">Let's talk</a>
+          </div>
+          <div class="p-sm-4" data-aos="zoom-in-down" data-aos-duration="1500">
+              <div class="d-sm-flex justify-content-between align-items-center mb-2">
+                  <div class="d-flex mb-3" style="width:56px">
+                      <span>
+                          <img src="/assetss-change/icons/indus/3.png" alt="">
+                      </span>
+                  </div>
+                  <!-- Rating -->
+                  <ul class="list-inline small mb-0">
+                      <li class="list-inline-item me-0"><i class="fa-solid fa-star text-warning"></i></li>
+                      <li class="list-inline-item me-0">
+                          <p class="text-danger">Top Rated</p>
+                      </li>
+                  </ul>
+              </div>
+              <!-- Title -->
+              <h4 class="common-font">Social Networking</h4>
+              <p class="fs-6 mb-3 common-font">We build applications and systems specifically designed for
+                  each user
+                  individuals, groups and organizations to connect and interact with others online. Our main
+                  focus is on Social media platforms, Instant messaging applications, Online dating
+                  applications and other collaboration tools.</p>
+              <!-- Button -->
+              <a href="#" class="btn btn-primary-soft mb-0 mt-3 text-primary"
+                  style="--bs-btn-padding-x: 1rem;--bs-btn-padding-y: 0.5rem;">Let's talk</a>
+          </div>
+      </div>
+
+
+
+  </div>
+
+</section>

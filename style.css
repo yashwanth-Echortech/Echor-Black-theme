@@ -1,0 +1,432 @@
+
+body{
+    background-color: #000000 !important;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-size: 0.9rem !important;
+}
+/* .navBar{
+    background-color: #121212 !important;
+} */
+.backGrnd{
+    background-repeat: repeat-y !important;
+}
+.bg-alternate{
+    background-color: 
+    #141414 !important;
+}
+.font-1{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    color: white !important;
+}
+.font-11{
+    font-family: 'Epilogue', sans-serif;
+}
+.font-2{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+/* work page */
+.cards-text{
+    color: #EF6C57;
+}
+.Z-index{
+    z-index: -1 !important;
+}
+.colorbg{
+    position: fixed !important;
+}
+.Z-index-2{
+    z-index: 1 !important;
+}
+/* .mainSectionImage{
+    background-color: transparent !important;
+} */
+.user-focused{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    color: #EF6D58 !important;
+}
+.are-you-looking{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 520;
+    font-size: 3rem !important;
+}
+.stunning{
+    background: linear-gradient(
+        to right, #F83600
+        ,#F9D423);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Luckiest Guy', cursive;
+}
+.common-font{
+    font-family: 'Epilogue', sans-serif;
+    color: white;
+}
+.image-1{
+    margin-top: -1% !important;
+}
+.we-build{
+    /* color: #391400; */
+    font-size: 3rem !important;
+    font-weight: 800;
+    font-family: "Epilogue", sans-serif;
+}
+.we-build-2{
+    /* color: #391400; */
+    font-size: 3rem !important;
+    font-weight: 800;
+    font-family: "Epilogue", sans-serif;
+}
+@media (min-width: 375.98px) and (max-width: 760.98px) {
+    .we-build-2{
+        /* color: #391400; */
+        font-size: 1.4rem !important;
+        font-weight: 800;
+        font-family: "Epilogue", sans-serif;
+    }
+}
+.letsTalk{
+    font-size: 13px !important;
+}
+.letsTalk-2{
+    font-size: 13px !important;
+    background-color: #2E4FD7 !important;
+}
+.letsTalk-3{
+    background-color: #2E4FD7 !important;
+}
+.Growth{
+    color: white !important;
+    font-weight: 550;
+}
+/* .we-start{
+    color: #391400;
+} */
+.BorderColor{
+    border: solid 1px !important;
+    border-color: #201e1e !important;
+}
+.iconBg-1{
+    border-radius: 50%;    
+}
+/* .learnmore{
+    color: #391400 !important;
+} */
+.cardds:hover  {
+    background-color: #000000 !important;
+    /* background: white; */
+    border: 0 !important;
+    color:#000000
+}
+.cardds-4:hover{
+    position: relative;
+    display: grid;
+    /* place-items: center; */
+    background-color: black;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.cardds-4:hover::before{
+    content: '';
+    width: 120px;
+    height: 600px;
+    left: 60px;  
+    top: -120px;
+    background: linear-gradient(#00e5ff,#b400fb);
+    position: absolute;
+    animation: animate 5s linear infinite;
+}
+
+.cardds-4:hover:after{
+    content:'';
+    position: absolute;
+    place-content: center;
+    background:black;
+
+    inset: 2px;
+    border-radius: 5px;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.cardds:hover .rotation{
+    transform: rotate(360deg);
+    box-shadow: none !important;
+}
+.rotation:hover{
+    transform: rotate(360);
+    transition: 2s;
+}
+.rotation{
+    transition: transform .6s ease-in-out;
+}
+/* .bg-2{
+    background-color: #F5F5F5;
+} */
+
+/* .card-text{
+    color: #191919;
+} */
+.visibilityNone{
+    visibility: hidden;
+}
+.btn-bggg{
+    background-color: #437EF7 !important;
+}
+.font-3{
+    font-family: 'Poppins', sans-serif;
+    color: white !important;
+}
+.Opacity{
+    opacity: 0.2;
+}
+.Opacity-1{
+    opacity: 0.6;
+}
+.cardWidth{
+    width: fit-content !important;
+}
+.visiBility{
+    visibility: hidden !important;
+}
+.cardsBorder{
+    border: solid #121212 ;
+}
+.ourCustom{
+    font-weight: 600;
+}
+.Saas{
+    background-color: #E7EBFC;
+    border-radius: 50%;
+}
+.quoteImg{
+    position: relative;
+    top: 0.7rem;
+    left: 85%;
+    z-index: 1;
+    width: fit-content !important;
+}
+.faq{
+    color: #EF6D58 ;
+    font-family: 'Epilogue', sans-serif;
+}
+.accordionHeading{
+    color: white !important;
+    font-weight: 600;
+    font-size: 1rem !important;
+}
+/* .accordionTextFontColor{
+    color: #391400;
+} */
+.accordionBg{
+    background-color: black !important;
+}
+.bg-darkkk{
+    background-color: #000000 !important;
+}
+/* footer  starts */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 3% 10%;
+}
+footer h1 {
+    font-size: 4rem;
+}
+footer p {
+    font-size: 15px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+i {
+   color: #ffffff;
+}
+.btn:hover i {
+    color: #000000;
+}
+
+@media (max-width: 580px) {
+    footer h1 {
+        font-size: 3rem;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
+.caard-1{
+    /* height: 300px; */
+    transition: transform .2s ease-in;
+}
+.caard-1:hover{
+    transform: scale(1.01);
+    box-shadow: 11px 11px 11px rgba(33,33,33,.2);
+}
+.caard-2{
+    transition: transform .2s ease-in;
+}
+.caard-2:hover{
+    transform: rotate3d();
+    /* box-shadow: 0 0 11px rgba(33,33,33,.2); */
+}
+.colors3{
+    transition: 1s ease-out;   
+}
+.caard-2:hover .colors3 {
+    visibility: visible !important;
+    transition: 3s ease-in-out;
+}
+.caard-3{
+    transition: transform 0.5s ease-in-out;
+}
+.caard-3:hover{
+    transform: scale(1.1);
+    
+}
+.caard-4{
+    /* height: 300px; */
+    transition: transform .2s ease-in;
+}
+.caard-4:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 11px 11px rgba(33,33,33,.2);
+}
+.carouselImage{
+    z-index: 1 !important;
+}
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+    .carouselImageHeight {
+        height: 26rem !important;
+    }
+}
+
+@media (min-width: 1399.98px) {
+    .carouselImageHeight {
+        height: 19.1rem !important;
+    }
+}
+@media (min-width: 375.98px) and (max-width: 760.98px) {
+    .carouselImageHeight {
+        height: 26.1rem !important;
+    }
+}
+
+@media (min-width: 375.98px) and (max-width: 760.98px) {
+    .haveAn {
+        font-size: 2.8rem !important;
+    }
+}
+@media (min-width: 365.98px) and (max-width: 760.98px) {
+    .thisIs{
+        font-size: 1.8rem !important;
+
+    }
+}
+.example::-webkit-scrollbar {
+    display: none;
+  }
+  .example {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+  }
+.topStickyImage{
+    width: fit-content ;
+}
+/* industries page start*/
+.fire-text{
+    color: #EF6C57;
+}
+.industries{
+    font-weight: 900;
+}
+.main-text{
+    color: rgb(#ffffff);
+    opacity: 0.6;
+}
+.main-text-1{
+    color: #B1CCFB;
+    opacity: 0.6;
+}
+.industries-btn:hover{
+    background: #437EF7;
+    border: 0 !important;
+}
+.card-bg{
+    background-color: #ffffff;
+    
+}
+.saas-colour{
+    font-weight: 500;
+}
+/* .icon-bg{
+    background-color: #437EF7;
+} */
+#clock span{
+    background-color: #437EF7;
+}
+.industry-last-button{
+    background-color: #EF6C57 !important;
+}
+.industry-last-button:hover{
+    background-color: #EF6C57;
+}
+/* industries page ends*/
+
+/* about us page */
+.about-us-card{
+    position: absolute;
+    right: 43%;
+    top: 1%;
+}
+/* about us page ends */
+
+/* contact us page */
+.contact-us-mail:hover{
+    color: lightgreen !important;
+}
+.input-2 {
+    display: block;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    border:0;
+}
+.contact-types:hover{
+    background-color: #437EF7;
+}
+/* services page start */
+.arrow-1:hover .arrow{
+    visibility: visible !important;
+}
+.text-blue:hover{
+    color: #437EF7 !important;
+}
+.services-photo-bg{
+    
+        background-image: url("/assets/group-photo.jpg");
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 13rem;
+        text-align: center;
+        font-weight: bold;
+        /* text-transform: uppercase; */
+        font-weight: 800;
+        -webkit-font-smoothing: antialiased;
+}
