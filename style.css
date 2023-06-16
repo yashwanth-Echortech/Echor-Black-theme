@@ -4,7 +4,6 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden !important;
-    font-size: 0.9rem !important;
 }
 /* .navBar{
     background-color: #121212 !important;
@@ -48,7 +47,9 @@ body{
 .user-focused{
     font-family: 'Epilogue', sans-serif;
     font-weight: 300;
+    font-size: .9rem;
     color: #EF6D58 !important;
+    letter-spacing: 3px;
 }
 .are-you-looking{
     font-family: "Epilogue", sans-serif;
@@ -72,20 +73,12 @@ body{
     margin-top: -1% !important;
 }
 .we-build{
-    /* color: #391400; */
-    font-size: 3rem !important;
-    font-weight: 800;
-    font-family: "Epilogue", sans-serif;
-}
-.we-build-2{
-    /* color: #391400; */
-    font-size: 3rem !important;
+    font-size: 2.5rem;
     font-weight: 800;
     font-family: "Epilogue", sans-serif;
 }
 @media (min-width: 375.98px) and (max-width: 760.98px) {
-    .we-build-2{
-        /* color: #391400; */
+    .we-build{
         font-size: 1.4rem !important;
         font-weight: 800;
         font-family: "Epilogue", sans-serif;
@@ -93,37 +86,42 @@ body{
 }
 .letsTalk{
     font-size: 13px !important;
-}
-.letsTalk-2{
-    font-size: 13px !important;
-    background-color: #2E4FD7 !important;
-}
-.letsTalk-3{
-    background-color: #2E4FD7 !important;
+    background: #F9D423 !important;
+    color: #121212 !important;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
 }
 .Growth{
-    color: white !important;
+    color: white;
     font-weight: 550;
-}
-/* .we-start{
-    color: #391400;
-} */
-.BorderColor{
-    border: solid 1px !important;
-    border-color: #201e1e !important;
 }
 .iconBg-1{
     border-radius: 50%;    
 }
-/* .learnmore{
-    color: #391400 !important;
-} */
-.cardds:hover  {
-    background-color: #000000 !important;
-    /* background: white; */
-    border: 0 !important;
-    color:#000000
+.bgChange{
+    background: black !important;
 }
+.bgChange:hover{
+    background: #ffffff !important;
+}
+.index{
+    z-index: 5 !important;
+}
+/* .bgChange:hover{
+    background-color: #F7F7F7 !important;
+    border: 0 ;
+    color: purple !important ;
+    font-family: 'Epilogue', sans-serif;
+} */
+.cardds{
+    color: white !important;
+}
+/* .cardds:hover  {
+    background-color: #F7F7F7;
+    border: 0 ;
+    color: #391400 ;
+    font-family: 'Epilogue', sans-serif;
+} */
 .cardds-4:hover{
     position: relative;
     display: grid;
@@ -148,7 +146,6 @@ body{
     position: absolute;
     place-content: center;
     background:black;
-
     inset: 2px;
     border-radius: 5px;
 }
@@ -161,24 +158,45 @@ body{
         transform: rotate(360deg);
     }
 }
+.colour{
+    color:#391400;
+    background: #F7F7F7;
+    /* transition: 1s linear; */
+}
+.cardds:hover .colour{
+    color: white;
+    background-color: #121212;
+    transition: .5s ease-in-out;
+ }
+ .colour-1{
+    color:white;
+    background: #121212;
+    /* transition: 1s linear; */
+}
+.cardds:hover .colour-1{
+    color: #391400;
+    background: white !important;
+    transition: .5s ease-in-out;
+ }
+ .white-bg:hover{
+    background-color: white !important;
+    transition: .2s ease-in-out;
+ }
+.cardds:hover{
+    background-color: #121212;
+    transition: .5s ease-in-out;
+}
 .cardds:hover .rotation{
     transform: rotate(360deg);
     box-shadow: none !important;
 }
 .rotation:hover{
-    transform: rotate(360);
-    transition: 2s;
+    transform: rotate(360deg);
+    transition: .5s;
 }
 .rotation{
-    transition: transform .6s ease-in-out;
+    transition: .5s linear;
 }
-/* .bg-2{
-    background-color: #F5F5F5;
-} */
-
-/* .card-text{
-    color: #191919;
-} */
 .visibilityNone{
     visibility: hidden;
 }
@@ -188,6 +206,14 @@ body{
 .font-3{
     font-family: 'Poppins', sans-serif;
     color: white !important;
+}
+.round-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F83600;
+    border-radius: 50%;
+    padding: 15px;
 }
 .Opacity{
     opacity: 0.2;
@@ -299,14 +325,13 @@ i {
     transform: scale(1.1);
     
 }
-.caard-4{
-    /* height: 300px; */
+/* .caard-4{
     transition: transform .2s ease-in;
 }
 .caard-4:hover{
     transform: scale(1.01);
     box-shadow: 0 0 11px 11px rgba(33,33,33,.2);
-}
+} */
 .carouselImage{
     z-index: 1 !important;
 }
