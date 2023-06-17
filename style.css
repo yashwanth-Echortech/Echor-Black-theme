@@ -27,6 +27,7 @@ body{
     font-family: 'Epilogue', sans-serif;
     font-weight: 600;
     color: white;
+    font-size: 1.5rem;
 }
 /* work page */
 .cards-text{
@@ -107,21 +108,10 @@ body{
 .index{
     z-index: 5 !important;
 }
-/* .bgChange:hover{
-    background-color: #F7F7F7 !important;
-    border: 0 ;
-    color: purple !important ;
-    font-family: 'Epilogue', sans-serif;
-} */
+
 .cardds{
     color: white !important;
 }
-/* .cardds:hover  {
-    background-color: #F7F7F7;
-    border: 0 ;
-    color: #391400 ;
-    font-family: 'Epilogue', sans-serif;
-} */
 .cardds-4:hover{
     position: relative;
     display: grid;
@@ -229,9 +219,6 @@ body{
 }
 .cardsBorder{
     border: solid #121212 ;
-}
-.ourCustom{
-    font-weight: 600;
 }
 .Saas{
     background-color: #E7EBFC;
@@ -454,4 +441,16 @@ i {
         /* text-transform: uppercase; */
         font-weight: 800;
         -webkit-font-smoothing: antialiased;
+}
+
+/* new css  */
+.cards-text{
+    color: #ffffff;
+    font-size: .9rem;
+    font-family: "Epilogue", sans-serif;
+}
+.cards-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
