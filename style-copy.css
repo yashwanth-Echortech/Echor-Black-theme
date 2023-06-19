@@ -1925,6 +1925,12 @@ textarea.form-control {
 
 
 
+.text--random [data-scroll='out'] .char:nth-of-type(4) {
+    -webkit-transform: translateX(-51%) translateY(250%);
+            transform: translateX(-51%) translateY(250%);
+}
+
+
 
 
 

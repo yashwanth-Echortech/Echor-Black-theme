@@ -92,6 +92,61 @@ body{
     font-family: "Epilogue", sans-serif;
     font-weight: 500;
 }
+
+
+/* .letsTalk {
+    height: 50px;
+    margin: 5px;
+    width: 120px;
+    background: #333;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Consolas, Courier New, monospace;
+    border: solid #404C5D 1px;
+    font-size: 16px;
+    color: rgb(161, 161, 161);
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #2e2d2d, #212121);
+    -webkit-box-shadow: -1px -5px 15px #41465B, 
+                 5px  5px 15px #41465B, 
+      inset      5px  5px 10px #212121, 
+      inset     -5px -5px 10px #212121;
+    box-shadow: -1px -5px 15px #41465B, 
+                 5px  5px 15px #41465B, 
+      inset      5px  5px 10px #212121, 
+      inset     -5px -5px 10px #212121;
+  }
+  
+  .letsTalk:hover {
+    -webkit-box-shadow: 1px 1px 13px #20232e,
+                      -1px -1px 13px #545b78;
+    box-shadow: 1px 1px 13px #20232e,
+               -1px -1px 13px #545b78;
+    color: #d6d6d6;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+  }
+  
+  .letsTalk:active {
+    -webkit-box-shadow: 1px 1px 13px #20232e,
+                       -1px -1px 33px #545b78;
+    box-shadow: 1px 1px 13px #20232e,
+               -1px -1px 33px #545b78;
+    color: #d6d6d6;
+    -webkit-transition: 100ms;
+    transition: 100ms;
+  } */
+
+
+
+
+
 .Growth{
     color: white;
     font-weight: 550;
@@ -453,4 +508,20 @@ i {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+.Explore:hover{
+    color:#7e1100;
+    border:1px solid rgb(22, 192, 192);
+    padding: 15px;
+    border-radius: 50px 0 50px 0 ;
+    background: #6608ff;
+    transition: .5s ease-in-out;
+    
+}
+
+
+
+.text--random [data-scroll='out'] .char:nth-of-type(4) {
+  -webkit-transform: translateX(-51%) translateY(250%);
+          transform: translateX(-51%) translateY(250%);
 }
