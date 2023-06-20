@@ -47,9 +47,8 @@ body{
 } */
 .user-focused{
     font-family: 'Epilogue', sans-serif;
-    font-weight: 300;
+    font-weight: bold;
     font-size: .9rem;
-    color: #EF6D58 !important;
     letter-spacing: 3px;
 }
 .are-you-looking{
@@ -86,12 +85,14 @@ body{
     }
 }
 .letsTalk{
-    font-size: 13px !important;
-    background: #F9D423 !important;
+    font-size: 15px !important;
+    background: #FED11B !important;
     color: #121212 !important;
     font-family: "Epilogue", sans-serif;
-    font-weight: 500;
+    font-weight: 500 !important;
 }
+
+
 
 
 /* .letsTalk {
@@ -167,13 +168,18 @@ body{
 .cardds{
     color: white !important;
 }
+.cardds-4{
+    background: #222222;
+    border-radius: 10px;
+}
 .cardds-4:hover{
     position: relative;
     display: grid;
     /* place-items: center; */
-    background-color: black;
+    background-color: #222222 !important;
     overflow: hidden;
     border-radius: 3px;
+    border: 0;
 }
 .cardds-4:hover::before{
     content: '';
@@ -181,7 +187,7 @@ body{
     height: 600px;
     left: 60px;  
     top: -120px;
-    background: linear-gradient(#00e5ff,#b400fb);
+    background: linear-gradient(90deg, #F83600 0%, #F9D423 100%);
     position: absolute;
     animation: animate 5s linear infinite;
 }
@@ -208,29 +214,28 @@ body{
     background: #F7F7F7;
     /* transition: 1s linear; */
 }
-.cardds:hover .colour{
+/* .cardds:hover .colour{
     color: white;
     background-color: #121212;
     transition: .5s ease-in-out;
- }
- .colour-1{
+ } */
+ /* .colour-1{
     color:white;
     background: #121212;
-    /* transition: 1s linear; */
-}
-.cardds:hover .colour-1{
+} */
+/* .cardds:hover .colour-1{
     color: #391400;
     background: white !important;
     transition: .5s ease-in-out;
- }
- .white-bg:hover{
+ } */
+ /* .white-bg:hover{
     background-color: white !important;
     transition: .2s ease-in-out;
- }
-.cardds:hover{
+ } */
+/* .cardds:hover{
     background-color: #121212;
     transition: .5s ease-in-out;
-}
+} */
 .cardds:hover .rotation{
     transform: rotate(360deg);
     box-shadow: none !important;
@@ -265,6 +270,7 @@ body{
 }
 .Opacity-1{
     opacity: 0.6;
+    color: #ffffff;
 }
 .cardWidth{
     width: fit-content !important;
@@ -346,36 +352,23 @@ i {
     transform: scale(1.01);
     box-shadow: 11px 11px 11px rgba(33,33,33,.2);
 }
-.caard-2{
-    transition: transform .2s ease-in;
-}
-.caard-2:hover{
-    transform: rotate3d();
-    /* box-shadow: 0 0 11px rgba(33,33,33,.2); */
-}
+
 .colors3{
-    transition: 1s ease-out;   
+    transition: .5s linear;
+    opacity: 0.5;
+    transform: translateX(-25px);
 }
+
 .caard-2:hover .colors3 {
     visibility: visible !important;
-    transition: 3s ease-in-out;
+    transform: translateX(0);
+    opacity: 1;
 }
-.caard-3{
-    transition: transform 0.5s ease-in-out;
+.carouselImage-1{
+    z-index: 1;
 }
-.caard-3:hover{
-    transform: scale(1.1);
-    
-}
-/* .caard-4{
-    transition: transform .2s ease-in;
-}
-.caard-4:hover{
-    transform: scale(1.01);
-    box-shadow: 0 0 11px 11px rgba(33,33,33,.2);
-} */
 .carouselImage{
-    z-index: 1 !important;
+    z-index: 3 !important;
 }
 @media (min-width: 767.98px) and (max-width: 991.98px) {
     .carouselImageHeight {
@@ -385,7 +378,7 @@ i {
 
 @media (min-width: 1399.98px) {
     .carouselImageHeight {
-        height: 19.1rem !important;
+        height: 19.2rem !important;
     }
 }
 @media (min-width: 375.98px) and (max-width: 760.98px) {
@@ -518,10 +511,13 @@ i {
     transition: .5s ease-in-out;
     
 }
-
-
-
 .text--random [data-scroll='out'] .char:nth-of-type(4) {
   -webkit-transform: translateX(-51%) translateY(250%);
           transform: translateX(-51%) translateY(250%);
+}
+
+
+.carousel-dots{
+    position: absolute;
+    bottom: -4rem !important;
 }
