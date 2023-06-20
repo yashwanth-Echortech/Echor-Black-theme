@@ -87,8 +87,8 @@ body{
 .letsTalk{
     font-size: 15px !important;
     background: #FED11B !important;
-    color: #121212 !important;
-    font-family: "Epilogue", sans-serif;
+    color: #121212 ;
+    font-family: "Epilogue", sans-serif !important;
     font-weight: 500 !important;
 }
 
@@ -250,12 +250,10 @@ body{
 .visibilityNone{
     visibility: hidden;
 }
-.btn-bggg{
-    background-color: #437EF7 !important;
-}
+
 .font-3{
     font-family: 'Poppins', sans-serif;
-    color: white !important;
+    color: white;
 }
 .round-icon{
     display: flex;
@@ -413,7 +411,7 @@ i {
     color: #EF6C57;
 }
 .industries{
-    font-weight: 900;
+    font-weight: 700;
 }
 .main-text{
     color: rgb(#ffffff);
@@ -520,4 +518,12 @@ i {
 .carousel-dots{
     position: absolute;
     bottom: -4rem !important;
+}
+
+.btn-outline-warning:hover{
+    color: black !important;
+}
+
+.lorem{
+    background: #FF6337 !important;
 }
