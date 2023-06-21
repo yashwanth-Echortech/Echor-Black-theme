@@ -18,7 +18,7 @@ body{
 .font-1{
     font-family: 'Epilogue', sans-serif;
     font-weight: 400;
-    color: white !important;
+    color: white ;
 }
 .font-11{
     font-family: 'Epilogue', sans-serif;
@@ -30,9 +30,6 @@ body{
     font-size: 1.5rem;
 }
 /* work page */
-.cards-text{
-    color: #EF6C57;
-}
 .Z-index{
     z-index: -1 !important;
 }
@@ -169,7 +166,8 @@ body{
     color: white !important;
 }
 .cardds-4{
-    background: #222222;
+    background: #ffffff;
+    color: #000000;
     border-radius: 10px;
 }
 .cardds-4:hover{
@@ -491,7 +489,7 @@ i {
 
 /* new css  */
 .cards-text{
-    color: #ffffff;
+    color: #000000;
     font-size: .9rem;
     font-family: "Epilogue", sans-serif;
 }
@@ -499,15 +497,6 @@ i {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-.Explore:hover{
-    color:#7e1100;
-    border:1px solid rgb(22, 192, 192);
-    padding: 15px;
-    border-radius: 50px 0 50px 0 ;
-    background: #6608ff;
-    transition: .5s ease-in-out;
-    
 }
 .text--random [data-scroll='out'] .char:nth-of-type(4) {
   -webkit-transform: translateX(-51%) translateY(250%);
@@ -526,4 +515,11 @@ i {
 
 .lorem{
     background: #FF6337 !important;
+}
+.img-hvr:hover .img-2{
+    display: inline !important;
+
+}
+.img-hvr:hover .img-1{
+    display: none !important;
 }
