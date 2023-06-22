@@ -86,7 +86,7 @@ body{
     background: #FED11B !important;
     color: #121212 ;
     font-family: "Epilogue", sans-serif !important;
-    font-weight: 500 !important;
+    font-weight: 500;
 }
 
 
@@ -523,3 +523,53 @@ i {
 .img-hvr:hover .img-1{
     display: none !important;
 }
+
+
+
+
+/* dummy industries page */
+
+.main-container{
+object-position: left;
+position: absolute;
+    
+}
+.margin{
+    margin-left: 25rem;
+}
+
+@media (min-width: 820px) and (max-width: 1180px) {
+    .margin {
+        margin-left: 4rem;
+        
+    }
+}
+
+@media (min-width: 375.98px) and (max-width: 850px) {
+    .margin {
+        margin-left: 0rem;
+        
+    }
+}
+
+
+.indus-div-height{
+    height: 25rem;
+    margin-top: 10rem;
+}
+
+/* @media (min-width: 820px) and (max-width: 1180px) {
+    .indus-div-height {
+        height: 13rem;
+        margin-top: 10rem;
+        
+    }
+} */
+
+@media (min-width: 375.98px) and (max-width: 850px) {
+    .indus-div-height {
+        height: 17rem;
+        margin-top: 0;
+    }
+}
+
