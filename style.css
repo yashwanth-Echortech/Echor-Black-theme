@@ -826,7 +826,84 @@ nav a:hover {
 
 
 
+:root {
+    --magnetic-button-width: 160px;
+    --magnetic-area: 20px;
+}
 
+.magnetic-button_base {
+    position: relative;
+    border: solid 1px #1d1d1b;
+    display: block;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    width: var(--magnetic-button-width);
+    height: 4.375rem;
+    border-radius: 2.1875rem;
+    overflow: hidden;
+    outline: none;
+}
+
+.magnetic-button_mask {
+    padding: 0;
+    margin: 0;
+    background-color: #1d1d1b;
+    width: calc(var(--magnetic-button-width) * 2);
+    height: calc(var(--magnetic-button-width) * 2);
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    transform-origin: center center;
+    left: calc(0px - var(--magnetic-button-width) / 2);
+    transform: translateY(100px);
+}
+
+.magnetic-button_text {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: var(--magnetic-button-width);
+    height: 4.375rem;
+    line-height: 4.375rem;
+    left: var(--magnetic-area);
+    top: var(--magnetic-area);
+    font-size: 1.125rem;
+    text-align: center;
+    color: #1d1d1b;
+}
+
+a.magnetic-button {
+    padding: 0;
+    margin: 0;
+    width: calc(var(--magnetic-button-width) + 2 * var(--magnetic-area));
+    height: calc(70px + 2 * var(--magnetic-area));
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+
+a.magnetic-button.disabled span.magnetic-button_text {
+    color: #848484;
+}
+
+a.magnetic-button.disabled span.magnetic-button_base {
+    background-color: #c4c4c4;
+    border: none;
+}
+
+a.magnetic-button:focus span.magnetic-button_base {
+    border: solid 2px white;
+    background: black;
+    box-shadow: 0px 0px 0px 1px black;
+}
+
+a.magnetic-button:focus .magnetic-button_text {
+    color: #fff !important;
+}
 
 
 
