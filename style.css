@@ -647,6 +647,32 @@ position: absolute;
 
 
 
+.btnnn{
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .btnnn span{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    width: 100px;
+    padding: 10px 0;
+    margin: 35px;
+    border-radius: 8px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    transition: transform 0.15s linear;
+  }
+  
+  .color-01 span{
+    background: linear-gradient(90deg, #EC5C1A, #F6CE61);
+  }
+  
+  
 
 
 
@@ -665,170 +691,190 @@ position: absolute;
 
 
 
+
+
+  :root {
+    --magnetic-button-width: 160px;
+    --magnetic-area: 20px;
+  }
+  
+  .magnetic-button_base {
+    position: relative;
+    border: solid 1px #1d1d1b;
+    display: block;
+    background-color: #ece583;
+    padding: 0;
+    margin: 0;
+    width: var(--magnetic-button-width);
+    height: 4.375rem;
+    border-radius: 2.1875rem;
+    overflow: hidden;
+    outline: none;
+  }
+  .magnetic-button_mask {
+    padding: 0;
+    margin: 0;
+    background-color: #8d8d1c;
+    width: calc(var(--magnetic-button-width) * 2);
+    height: calc(var(--magnetic-button-width) * 2);
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    transform-origin: center center;
+    left: calc(0px - var(--magnetic-button-width) / 2);
+    /* transform: translateY(100px); */
+  }
+  .magnetic-button_text {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: var(--magnetic-button-width);
+    height: 4.375rem;
+    line-height: 4.375rem;
+    left: var(--magnetic-area);
+    top: var(--magnetic-area);
+    font-size: 1.125rem;
+    text-align: center;
+    color: #000000;
+  }
+  
+  a.magnetic-button {
+    padding: 0;
+    margin: 0;
+    width: calc(var(--magnetic-button-width) + 2 * var(--magnetic-area));
+    height: calc(70px + 2 * var(--magnetic-area));
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+  }
+  
+
+  
+  a.magnetic-button:focus span.magnetic-button_base {
+    border: solid 2px rgb(0, 0, 0);
+    background: black;
+    box-shadow: 0px 0px 0px 1px black;
+  }
+  
+  a.magnetic-button:focus .magnetic-button_text {
+    color: #000000 ;
+  }
+
+
+
+
+
+
+
+
+
+  
+/* Container –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
-     position: relative;
-     width: 100%;
-     max-width: 1200px;
-     margin: 0 auto;
-     padding: 0 20px;
-     box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 /* For devices larger than 400px */
 @media (min-width: 400px) {
-     .container {
-         width: 85%;
-         padding: 0;
-    }
+    .container {
+        width: 85%;
+        padding: 0;
+   }
 }
 /* For devices larger than 550px */
 @media (min-width: 550px) {
-     .container {
-         width: 80%;
-    }
+    .container {
+        width: 80%;
+   }
 }
 /* Typography –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .navbar > h1, h2, h3, h4, h5, h6 {
-     margin-top: 0;
-     margin-bottom: 2rem;
-     font-weight: 700;
-     text-transform: uppercase;
-}
-h1 {
-     text-transform: uppercase;
-     font-size: 20vh;
-     line-height: 1;
-     color: #e2e2e2;
-     margin-top: 100px;
-}
-h2 {
-     font-size: 4rem;
-}
-p {
-     margin-top: 0;
-}
+
 /* Clearing –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.container:after {
-     content: "";
-     display: table;
-     clear: both;
-}
+
 #navigationWrap {
-     /* display: none; */
-     width: 100%;
-     min-height: 100vh;
-     height: 100%;
-     background: black;
-     opacity: 0;
-     position: absolute;
-     top: 0;
-     padding: 50px 0;
-     overflow: hidden;
+    display: none;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background: black;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    padding: 50px 0;
+    overflow: hidden;
 }
 nav ul {
-     list-style-type: none;
-     padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 nav ul li {
-     color: white;
-     font-size: 15vh;
-     text-transform: uppercase;
-     overflow: auto;
-     font-weight: 700;
+    color: white;
+    font-size: 15vh;
+    text-transform: uppercase;
+    overflow: hidden;
+    font-weight: 700;
 }
 nav ul li:first-child {
-     font-size: 8vh;
-     overflow: visible;
+    font-size: 8vh;
+    overflow: visible;
 }
 @media (max-width: 750px) {
-     nav ul li {
-         font-size: 15vw;
-    }
-     nav ul li:first-child {
-         font-size: 8vw;
-    }
+    nav ul li {
+        font-size: 15vw;
+   }
+    nav ul li:first-child {
+        font-size: 8vw;
+   }
 }
 nav a {
-     color: white;
-     -o-transition:.3s;
-     -ms-transition:.3s;
-     -moz-transition:.3s;
-     -webkit-transition:.3s;
-     transition:.3s;
-     text-decoration: none;
+    color: white;
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+    text-decoration: none;
 }
 nav a:hover {
-     color:#F24738;
+    color:#F24738;
 }
 .navbar {
-     position: relative;
-     top: 20px;
-     left: 20px;
-     width: 45px;
-     height: 45px;
-     z-index: 20;
-     cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 45px;
+    height: 45px;
+    z-index: 20;
+    cursor: pointer;
 }
 .close {
-     display: none;
-     opacity: 0;
-     position: fixed;
-     top: 20px;
-     left: 20px;
-     width: 45px;
-     height: 45px;
-     z-index: 20;
-     cursor: pointer;
+    display: none;
+    opacity: 0;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 45px;
+    height: 45px;
+    z-index: 20;
+    cursor: pointer;
 }
 .social a {
-     color: #484848;
-     color: white;
-     -o-transition:.3s;
-     -ms-transition:.3s;
-     -moz-transition:.3s;
-     -webkit-transition:.3s;
-     transition:.3s;
-     text-decoration: none;
+    color: #484848;
+    color: white;
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+    text-decoration: none;
 }
 .social a:hover {
-     color:#F24738;
+    color:#F24738;
 }
-.fa {
-     color: #484848;
-     padding-right: 12px;
-     font-size: 1.8em !important;
-     -o-transition:.3s;
-     -ms-transition:.3s;
-     -moz-transition:.3s;
-     -webkit-transition:.3s;
-     transition:.1s;
-}
-.fa:hover {
-     color:#F24738;
-}
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
