@@ -782,31 +782,3 @@ i {
     padding-inline: 2rem !important;
 }
 
-/* home page */
-.yellow-section{
-    background-color: #FED11B;
-    border-radius: 50px;
-    padding: 5% 5%;
-}
-
-.star{
-    position: absolute;
-    top: 5rem;
-    right: 14rem;
-}
-
-@media (min-width: 820px) and (max-width: 1180px) {
-    .star{
-        position: absolute;
-        top: 9rem;
-        right: 28rem;
-    }
-}
-
-@media (min-width: 360px) and (max-width: 810px) {
-    .star{
-        position: absolute;
-        top: 13rem;
-        right: 12rem;
-    }
-}
