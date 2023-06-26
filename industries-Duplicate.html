@@ -113,22 +113,20 @@
                             <button type="button" class="btn btn-light text-black fw-semibold px-3">Our
                                 Portfolio</button>
 
-<<<<<<< HEAD
                             <!-- <a href="#" class="btnnn color-01">
                                 <span>Hover Me</span>
                             </a> -->
 
 
 
-                            <div class="canvas">
+                            <!-- <div class="canvas">
                                 <a class="magnetic-button" href="#">
                                   <span class="magnetic-button_text">Let's Talk</span>
                                 </a>
-                              </div>
+                              </div> -->
 
 
 
-=======
                             <!-- <button type="button"
                                 class="btn btn-outline-warning text-warning common-font px-3 ms-2 fs-6 img-hvr">Let's
                                 Talk <span><img src="/assetss-change/icons/Arrow yellow.svg" class="img-1" alt=""
@@ -140,13 +138,12 @@
 
 
 
-                                        <div class="canvas">
+                                        <!-- <div class="canvas">
                                             <a class="magnetic-button" href="#">
                                                 <span class="magnetic-button_text">I move</span>
                                             </a>
                                         
-                                        </div>
->>>>>>> f55da94f58d4d3f3dc4b5b9671e62b2c6ffc38f0
+                                        </div> -->
                         </div>
                     </div>
 
@@ -609,7 +606,6 @@
 
 
 
-<<<<<<< HEAD
     <!-- <script type="text/javascript">
         const btns = document.querySelectorAll(".btnnn");
 
@@ -631,153 +627,6 @@
     </script> -->
 
 
-<script>
-        const throttle = (fn, wait) => {
-        let inThrottle, lastFn, lastTime;
-        return function () {
-          const context = this,
-            args = arguments;
-          if (!inThrottle) {
-            fn.apply(context, args);
-            lastTime = performance.now();
-            inThrottle = true;
-          } else {
-            clearTimeout(lastFn);
-            lastFn = setTimeout(function () {
-              if (performance.now() - lastTime >= wait) {
-                fn.apply(context, args);
-                lastTime = performance.now();
-              }
-            }, Math.max(wait - (performance.now() - lastTime), 0));
-          }
-        };
-      };
-      
-      document.querySelectorAll(".magnetic-button").forEach((box) => {
-        const button = document.createElement("span");
-        button.className = "magnetic-button_base";
-        const mask = document.createElement("span");
-        mask.className = "magnetic-button_mask";
-        button.append(mask);
-        box.prepend(button);
-        const text = box.querySelector(".magnetic-button_text");
-        const stayStill = box.classList.contains("stay-still");
-        const disabled = box.classList.contains("disabled");
-        const easing = { ease: "Power3.easeOut" };
-      
-        if (!stayStill && !disabled) {
-          box.addEventListener(
-            "mousemove",
-            throttle(({ x, y }) => {
-              let bbox = box.getBoundingClientRect();
-              let speedX = x - bbox.left - bbox.width / 2;
-              let speedY = y - bbox.top - bbox.height / 2;
-              new TimelineMax()
-                .to(button, 0.5, { x: speedX * 0.4, y: speedY * 0.4, ...easing }, 0)
-                .to(text, 0.5, { x: speedX * 0.2, y: speedY * 0.2, ...easing }, 0);
-            }, 15)
-          );
-        }
-        if (!disabled) {
-           box.addEventListener("mouseenter", () => {
-            let { width } = button.getBoundingClientRect();
-            new TimelineMax()
-              .set(mask, { y: 100 })
-              .set(text, { color: "white" })
-              .to(mask, 0.8, { y: -width / 2, ...easing })
-             .set(text, { color: "white" });
-          });
-      
-          box.addEventListener("mouseleave", () => {
-            let { width, height } = button.getBoundingClientRect();
-            new TimelineMax()
-            .set(text, { color: "black" })
-            .to(button, 0.8, { x: 0, y: 0 }, 0)
-            .to(text, 0.8, { x: 0, y: 0 }, 0)
-            .to(mask, 0.8, { y: -(2 * width + height), ...easing }, 0)
-            .to(button, 0.8, { x: 0, y: 0 }, 0)
-            .set(mask, { y: 100 })
-            .set(text, { color: "black" });
-          });
-        }
-      
-      });
-      
-=======
-<script>
-    const throttle = (fn, wait) => {
-        let inThrottle, lastFn, lastTime;
-        return function () {
-            const context = this,
-                args = arguments;
-            if (!inThrottle) {
-                fn.apply(context, args);
-                lastTime = performance.now();
-                inThrottle = true;
-            } else {
-                clearTimeout(lastFn);
-                lastFn = setTimeout(function () {
-                    if (performance.now() - lastTime >= wait) {
-                        fn.apply(context, args);
-                        lastTime = performance.now();
-                    }
-                }, Math.max(wait - (performance.now() - lastTime), 0));
-            }
-        };
-    };
-
-    document.querySelectorAll(".magnetic-button").forEach((box) => {
-        const button = document.createElement("span");
-        button.className = "magnetic-button_base";
-        const mask = document.createElement("span");
-        mask.className = "magnetic-button_mask";
-        button.append(mask);
-        box.prepend(button);
-        const text = box.querySelector(".magnetic-button_text");
-        const stayStill = box.classList.contains("stay-still");
-        const disabled = box.classList.contains("disabled");
-        const easing = { ease: "Power3.easeOut" };
-
-        if (!stayStill && !disabled) {
-            box.addEventListener(
-                "mousemove",
-                throttle(({ x, y }) => {
-                    let bbox = box.getBoundingClientRect();
-                    let speedX = x - bbox.left - bbox.width / 2;
-                    let speedY = y - bbox.top - bbox.height / 2;
-                    new TimelineMax()
-                        .to(button, 0.5, { x: speedX * 0.4, y: speedY * 0.4, ...easing }, 0)
-                        .to(text, 0.5, { x: speedX * 0.2, y: speedY * 0.2, ...easing }, 0);
-                }, 15)
-            );
-        }
-        if (!disabled) {
-            box.addEventListener("mouseenter", () => {
-                let { width } = button.getBoundingClientRect();
-                new TimelineMax()
-                    .set(mask, { y: 100 })
-                    .set(text, { color: "white" })
-                    .to(mask, 0.8, { y: -width / 2, ...easing })
-                    .set(text, { color: "white" });
-            });
-
-            box.addEventListener("mouseleave", () => {
-                let { width, height } = button.getBoundingClientRect();
-                new TimelineMax()
-                    .set(text, { color: "black" })
-                    .to(button, 0.8, { x: 0, y: 0 }, 0)
-                    .to(text, 0.8, { x: 0, y: 0 }, 0)
-                    .to(mask, 0.8, { y: -(2 * width + height), ...easing }, 0)
-                    .to(button, 0.8, { x: 0, y: 0 }, 0)
-                    .set(mask, { y: 100 })
-                    .set(text, { color: "black" });
-            });
-        }
-
-    });
-
->>>>>>> f55da94f58d4d3f3dc4b5b9671e62b2c6ffc38f0
-</script>
 <script src="/gsap.js"></script>
 </body>
 
