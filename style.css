@@ -782,3 +782,30 @@ i {
     padding-inline: 2rem !important;
 }
 
+.yellow-section{
+    background: #FED11B;
+    border-radius: 50px;
+}
+.footer-bg{
+    background-color: #141213;
+}
+.stars-bg{
+    background-image: url("/assetss-change/images/stars-2.svg");
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+    /* background-position: center; */
+    object-fit:cover;
+    background-repeat: repeat-x;
+    /* background-position: center; */
+}
+.service-bg{
+    background-image: url("/assetss-change/images/service-bg.svg");
+    width: 100%;
+    overflow: hidden;
+    /* z-index: 100; */
+    /* background-position: center; */
+    object-fit:cover;
+    background-repeat: repeat-x;
+    /* background-position: center; */
+}
