@@ -20,9 +20,19 @@
     <!-- External styles -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Poppins & Gravitas One fonts -->
+    <!-- font-2 -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Luckiest+Guy&display=swap"
+        rel="stylesheet">
+
+    <!-- open sans font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <!-- main font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <!-- Kursor stylesheet  -->
     <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
@@ -86,10 +96,10 @@
         <main class="container-fluid pt-5">
             <div class="container">
                 <div class="row">
-                    <div class="d-flex justify-content-center flex-wrap">
+                    <div class="d-flex justify-content-between flex-wrap">
                         <div class="col-lg-5 col-12 col-md-6 mt-0 mt-lg-5 pt-0 pt-md-5">
-                            <h1 class="common-font">Contact Us</h1>
-                            <p class="common-font main-text fw-normal">We would like to know more about the needs of
+                            <h1 class="display-large">Contact Us</h1>
+                            <p class="body-medium Opacity">We would like to know more about the needs of
                                 your business. Please fill out the forum below and let’s grow together. We look forward
                                 to hearing from you.</p>
                         </div>
@@ -104,22 +114,22 @@
         <!-- main section end -->
 
         <!-- contact section start -->
-        <section class="container-fluid pt-5 mt-5 bg-dark">
-            <div class="container">
+        <section class="container-fluid pt-5 mt-5 bg-dark py-5">
+            <div class="container py-5">
                 <div class="row">
-                    <div class="d-flex justify-content-center flex-wrap">
+                    <div class="d-flex justify-content-between flex-wrap">
                         <div class="col-lg-3 col-12">
                             <div>
-                                <h5 class="common-font fw-semibold">ADDRESS</h5>
-                                <p class="lh-lg common-font main-text fw-normal ">DSL Abacus IT park, 207, near dsl
+                                <h5 class="heading-small">ADDRESS</h5>
+                                <p class="body-medium Opacity">DSL Abacus IT park, 207, near dsl
                                     virtue
                                     mall, Survey Colony, Industrial Development Area, Uppal, Hyderabad, Telangana 500039
                                 </p>
                             </div>
                             <div class="pt-5">
-                                <h5 class="common-font fw-semibold">E-MAIL</h5>
-                                <p class="lh-lg common-font main-text fw-normal"><a
-                                        class="text-decoration-none common-font main-text fw-normal contact-us-mail"
+                                <h5 class="heading-small">E-MAIL</h5>
+                                <p class="body-medium Opacity"><a
+                                        class="text-decoration-none text-white"
                                         href="mailto:contact@echortech.com">contact@echortech.com</a></p>
                             </div>
                         </div>
@@ -127,80 +137,64 @@
                         <div class="col-lg-8 col-12 ps-0 ps-lg-5 bg-black p-5 rounded-3">
                             <form action="#" class="row g-5">
                                 <div class="col-md-6">
-                                    <label for="yourName" class="form-label font-11 text-white">Your Name/Company
+                                    <label for="yourName" class="form-label body-medium">Your Name/Company
                                         name</label>
                                     <input type="text"
-                                        class="form-control bg-black border border-secondary border-1 py-3 font-11 text-white"
-                                        id="yourName" placeholder="Enter your name/company name">
+                                        class="form-control bg-black border border-secondary border-1 py-3 body-small text-white"
+                                         placeholder="Enter your name/company name">
                                 </div>
                                 <div class="col-md-6">
-                                    <label for="yourEmail" class="form-label font-11 text-white">Your Email</label>
+                                    <label for="yourEmail" class="form-label body-medium">Your Email</label>
                                     <input type="email"
-                                        class="form-control bg-black border border-secondary border-1 py-3 font-11 text-white"
-                                        id="yourEmail" placeholder="Enter your Email">
+                                        class="form-control bg-black border border-secondary border-1 py-3 body-small text-white"
+                                         placeholder="Enter your Email">
                                 </div>
                                 <div class="col-md-12 d-flex flex-wrap">
+                                    <p class="body-medium">Service type</p>
                                     <div class="btn-group flex-wrap" role="group"
                                         aria-label="Basic radio toggle button group">
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio1"
                                             autocomplete="off" checked>
                                         <label
-                                            class="btn btn-outline-primary btn btn-lg rounded-pill px-3 contact-types fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-0"
+                                            class="btn btn-outline-primary btn btn-lg rounded-pill px-3 contact-types body-small border border-secondary border-1  me-3 mt-3 mt-lg-0"
                                             for="btnradio1">Site from scratch</label>
 
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio2"
                                             autocomplete="off">
                                         <label
-                                            class="btn btn-outline-primary btn btn-lg rounded-pill px-3 contact-types fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-0"
+                                            class="btn btn-outline-primary btn btn-lg rounded-pill px-3 contact-types body-small fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-0"
                                             for="btnradio2">App from scratch</label>
 
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio3"
                                             autocomplete="off">
                                         <label
-                                            class="btn btn-outline-primary btn btn-lg rounded-pill px-3 contact-types fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-0 "
+                                            class="btn btn-outline-primary btn btn-lg rounded-pill px-3 contact-types body-small fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-0 "
                                             for="btnradio3">Blockchain development</label>
 
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio4"
                                             autocomplete="off">
                                         <label
-                                            class="btn btn-outline-primary btn btn-lg rounded-pill px-3 contact-types fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-0 "
+                                            class="btn btn-outline-primary btn btn-lg rounded-pill px-3 contact-types body-small fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-0 "
                                             for="btnradio4">Mobile Development</label>
 
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio5"
                                             autocomplete="off">
                                         <label
-                                            class="btn btn-outline-primary btn btn-lg rounded-pill px-3 contact-types fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-3 "
+                                            class="btn btn-outline-primary btn btn-lg rounded-pill px-3 contact-types body-small fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-3 "
                                             for="btnradio5">Web Development</label>
 
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio6"
                                             autocomplete="off">
                                         <label
-                                            class="btn btn-outline-primary btn btn-lg rounded-pill px-3 contact-types fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-3 "
-                                            for="btnradio6">Maintenance</label>
+                                            class="btn btn-outline-primary btn btn-lg rounded-pill px-3 contact-types body-small fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-3 "
+                                            for="btnradio6">Maintenance</label> 
 
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio7"
                                             autocomplete="off">
                                         <label
-                                            class="btn btn-outline-primary invisible btn btn-lg rounded-pill px-3 contact-types fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-3 "
+                                            class="btn btn-outline-primary invisible btn btn-lg rounded-pill px-3 contact-types body-small fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-3 "
                                             for="btnradio7">Maintenance</label>
                                     </div>
-
-
-                                    <!-- <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                                        <label class="btn btn-outline-primary btn btn-lg rounded-pill px-3 contact-types fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-3" for="btnradio1">Web Development</label>
-                                      
-                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                                        <label class="btn btn-outline-primary btn btn-lg rounded-pill px-3 contact-types fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-3" for="btnradio2">Maintenance</label>
-                                      </div> -->
-
-
-                                    <!-- <a href="" class="btn btn-lg rounded-pill px-3 contact-types fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-0">site from scratch</a>
-                                    <a href="" class="btn btn-lg rounded-pill px-3 contact-types fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-0">App from scratch</a>
-                                    <a href="" class="btn btn-lg rounded-pill px-3 contact-types fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-0">Blockchain development</a>
-                                    <a href="" class="btn btn-lg rounded-pill px-3 contact-types fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-0">Mobile Development</a>
-                                    <a href="" class="btn btn-lg rounded-pill px-3 contact-types fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-3">Web Development</a>
-                                    <a href="" class="btn btn-lg rounded-pill px-3 contact-types fs-6 border border-secondary border-1 text-white me-3 mt-3 mt-lg-3">Maintenance</a> -->
 
                                 </div>
                                 <div class="col-md-12">
@@ -225,7 +219,7 @@
                                             <div>
                                                 <input class="input-2" type="file">
                                                 <button
-                                                    class="bg-black border border-0 text-white common-font h4 pt-1">Add
+                                                    class="bg-black border border-0 heading-small text-white pt-1">Add
                                                     attachement</button>
                                             </div>
                                         </div>
@@ -233,12 +227,13 @@
                                 </div>
                                 <div class="col-md-12">
                                     <button type="button" id="submitBtn"
-                                        class="btn btn-lg fw-semibold letsTalk px-5 py-3 fw-bold common-font">Send
+                                        class="btn btn-lg fw-semibold letsTalk px-5 py-3 button-text">Send
                                         Request</button>
-                                    <p class="common-font pt-5">This site is protected by the <span
-                                            class=" common-font main-text fw-normal">Google Privacy</span> Policy and
-                                        <span class=" common-font main-text fw-normal">Terms & Conditions</span>
-                                        apply.</p>
+                                    <p class="body-medium pt-5">This site is protected by the <span
+                                            class=" body-medium Opacity">Google Privacy Policy</span>  and
+                                        <span class="body-medium Opacity">Terms & Conditions</span>
+                                        apply.
+                                    </p>
                                 </div>
                             </form>
                         </div>
@@ -246,22 +241,49 @@
                 </div>
             </div>
         </section>
-
-
-
-
-
         <!-- contact section end -->
 
-
-
-
-
-
-
         <!-- footer section start -->
-        <footer class="bg-dark">
-
+        <footer class="bg-black">
+            <h1 class="mx-lg-5 mx-2 pt-5 display-large ">Have an idea ?</h1>
+            <a class="btn bg-white rounded-pill button-text fw-bold mx-lg-5 mx-1 px-5 mb-4 fw-semibold" href="">Tell Us
+                About
+                It</a>
+            <div class="row ps-lg-5 px-1 ms-lg-3" style="justify-content: space-between;">
+                <div class="col-6 col-lg-2 mt-5">
+                    <h5 class="jost-font fw-semibold">NAVIGATION</h5><br>
+                    <p class="fw-light"><a href="">Home </a></p>
+                    <p><a href="">Services</a></p>
+                    <p><a href="">Industries </a></p>
+                    <p><a href="">Process</a></p>
+                    <p><a href="">About</a></p>
+                </div>
+                <div class="col-6 col-lg-3 mt-5">
+                    <h5 class="jost-font fw-semibold">WHAT WE DO</h5><br>
+                    <p><a href="">Encouraging Testing</a></p>
+                    <p><a href="">Strengthening Advocacy</a></p>
+                    <p><a href="">Sharing Information</a></p>
+                    <p><a href="">Building Leadership</a></p>
+                    <p><a href="">Engaging With Global Fund</a></p>
+                    <p><a href="">Shining a Light</a></p>
+                </div>
+                <div class="col-6 col-lg-2 mt-5">
+                    <h5 class="jost-font fw-semibold">LEGAL</h5><br>
+                    <p><a href="">General Info</a></p>
+                    <p><a href="">Privacy Policy</a></p>
+                    <p><a href="">Terms of Service</a></p>
+                </div>
+                <div class="col-6 col-lg-3 mt-5 ">
+                    <h5 class="jost-font fw-semibold">ADDRESS</h5><br>
+                    <p class="lh-lg w-75 "><a href="">DSL Abacus IT park, 207,
+                            near dsl virtue mall,
+                            Survey Colony, Industrial
+                            Uppal, Hyderabad,
+                            Telangana 500039</a>
+                    </p>
+                </div>
+            </div>
+            <hr>
             <div class="row justify-content-start d-flex" style="align-items: baseline;">
                 <div class="col-lg-2 mt-5">
                     <img src="/assetss-change/assets/echor logo.png" width="150px" height="30px">
@@ -279,6 +301,8 @@
                 </div>
             </div>
         </footer>
+
+        <!-- footer section end -->
         <!-- footer section end -->
 
     </div>

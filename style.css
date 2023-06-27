@@ -124,49 +124,10 @@ body {
     border-radius: 10px;
 }
 
-/* .cardds-4:hover {
-    position: relative;
-    display: grid;
-    background-color: #222222 !important;
-    overflow: hidden;
-    border-radius: 3px;
-    border: 0;
-}
-
-.cardds-4:hover::before {
-    content: '';
-    width: 120px;
-    height: 600px;
-    left: 60px;
-    top: -120px;
-    background: linear-gradient(90deg, #F83600 0%, #F9D423 100%);
-    position: absolute;
-    animation: animate 5s linear infinite;
-}
-
-.cardds-4:hover:after {
-    content: '';
-    position: absolute;
-    place-content: center;
-    background: black;
-    inset: 2px;
-    border-radius: 5px;
-}
-
-@keyframes animate {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-} */
 
 .colour {
     color: #391400;
     background: #F7F7F7;
-    /* transition: 1s linear; */
 }
 
 .cardds:hover .rotation {
@@ -186,7 +147,6 @@ body {
 .visibilityNone {
     visibility: hidden;
 }
-
 
 .round-icon {
     display: flex;
@@ -244,9 +204,6 @@ body {
     font-size: 1rem !important;
 }
 
-/* .accordionTextFontColor{
-    color: #391400;
-} */
 .accordionBg {
     background-color: black !important;
 }
@@ -391,9 +348,6 @@ i {
     font-weight: 500;
 }
 
-/* .icon-bg{
-    background-color: #437EF7;
-} */
 #clock span {
     background-color: #437EF7;
 }
@@ -835,4 +789,8 @@ i {
 .about-cards{
     background: #222222;
     border-radius: 10px;
+}
+#submitBtn:hover{
+    border: 0;
+    color: #141213;
 }
