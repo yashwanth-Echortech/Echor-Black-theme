@@ -794,3 +794,34 @@ i {
     border: 0;
     color: #141213;
 }
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+/* app/web design */
+.user-div{
+    background: #ffffff;
+    border-radius: 15px;
+}
+
+.this-involves{
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 50px;
+    position: absolute;
+    width:43%;
+    height: 30rem;
+    bottom: 0;
+    /* right: 0; */
+}
+.middle{
+    vertical-align: center !important;
+    display: grid;
+}
+.yellow-img{
+    position: absolute;
+    left: 31%;
+    z-index: -1;
+}
