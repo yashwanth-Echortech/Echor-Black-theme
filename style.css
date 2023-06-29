@@ -825,3 +825,27 @@ i {
     left: 31%;
     z-index: -1;
 }
+
+@media (min-width: 820px) and (max-width: 1180px) {
+    .yellow-img{
+        position: absolute;
+        left: 16%;
+        z-index: -1;
+    }
+}
+
+/* @media (min-width: 390px) and (max-width: 845px) {
+    .yellow-img{
+        position: absolute;
+        left: 0%;
+        z-index: -1;
+    }
+} */
+
+@media (min-width: 375px) and (max-width: 670px) {
+    .yellow-img{
+        position: absolute;
+        left: 0%;
+        z-index: -1;
+    }
+}
