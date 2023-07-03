@@ -927,3 +927,16 @@ i {
     display: flex;
     justify-content: center; */
 }
+
+
+.btn-check:active+.btn, .btn-check:checked+.btn, .btn.active+.btn:focus .btn.show, .btn:active {
+    color: black !important;
+    background-color: #FED11B !important;
+    border:1px solid #FED11B !important;
+}
+
+.btn-check:active {
+    color: black !important;
+    background-color: #FED11B !important;
+    border:1px solid #FED11B !important;
+}
