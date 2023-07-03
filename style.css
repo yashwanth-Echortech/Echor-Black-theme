@@ -888,3 +888,8 @@ i {
     right: 0;
     top:0
 }
+.bc-icon{
+    background-color: #ffffff;
+    border-radius: 60px;
+}
+
