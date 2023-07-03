@@ -904,3 +904,26 @@ i {
     width: 100%;
     height: 115%;
 }
+
+/* accordion button */
+
+
+
+.accordion-button::after {
+    /* flex-shrink: 0;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    width: 100%;
+    margin-left: auto;
+    content: "";
+    background-image: url("/assetss-change/icons/accordion-btn-2.svg") !important;
+    background-repeat: no-repeat;
+    background-size: 2rem !important;
+    background: #FED11B;
+    transition: transform .2s ease-in-out;
+    border-radius: 50px !important;
+    padding: 10px 10px 10px 10px !important;
+    align-items: center;
+    display: flex;
+    justify-content: center; */
+}
