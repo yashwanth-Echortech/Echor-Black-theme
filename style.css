@@ -966,3 +966,60 @@ i {
   }
 }
 /* nav bar ends */
+.blockchain-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.bc-icon {
+  background-color: #ffffff;
+  border-radius: 60px;
+}
+/* industries */
+.industries-img {
+  position: absolute;
+  /* right:0; */
+  left: 30%;
+  top: 0;
+  z-index: -1;
+}
+.industry-img-size {
+  width: 100%;
+  height: 115%;
+}
+
+/* accordion button */
+
+.accordion-button::after {
+  /* flex-shrink: 0;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    width: 100%;
+    margin-left: auto;
+    content: "";
+    background-image: url("/assetss-change/icons/accordion-btn-2.svg") !important;
+    background-repeat: no-repeat;
+    background-size: 2rem !important;
+    background: #FED11B;
+    transition: transform .2s ease-in-out;
+    border-radius: 50px !important;
+    padding: 10px 10px 10px 10px !important;
+    align-items: center;
+    display: flex;
+    justify-content: center; */
+}
+
+.btn-check:active + .btn,
+.btn-check:checked + .btn,
+.btn.active + .btn:focus .btn.show,
+.btn:active {
+  color: black !important;
+  background-color: #fed11b !important;
+  border: 1px solid #fed11b !important;
+}
+
+.btn-check:active {
+  color: black !important;
+  background-color: #fed11b !important;
+  border: 1px solid #fed11b !important;
+}

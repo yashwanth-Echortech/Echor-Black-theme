@@ -1,1 +1,17 @@
 faq section web-design.html is perfectly alligned.
+
+
+
+
+
+
+
+ <div class="card me-3 p-3 col-10">
+                            <div class="pt-5">
+                                <img src="/assetss-change/icons/blockchain-icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="heading-small text-black pt-4">UI Design</p>
+                                <p class="body-medium Opacity text-black">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.</p>
+                            </div>
+                        </div>
