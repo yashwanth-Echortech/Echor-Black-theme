@@ -940,8 +940,8 @@ i {
 }
 .left-col {
   font-family: "Jost", sans-serif;
-  font-size: 60px;
-  font-weight: 900;
+  font-size: 100px;
+  font-weight: 800;
   line-height: 86px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -1056,26 +1056,29 @@ i {
 }
 
 .routeName {
-  display: inline-block;
-  padding-left: 0%;
-  margin-right: 10rem;
+ list-style-type: none;
+ line-height: 1.2em;
 }
 
 .cross-out {
   position: relative;
-  display: block;
-  cursor: pointer;
+  /* display: block;
+  cursor: pointer; */
+  width: max-content;
 }
+
 
 .cross-out:before,
 .cross-out:after {
   content: '';
   position: absolute;
   width: 0%;
-  height: 10px;
-  top: 44%;
+  height: 15px;
+  top: 39%;
   margin-top: -0.5px;
-  background: #3003fa;
+  background-image: linear-gradient(to right,#F9D423,#F83600 );
+  z-index: 0 !important;
+  /* transition: .8s; */
 }
 
 .cross-out:before {
@@ -1084,14 +1087,15 @@ i {
 
 .cross-out:after {
   right: 2.5px;
-  background: #0eff42;
+  background-image: linear-gradient(to right,#F9D423,#F83600 );
   transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .cross-out:hover:before {
-  background: #eeff02;
-  width: 100%;
-  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+background-image: linear-gradient(to right,#F9D423,#F83600 );
+width: 100%;
+transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+z-index: 5 !important;
 }
 
 .cross-out:hover:after {
@@ -1101,32 +1105,3 @@ i {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container-5{
-    display: flex;
-    position: relative;
-    height: 150px;
-    width: 150px;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .green{
-    background: green;
-  }
