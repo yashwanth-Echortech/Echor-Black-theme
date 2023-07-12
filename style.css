@@ -652,7 +652,7 @@ i {
 }
 
 .Primary {
-  color: #fed11b;
+  color: #fed11b !important;
 }
 
 .Pale-Cream-or-Off-White {
@@ -666,6 +666,9 @@ i {
 
 .Secondary-button-bg {
   color: #282828;
+}
+.black{
+  color: #000000 !important;
 }
 
 /* buttons in entire site */
@@ -942,7 +945,7 @@ i {
   font-family: "Jost", sans-serif;
   font-size: 100px;
   font-weight: 800;
-  line-height: 86px;
+  line-height: 75px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
     color: #141213;
@@ -1057,7 +1060,7 @@ i {
 
 .routeName {
  list-style-type: none;
- line-height: 1.2em;
+ line-height: 1.15em;
 }
 
 .cross-out {
@@ -1105,3 +1108,28 @@ z-index: 5 !important;
 }
 
 
+.service-links{
+  position: absolute;
+  font-size: 2rem;
+  padding: 0px;
+  right: 10%;
+  top: -90%;
+  display: none;
+}
+
+
+.services:hover .service-links{
+  display: block !important;
+  transition-delay: 20s;
+  color: yellow !important;
+  
+}
+
+.service-color {
+  color: #000000;
+}
+.service-color:hover{
+  background: -webkit-linear-gradient(#F9D423,#F83600) ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

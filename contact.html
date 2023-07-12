@@ -13,13 +13,11 @@
     <meta property="og:description"
         content="Leading software agency focused on design and development. We develop complex websites, iOS/Android mobile applications and elaborate online business services.">
     <meta name="theme-color" content="#ffffff">
-    <!-- Bootstrap styles -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
-    <!-- External styles -->
+    <!-- css -->
     <link rel="stylesheet" href="style.css">
-
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- font-2 -->
     <link
         href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Luckiest+Guy&display=swap"
@@ -34,63 +32,140 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <!-- Kursor stylesheet  -->
-    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- aos animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- locomotive -->
+    <link rel="stylesheet" href="locomotive.css">
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/5772434fc2.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
 <body>
     <div class="body-wrap">
 
-        <!-- nav section start -->
-        <nav class="navbar navbar-expand-lg navbar-light px-sm-0 px-md-5  py-3">
-            <div class="container-fluid">
-                <a class="navbar-brand position-fixed mt-5" href="/index.html"><img src="assets/echor logo.svg"
-                        alt=""></a>
-                <!-- <button class="btn btn-primary d-sm-block d-lg-none" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span
-                    class=" navbar-toggler-icon"></span></button>
-            <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasRight"
-                aria-labelledby="offcanvasRightLabel">
-                <div class="offcanvas-header bg-black">
-                    <a class="navbar-brand" href="/index.html"><img src="assets/echor logo.svg" alt=""></a>
-                    <button type="button" class="btn-close text-reset bg-white" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body justify-content-center">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item">
-                            <a class=" text-decoration-none text-white px-3 font-1" href="/work.html">Work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="text-decoration-none text-white px-3 font-1"
-                                href="/services-1.html">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="text-decoration-none text-white px-3 font-1"
-                                href="/industries.html">Industries</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="text-decoration-none text-white px-3 font-1"
-                                href="/process.html">Process</a>
-                        </li>
-                        <li class="nav-item ps-3">
-                            <a class="text-decoration-none text-white font-1 px-2 px-lg-0"
-                                href="/about.html">About</a>
-                        </li>
-                    </ul>
+        <!-- nav bar starts  -->
+        <section class="container-fluid">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark py-3">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="/index.html"><img src="assets/echor logo.svg" alt=""></a>
+                        <div class="d-flex">
+                            <button type="button" class="btn d-none d-lg-block primary-button" type="submit"><a
+                                    class="text-decoration-none text-dark" href="/contact.html">Let's
+                                    Talk</a>
+                            </button>
+                            <img class="ms-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                                aria-controls="offcanvasTop" src="/assets/menu.svg" alt="">
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+
+        <div class="offcanvas offcanvas-top" style="height: 100%;" tabindex="-1" id="offcanvasTop"
+            aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-body">
+                <div class="container">
+                    <div class="row mt-2 ">
+                        <div class="col">
+                            <img class="logo logo-et" src="/assets/et-black-logo.png" alt="">
+                        </div>
+                        <div class="col d-flex justify-content-end" type="button" data-bs-dismiss="offcanvas"
+                            aria-label="Close">
+                            <img class="logo-x" src="/assets/nav-X-Button.png" alt="cross">
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <!-- content -->
+                        <div class="col-12 left-col content mt-4 position-relative">
+                            <ul class="p-0 m-0">
+                                <a class="black" href="/index.html">
+                                    <div class="d-flex routeName cross-out">
+                                        <p style="z-index: 10 !important;">H</p>
+                                        <p>o</p>
+                                        <p style="z-index: 10 !important;">m</p>
+                                        <p>e</p>
+                                    </div>
+                                </a>
+
+                                <div class="dropdown d-flex services">
+                                    <div class="d-flex routeName cross-out ">
+                                        <p style="z-index: 10 !important;">s</p>
+                                        <p>e</p>
+                                        <p style="z-index: 10 !important;">r</p>
+                                        <p>v</p>
+                                        <p style="z-index: 10 !important;">i</p>
+                                        <p>c</p>
+                                        <p style="z-index: 10 !important;">e</p>
+                                    </div>
+                                    <div class="service-links">
+                                        <p><a class="service-color" href="/assetss-change/services-2/app/web-design.html">web-design</a></p>
+                                        <p><a class="service-color" href="/assetss-change/services-2/app/app/web-development.html">App/web-development</a></p>
+                                        <p><a class="service-color" href="/assetss-change/services-2/app/app/devops.html">Devops</a></p>
+                                        <p><a class="service-color" href="/assetss-change/services-2/app/app/ar-vr.html">AR/VR</a></p>
+                                        <p><a class="service-color" href="/assetss-change/services-2/app/app/blockchain.html">Blockchain</a></p>
+                                    </div>
+                                </div>
+
+
+                                <a class="black" href="/industries.html">
+                                    <div class="d-flex routeName cross-out">
+                                        <p style="z-index: 10 !important;">i</p>
+                                        <p>n</p>
+                                        <p style="z-index: 10 !important;">d</p>
+                                        <p>u</p>
+                                        <p style="z-index: 10 !important;">s</p>
+                                        <p>t</p>
+                                        <p style="z-index: 10 !important;">r</p>
+                                        <p>i</p>
+                                        <p style="z-index: 10 !important;">e</p>
+                                        <p>s</p>
+                                    </div>
+                                </a>
+
+                              <a class="black" href="/process.html">
+                                <div class="d-flex routeName cross-out">
+                                    <p style="z-index: 10 !important;">p</p>
+                                    <p>r</p>
+                                    <p style="z-index: 10 !important;">o</p>
+                                    <p>c</p>
+                                    <p style="z-index: 10 !important;">e</p>
+                                    <p>s</p>
+                                    <p style="z-index: 10 !important;">s</p>
+                                </div>
+                              </a>
+
+                               <a class="black" href="/about.html">
+                                <div class="d-flex routeName cross-out">
+                                    <p style="z-index: 10 !important;">a</p>
+                                    <p>b</p>
+                                    <p style="z-index: 10 !important;">o</p>
+                                    <p>u</p>
+                                    <p style="z-index: 10 !important;">t</p>
+                                </div>
+                               </a>
+                            </ul>
+                        </div>
+                    
+                        <div class="col right-col mt-4 position-relative">
+
+                            <div class="position-absolute bottom-0 end-0">
+                                <p>Have an Idea?</p>
+                                <div class="d-flex justify-content-center"> <button class="btn">Tell Us About
+                                        it.</button></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <button type="button" class="btn btn-lg d-none d-lg-block px-3 letsTalk" type="submit"><a
-                    class="text-decoration-none letsTalk" href="/contact.html">Let's
-                    Talk</a>
-            </button> -->
-            </div>
-        </nav>
-        <!-- nav section end -->
+        </div>
+
+        <!-- nav bar end -->
 
         <!-- main section start -->
         <main class="container-fluid pt-5">
@@ -306,22 +381,10 @@
         <!-- footer section end -->
 
     </div>
-
     <!-- Bootstrap Javascript bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
-
-    <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
-        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous">
-        </script>
-
-    <script>
-        $('button').click(function () {
-            $('input').click();
-        });
-    </script>
 
 </body>
 

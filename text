@@ -1,17 +1,16 @@
-faq section web-design.html is perfectly alligned.
-
-
-
-
-
-
-
- <div class="card me-3 p-3 col-10">
-                            <div class="pt-5">
-                                <img src="/assetss-change/icons/blockchain-icon.svg" alt="">
-                            </div>
-                            <div>
-                                <p class="heading-small text-black pt-4">UI Design</p>
-                                <p class="body-medium Opacity text-black">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.</p>
-                            </div>
-                        </div>
+<div class="dropdown">
+    <button class="dropbtn">  <div class="d-flex routeName cross-out">
+        <p style="z-index: 10 !important;">s</p>
+        <p>e</p>
+        <p style="z-index: 10 !important;">r</p>
+        <p>v</p>
+        <p style="z-index: 10 !important;">i</p>
+        <p>c</p>
+        <p style="z-index: 10 !important;">e</p>
+    </div></button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
