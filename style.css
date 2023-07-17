@@ -1060,7 +1060,7 @@ i {
 
 .routeName {
  list-style-type: none;
- line-height: 1.15em;
+ line-height: .92em;
 }
 
 .cross-out {
@@ -1120,9 +1120,6 @@ z-index: 5 !important;
 
 .services:hover .service-links{
   display: block !important;
-  transition-delay: 20s;
-  color: yellow !important;
-  
 }
 
 .service-color {
@@ -1133,3 +1130,52 @@ z-index: 5 !important;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.contact-bg{
+  background: #141213;
+}
+label:hover{
+  background-color: #F9D423 !important;
+  color: #000000 !important;
+}
+
+
+
+
+
+
+
+
+.button-main {
+  padding: 10px 30px;
+  border-radius: 30px;
+  border:  solid #F9D423;
+  background-color: #F9D423;
+  font-size: 15px;
+  /* color: white; */
+  letter-spacing: 2px;
+  font-weight: bolder;
+  animation: none;
+  transition: all .5s ease-in-out;
+  /* font-family: 'Rajdhani', sans-serif; */
+ }
+ 
+ .button-main:hover {
+  border-radius: 30px 30px 0px 30px;
+  box-shadow: inset 0px 30px 10px -25px #F9D423;
+  transition: all .5s ease-in-out;
+  animation: bounce42 1.6s infinite;
+ }
+ 
+ @keyframes bounce42 {
+  0%, 20%, 50%, 80%, 100% {
+   transform: translateY(0);
+  }
+ 
+  40% {
+   transform: translateY(-5px);
+  }
+ 
+  60% {
+   transform: translateY(-5px);
+  }
+ } 
