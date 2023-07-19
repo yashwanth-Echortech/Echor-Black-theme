@@ -125,7 +125,7 @@ body {
 
 .colour {
   color: #391400;
-  background: #f7f7f7;
+  background: #ffffff;
 }
 
 .cardds:hover .rotation {
@@ -150,7 +150,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f83600;
+  background: #FEF6EE;
   border-radius: 50%;
   padding: 15px;
 }
@@ -713,7 +713,7 @@ i {
 /* home page */
 
 .yellow-section {
-  background: #fed11b;
+  background: #ffffff;
   border-radius: 50px;
 }
 
