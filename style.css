@@ -857,7 +857,7 @@ i {
   background-color: #ffffff;
   color: black;
   border-radius: 10px;
-  padding: 50px;
+  padding: 20px;
 }
 
 .horizontal-cards {
@@ -1313,5 +1313,5 @@ label:hover {
     padding: 8px;
 
   }
-
+}
 /* Phani styles end */
