@@ -770,6 +770,35 @@ i {
   }
 }
 
+.rotate {
+  animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.rotate-1 {
+  animation: anime 1.5s infinite ease-in-out;
+}
+
+@keyframes anime {
+  0%{
+      transform: translateY(-5px);
+  }
+  50% {
+      transform: translateY(5px);
+  }
+  100%{
+    transform: translateY(-5px);
+  }
+}
+
 /* process page starts */
 
 .process-cards {
