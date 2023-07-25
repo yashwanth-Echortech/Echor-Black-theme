@@ -1338,6 +1338,9 @@ html {
   height: 268px;
 }
 
+.cta-bg {
+  background-image: url(/updated-assets/images/cta-bg.jpg);
+}
 @media only screen and (max-width: 480px) {
   .label-large {
     font-size: 0.8rem;
