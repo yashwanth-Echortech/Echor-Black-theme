@@ -771,6 +771,14 @@ i {
   }
 }
 
+@media (min-width: 355px) and (max-width: 750px) {
+  .star {
+    position: absolute;
+    right: 10rem;
+    top: 12rem;
+  }
+}
+
 .rotate {
   animation: rotation 5s infinite linear;
 }
