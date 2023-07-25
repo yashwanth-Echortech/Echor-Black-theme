@@ -564,13 +564,13 @@ i {
 .display-large {
   font-size: 3.625rem;
   font-family: "Jost", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .label-large {
   font-size: 1rem;
   font-family: "Open Sans";
-  font-weight: 800;
+  font-weight: 600;
   line-height: 2rem;
   letter-spacing: 0.1875rem;
   text-transform: uppercase;
