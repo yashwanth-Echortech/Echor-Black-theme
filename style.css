@@ -755,7 +755,7 @@ i {
   }
 }
 
-@media (min-width: 390px) and (max-width: 819px) {
+@media (min-width: 350px) and (max-width: 819px) {
   .star {
     position: absolute;
     right: 11rem;
@@ -763,7 +763,7 @@ i {
   }
 }
 
-@media (min-width: 375px) and (max-width: 670px) {
+@media (min-width: 355px) and (max-width: 670px) {
   .star {
     position: absolute;
     right: 5rem;
@@ -771,13 +771,13 @@ i {
   }
 }
 
-@media (min-width: 355px) and (max-width: 750px) {
+/* @media (min-width: 355px) and (max-width: 750px) {
   .star {
     position: absolute;
     right: 10rem;
     top: 12rem;
   }
-}
+} */
 
 .rotate {
   animation: rotation 5s infinite linear;
@@ -981,7 +981,7 @@ i {
 
 .logo-x {
   height: 2.5rem;
-  padding-right: 1rem;
+  padding-right: -1rem;
 }
 
 .left-col {
@@ -1342,9 +1342,9 @@ html {
   width: 65% !important;
 }
 
-.tailored-h {
+/* .tailored-h {
   height: 268px;
-}
+} */
 
 .cta-bg {
   background-image: url(/updated-assets/images/cta-bg.jpg);
