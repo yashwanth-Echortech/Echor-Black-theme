@@ -50,17 +50,19 @@
 
         <!-- nav bar starts  -->
         <section class="container-fluid">
-            <div class="container">
+            <div class="container px-0">
                 <nav class="navbar navbar-expand-lg navbar-dark py-3">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="/index.html"><img src="assets/echor logo.svg" alt=""></a>
+                        <a class="navbar-brand" href="/index.html"><img src="/assets/echor-logo.svg" alt=""></a>
                         <div class="d-flex">
-                            <button type="button" class="btn d-none d-lg-block primary-button" type="submit"><a
+                            <button type="button" class="btn d-none d-lg-block primary-button" data-aos="fade-down"
+                                data-aos-duration="700" data-aos-delay="50" type="submit"><a
                                     class="text-decoration-none text-dark" href="/contact.html">Let's
-                                    Talk</a>
+                                    talk</a>
                             </button>
-                            <img class="ms-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
-                                aria-controls="offcanvasTop" src="/assets/menu.svg" alt="">
+                            <img class="ms-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"
+                                src="/assets/menu.svg" alt="">
                         </div>
                     </div>
                 </nav>
@@ -73,7 +75,7 @@
                 <div class="container">
                     <div class="row mt-2 ">
                         <div class="col">
-                            <a href="/index.html"><img class="logo logo-et" src="/assets/et-black-logo.png" alt=""></a>
+                            <img class="logo logo-et" src="/assets/et-black-logo.png" alt="">
                         </div>
                         <div class="col d-flex justify-content-end" type="button" data-bs-dismiss="offcanvas"
                             aria-label="Close">
@@ -85,16 +87,26 @@
                         <div class="col-12 left-col content mt-4 position-relative">
                             <ul class="p-0 m-0">
                                 <a class="black" href="/index.html">
-                                    <div class="d-flex routeName cross-out">
-                                        <p style="z-index: 10 !important;">H</p>
+                                    <div class="d-flex routeName cross-out a">
+                                        <p style="z-index: 10 !important;" data-aos="fade-right" data-aos-offset="500"
+                                            data-aos-easing="ease-in-sine">H</p>
                                         <p>o</p>
                                         <p style="z-index: 10 !important;">m</p>
                                         <p>e</p>
                                     </div>
                                 </a>
 
+                                <a class="black" href="/work.html">
+                                    <div class="d-flex routeName cross-out b">
+                                        <p style="z-index: 10 !important;">W</p>
+                                        <p>o</p>
+                                        <p style="z-index: 10 !important;">r</p>
+                                        <p>k</p>
+                                    </div>
+                                </a>
+
                                 <div class="dropdown d-flex services">
-                                    <div class="d-flex routeName cross-out ">
+                                    <div class="d-flex routeName cross-out c">
                                         <p style="z-index: 10 !important;">s</p>
                                         <p>e</p>
                                         <p style="z-index: 10 !important;">r</p>
@@ -102,19 +114,27 @@
                                         <p style="z-index: 10 !important;">i</p>
                                         <p>c</p>
                                         <p style="z-index: 10 !important;">e</p>
+                                        <p>s</p>
                                     </div>
                                     <div class="service-links">
-                                        <p><a class="service-color" href="/assetss-change/services-2/app/web-design.html">web-design</a></p>
-                                        <p><a class="service-color" href="/assetss-change/services-2/app/app/web-development.html">App/web-development</a></p>
-                                        <p><a class="service-color" href="/assetss-change/services-2/app/app/devops.html">Devops</a></p>
-                                        <p><a class="service-color" href="/assetss-change/services-2/app/app/ar-vr.html">AR/VR</a></p>
-                                        <p><a class="service-color" href="/assetss-change/services-2/app/app/blockchain.html">Blockchain</a></p>
+                                        <p><a class="service-color"
+                                                href="/assetss-change/services-2/app/web-design.html">web-design</a></p>
+                                        <p><a class="service-color"
+                                                href="/assetss-change/services-2/app/app/web-development.html">App/web-development</a>
+                                        </p>
+                                        <p><a class="service-color"
+                                                href="/assetss-change/services-2/app/app/devops.html">Devops</a></p>
+                                        <p><a class="service-color"
+                                                href="/assetss-change/services-2/app/app/ar-vr.html">AR/VR</a></p>
+                                        <p><a class="service-color"
+                                                href="/assetss-change/services-2/app/app/blockchain.html">Blockchain</a>
+                                        </p>
                                     </div>
                                 </div>
 
 
                                 <a class="black" href="/industries.html">
-                                    <div class="d-flex routeName cross-out">
+                                    <div class="d-flex routeName cross-out d">
                                         <p style="z-index: 10 !important;">i</p>
                                         <p>n</p>
                                         <p style="z-index: 10 !important;">d</p>
@@ -128,43 +148,42 @@
                                     </div>
                                 </a>
 
-                              <a class="black" href="/process.html">
-                                <div class="d-flex routeName cross-out">
-                                    <p style="z-index: 10 !important;">p</p>
-                                    <p>r</p>
-                                    <p style="z-index: 10 !important;">o</p>
-                                    <p>c</p>
-                                    <p style="z-index: 10 !important;">e</p>
-                                    <p>s</p>
-                                    <p style="z-index: 10 !important;">s</p>
-                                </div>
-                              </a>
+                                <a class="black" href="/process.html">
+                                    <div class="d-flex routeName cross-out e">
+                                        <p style="z-index: 10 !important;">p</p>
+                                        <p>r</p>
+                                        <p style="z-index: 10 !important;">o</p>
+                                        <p>c</p>
+                                        <p style="z-index: 10 !important;">e</p>
+                                        <p>s</p>
+                                        <p style="z-index: 10 !important;">s</p>
+                                    </div>
+                                </a>
 
-                               <a class="black" href="/about.html">
-                                <div class="d-flex routeName cross-out">
-                                    <p style="z-index: 10 !important;">a</p>
-                                    <p>b</p>
-                                    <p style="z-index: 10 !important;">o</p>
-                                    <p>u</p>
-                                    <p style="z-index: 10 !important;">t</p>
-                                </div>
-                               </a>
+                                <a class="black" href="/about.html">
+                                    <div class="d-flex routeName cross-out f">
+                                        <p style="z-index: 10 !important;">a</p>
+                                        <p>b</p>
+                                        <p style="z-index: 10 !important;">o</p>
+                                        <p>u</p>
+                                        <p style="z-index: 10 !important;">t</p>
+                                    </div>
+                                </a>
                             </ul>
                         </div>
-                    
+
                         <div class="col right-col mt-4 position-relative">
 
                             <div class="position-absolute bottom-0 end-0">
                                 <p>Have an Idea?</p>
                                 <div class="d-flex justify-content-center"> <button class="btn">Tell Us About
-                                it.</button></div>
+                                        it.</button></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <!-- nav bar end -->
 
         <!-- main section start -->
@@ -327,7 +346,7 @@
         <!-- contact section end -->
 
         <!-- footer section start -->
-        <footer class="bg-black">
+        <footer class="footer-bg">
             <h1 class="mx-lg-5 mx-2 pt-5 display-large ">Have an idea ?</h1>
             <a class="btn bg-white rounded-pill button-text fw-bold mx-lg-5 mx-1 px-5 mb-4 fw-semibold" href="">Tell Us
                 About
@@ -369,7 +388,7 @@
             <hr>
             <div class="row justify-content-start d-flex" style="align-items: baseline;">
                 <div class="col-lg-2 mt-5">
-                    <img src="/assetss-change/assets/echor logo.png" width="150px" height="30px">
+                    <img src="/updated-assets/icons/footer-logo.svg" width="150px" height="30px">
                 </div>
                 <div class="col-lg-7   justify-content-start justify-content-lg-center d-flex ps-lg-5 mt-4 mt-md-5">
                     <p>© 2023 Echor Tech - A Unit Of Cygnus Digital Innovations. All Rights Reserved.</p>
@@ -384,8 +403,9 @@
                 </div>
             </div>
         </footer>
+    </div>
 
-        <!-- footer section end -->
+    <!-- footer section end -->
         <!-- footer section end -->
 
     </div>
