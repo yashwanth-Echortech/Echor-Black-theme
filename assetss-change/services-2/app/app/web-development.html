@@ -1,44 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Echor Tech</title>
-        <meta name="description"
-            content="Leading software agency focused on design and development. We develop complex websites, iOS/Android mobile applications and elaborate online business services.">
-        <meta property="og:title" content="Echor.Tech">
-        <meta property="og:type" content="website">
-        <meta property="og:description"
-            content="Leading software agency focused on design and development. We develop complex websites, iOS/Android mobile applications and elaborate online business services.">
-        <meta name="theme-color" content="#ffffff">
-        <!-- external css -->
-        <link rel="stylesheet" href="/style.css">
-        <!-- Bootstrap styles -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    
-        <!-- External styles -->
-        <link rel="stylesheet" href="style.css">
-    
-        <!-- font-2 -->
-        <link
-            href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Luckiest+Guy&display=swap"
-            rel="stylesheet">
-    
-        <!-- open sans font -->
-        <link
-            href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-            rel="stylesheet">
-    
-        <!-- main font -->
-        <link
-            href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-            rel="stylesheet">
-    
-        <!-- Font Awesome -->
-        <script src="https://kit.fontawesome.com/5772434fc2.js" crossorigin="anonymous"></script>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echor Tech</title>
+    <meta name="description"
+        content="Leading software agency focused on design and development. We develop complex websites, iOS/Android mobile applications and elaborate online business services.">
+    <meta property="og:title" content="Echor.Tech">
+    <meta property="og:type" content="website">
+    <meta property="og:description"
+        content="Leading software agency focused on design and development. We develop complex websites, iOS/Android mobile applications and elaborate online business services.">
+    <meta name="theme-color" content="#ffffff">
+    <!-- external css -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- Bootstrap styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- External styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font-2 -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Luckiest+Guy&display=swap"
+        rel="stylesheet">
+
+    <!-- open sans font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <!-- aos animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- main font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5772434fc2.js" crossorigin="anonymous"></script>
+</head>
+
 <body>
     <div class="body-wrap ">
         <!-- nav section start -->
@@ -48,12 +53,14 @@
                     <div class="container-fluid">
                         <a class="navbar-brand" href="/index.html"><img src="/assets/echor logo.svg" alt=""></a>
                         <div class="d-flex">
-                            <button type="button" class="btn d-none d-lg-block primary-button" type="submit"><a
+                            <button type="button" class="btn d-none d-lg-block primary-button" data-aos="fade-down"
+                                data-aos-duration="700" data-aos-delay="50" type="submit"><a
                                     class="text-decoration-none text-dark" href="/contact.html">Let's
                                     Talk</a>
                             </button>
-                            <img class="ms-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
-                                aria-controls="offcanvasTop" src="/assets/menu.svg" alt="">
+                            <img class="ms-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"
+                                src="/assets/menu.svg" alt="">
                         </div>
                     </div>
                 </nav>
@@ -97,11 +104,18 @@
                                         <p style="z-index: 10 !important;">e</p>
                                     </div>
                                     <div class="service-links">
-                                        <p><a class="service-color" href="/assetss-change/services-2/app/web-design.html">web-design</a></p>
-                                        <p><a class="service-color" href="/assetss-change/services-2/app/app/web-development.html">App/web-development</a></p>
-                                        <p><a class="service-color" href="/assetss-change/services-2/app/app/devops.html">Devops</a></p>
-                                        <p><a class="service-color" href="/assetss-change/services-2/app/app/ar-vr.html">AR/VR</a></p>
-                                        <p><a class="service-color" href="/assetss-change/services-2/app/app/blockchain.html">Blockchain</a></p>
+                                        <p><a class="service-color"
+                                                href="/assetss-change/services-2/app/web-design.html">web-design</a></p>
+                                        <p><a class="service-color"
+                                                href="/assetss-change/services-2/app/app/web-development.html">App/web-development</a>
+                                        </p>
+                                        <p><a class="service-color"
+                                                href="/assetss-change/services-2/app/app/devops.html">Devops</a></p>
+                                        <p><a class="service-color"
+                                                href="/assetss-change/services-2/app/app/ar-vr.html">AR/VR</a></p>
+                                        <p><a class="service-color"
+                                                href="/assetss-change/services-2/app/app/blockchain.html">Blockchain</a>
+                                        </p>
                                     </div>
                                 </div>
 
@@ -121,30 +135,30 @@
                                     </div>
                                 </a>
 
-                              <a class="black" href="/process.html">
-                                <div class="d-flex routeName cross-out">
-                                    <p style="z-index: 10 !important;">p</p>
-                                    <p>r</p>
-                                    <p style="z-index: 10 !important;">o</p>
-                                    <p>c</p>
-                                    <p style="z-index: 10 !important;">e</p>
-                                    <p>s</p>
-                                    <p style="z-index: 10 !important;">s</p>
-                                </div>
-                              </a>
+                                <a class="black" href="/process.html">
+                                    <div class="d-flex routeName cross-out">
+                                        <p style="z-index: 10 !important;">p</p>
+                                        <p>r</p>
+                                        <p style="z-index: 10 !important;">o</p>
+                                        <p>c</p>
+                                        <p style="z-index: 10 !important;">e</p>
+                                        <p>s</p>
+                                        <p style="z-index: 10 !important;">s</p>
+                                    </div>
+                                </a>
 
-                               <a class="black" href="/about.html">
-                                <div class="d-flex routeName cross-out">
-                                    <p style="z-index: 10 !important;">a</p>
-                                    <p>b</p>
-                                    <p style="z-index: 10 !important;">o</p>
-                                    <p>u</p>
-                                    <p style="z-index: 10 !important;">t</p>
-                                </div>
-                               </a>
+                                <a class="black" href="/about.html">
+                                    <div class="d-flex routeName cross-out">
+                                        <p style="z-index: 10 !important;">a</p>
+                                        <p>b</p>
+                                        <p style="z-index: 10 !important;">o</p>
+                                        <p>u</p>
+                                        <p style="z-index: 10 !important;">t</p>
+                                    </div>
+                                </a>
                             </ul>
                         </div>
-                    
+
                         <div class="col right-col mt-4 position-relative">
 
                             <div class="position-absolute bottom-0 end-0">
@@ -165,27 +179,36 @@
             <div class="container">
                 <div class="row center flex-wrap flex-lg-nowrap">
                     <div class="col-lg-6 col-12 me-lg-5">
-                        <p class="display-large">App and Website Development</p>
-                        <p class="body-medium Opacity">At our core, we embrace innovative technology to shape the future of businesses. With our app and website development services, we empower you to connect, engage, and thrive in the dynamic digital landscape.</p>
-                        <button class="btn btn-lg primary-outine-button button-text mt-3">let's Talk <span>
-                            <img style="width: 1rem;" src="/assetss-change/icons/Arrow yellow.svg"
-                                alt=""></span>
+                        <p class="display-large" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="20" data-aos-duration="1800">App and Website Development</p>
+                        <p class="body-medium Opacity" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="50" data-aos-duration="1800">At our core, we embrace innovative technology to shape the future
+                            of businesses. With our app and website development services, we empower you to connect,
+                            engage, and thrive in the dynamic digital landscape.</p>
+                        <button class="btn btn-lg primary-outine-button button-text mt-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="70" data-aos-duration="1800">let's Talk <span>
+                                <img style="width: 1rem;" src="/assetss-change/icons/Arrow yellow.svg" alt=""></span>
                         </button>
-                        <div class="d-flex mt-5 flex-wrap flex-md-nowrap">
+                        <div class="d-flex mt-5 flex-wrap flex-md-nowrap" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="20" data-aos-duration="1800">
                             <div class="me-5 col-12 col-md-6">
                                 <img src="/updated-assets/icons/app-dev.png" alt="">
                                 <p class="heading-small pt-3">Application Development</p>
-                                <p class="body-medium Opacity pt-2">Our specialized team crafts top-notch, user-friendly, and feature-rich mobile apps, tailored to your vision for iOS, Android, or cross-platform experiences.</p>
+                                <p class="body-medium Opacity pt-2">Our specialized team crafts top-notch,
+                                    user-friendly, and feature-rich mobile apps, tailored to your vision for iOS,
+                                    Android, or cross-platform experiences.</p>
                             </div>
                             <div class="col-12 col-md-6">
                                 <img src="/updated-assets/icons/web-dev.png" alt="">
                                 <p class="heading-small pt-3">Website Development</p>
-                                <p class="body-medium Opacity pt-2">Our web development services empower businesses with captivating, responsive websites, driving growth and online prominence.</p>
+                                <p class="body-medium Opacity pt-2">Our web development services empower businesses with
+                                    captivating, responsive websites, driving growth and online prominence.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-12 pt-5 pt-lg-0">
-                        <img class="w-100" src="/updated-assets/images/app-web-dev-hero.png" alt="">
+                        <img class="w-100" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="20" data-aos-duration="1800" src="/updated-assets/images/app-web-dev-hero.png" alt="">
                     </div>
                 </div>
             </div>
@@ -197,17 +220,24 @@
             <div class="container">
                 <div class="row justify-content-center pt-5">
                     <div class="col-12">
-                        <p class="display-medium center">Benefits Sections</p>
-                        <p class="body-medium"><span class="center">We’ve been told it is possible to revolutionize the payment industry. We have not reinvented the wheel, we</span>
-                            <span class="d-flex justify-content-start justify-content-lg-center">decided to build upon it,&nbsp;<span class="Primary"> Successfully.</span></span>
+                        <p class="display-medium center" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="20" data-aos-duration="1800">Benefits Sections</p>
+                        <p class="body-medium"><span class="center" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="40" data-aos-duration="1800">We’ve been told it is possible to revolutionize the
+                                payment industry. We have not reinvented the wheel, we</span>
+                            <span class="d-flex justify-content-start justify-content-lg-center" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="40" data-aos-duration="1800">decided to build upon
+                                it,&nbsp;<span class="Primary"> Successfully.</span></span>
                         </p>
-                       <div class="center pt-3">
-                        <button class="btn primary-button button-text me-3">Let's Talk</button>
-                        <button class="btn secondary-button button-text">our Work</button>
-                       </div>
+                        <div class="center pt-3" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="60" data-aos-duration="1800">
+                            <button class="btn primary-button button-text me-3">Let's Talk</button>
+                            <button class="btn secondary-button button-text">our Work</button>
+                        </div>
                     </div>
                     <div class="col-6 center pt-5 pt-lg-0">
-                        <img class="w-100" src="/updated-assets/images/app-dev-benefits.png" alt="">
+                        <img class="w-100" data-aos="flip-right" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="20" data-aos-duration="1800" src="/updated-assets/images/app-dev-benefits.png" alt="">
                     </div>
                 </div>
 
@@ -220,20 +250,37 @@
             <div class="container mt-md-5 pt-lg-5">
                 <div class="row center flex flex-lg-nowrap">
                     <div class="col-lg-5 col-12">
-                        <p class="display-small">A comprehensive approach to app and website development</p>
-                        <p class="body-medium">Our all-encompassing app and website development services drive success, engaging users and empowering businesses to flourish in the digital domain.</p>
+                        <p class="display-small" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="20" data-aos-duration="2000">A comprehensive approach to app and website development</p>
+                        <p class="body-medium" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="40" data-aos-duration="2000">Our all-encompassing app and website development services drive success,
+                            engaging users and empowering businesses to flourish in the digital domain.</p>
                         <div class="pt-3 ">
-                            <p class="body-medium "><img class="pe-2" src="/assetss-change/icons/yello-check.svg" alt=""><span>Thorough Requirement Gathering</a></span></p>
-                            <p class="body-medium"><img class="pe-2" src="/assetss-change/icons/yello-check.svg" alt=""><span>Wire framing and user centric design</a></span></p>
-                            <p class="body-medium"><img class="pe-2" src="/assetss-change/icons/yello-check.svg" alt=""><span>Agile development</a></span></p>
-                            <p class="body-medium"><img class="pe-2" src="/assetss-change/icons/yello-check.svg" alt=""><span>Quality assurance and cross platform compatability</a></span></p>
-                            <p class="body-medium"><img class="pe-2" src="/assetss-change/icons/yello-check.svg" alt=""><span>Scalability and future readiness</a></span></p>
-                            <p class="body-medium"><img class="pe-2" src="/assetss-change/icons/yello-check.svg" alt=""><span>Ongoing support</a></span></p>
+                            <p class="body-medium " data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="20" data-aos-duration="1800"><img class="pe-2" src="/assetss-change/icons/yello-check.svg"
+                                    alt=""><span>Thorough Requirement Gathering</a></span></p>
+                            <p class="body-medium" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="30" data-aos-duration="1900"><img class="pe-2" src="/assetss-change/icons/yello-check.svg"
+                                    alt=""><span>Wire framing and user centric design</a></span></p>
+                            <p class="body-medium" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="40" data-aos-duration="2000"><img class="pe-2" src="/assetss-change/icons/yello-check.svg"
+                                    alt=""><span>Agile development</a></span></p>
+                            <p class="body-medium" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="50" data-aos-duration="2100"><img class="pe-2" src="/assetss-change/icons/yello-check.svg"
+                                    alt=""><span>Quality assurance and cross platform compatability</a></span></p>
+                            <p class="body-medium" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="60" data-aos-duration="2200"><img class="pe-2" src="/assetss-change/icons/yello-check.svg"
+                                    alt=""><span>Scalability and future readiness</a></span></p>
+                            <p class="body-medium" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="70" data-aos-duration="2300"><img class="pe-2" src="/assetss-change/icons/yello-check.svg"
+                                    alt=""><span>Ongoing support</a></span></p>
                         </div>
-                        <button class="btn secondary-button button-text mt-3">Let's talk <span><img src="/assetss-change/icons/white-arrow.svg" alt=""></span></button>
+                        <button class="btn secondary-button button-text mt-3">Let's talk <span><img
+                                    src="/assetss-change/icons/white-arrow.svg" alt=""></span></button>
                     </div>
                     <div class="col-lg-5 col-12 ms-lg-5 pt-5 pt-lg-0">
-                        <img class="w-100" src="/updated-assets/images/comprehensive approach.png" alt="">
+                        <img class="w-100" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="20" data-aos-duration="3000" src="/updated-assets/images/comprehensive approach.png" alt="">
                     </div>
                 </div>
             </div>
@@ -241,259 +288,266 @@
         <!-- comprehensive approach ends -->
 
         <!-- projects section start -->
-    <section class="container-fluid mt-5">
-        <div class="container py-5">
-            <div class="row center">
+        <section class="container-fluid mt-5">
+            <div class="container py-5">
+                <div class="row center">
                     <p class="display-medium">Our Work Portfolio</p>
-                <div class="flex-wrap flex-md-nowrap d-flex pt-lg-5 center pt-4 pt-lg-0">
-                    <div class="col-lg-6 pe-0 pe-md-5">
-                        <!-- <div class=""> -->
-                        <img class="w-100" src="/assets/Image.jpg" alt="">
-                        <h3 class="display-small pt-3">Pradhara</h3>
-                        <p class="body-small Opacity-1 pt-3">Apparently we had reached a great height in the
-                            atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
-                        <p><a class="text-decoration-none pt-3 font-3 text-warning" href="">view portfolio <span
-                                    class="ps-3"> <img src="/assetss-change/icons/Arrow yellow.svg" alt=""></span></a>
-                        </p>
-                        <!-- </div> -->
-                    </div>
+                    <div class="flex-wrap flex-md-nowrap d-flex pt-lg-5 center pt-4 pt-lg-0">
+                        <div class="col-lg-6 pe-0 pe-md-5">
+                            <!-- <div class=""> -->
+                            <img class="w-100" src="/assets/Image.jpg" alt="">
+                            <h3 class="display-small pt-3">Pradhara</h3>
+                            <p class="body-small Opacity-1 pt-3">Apparently we had reached a great height in the
+                                atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
+                            <p><a class="text-decoration-none pt-3 font-3 text-warning" href="">view portfolio <span
+                                        class="ps-3"> <img src="/assetss-change/icons/Arrow yellow.svg"
+                                            alt=""></span></a>
+                            </p>
+                            <!-- </div> -->
+                        </div>
 
-                    <div class="col-lg-6 ps-0 ps-md-5 pt-5 pt-md-0">
-                        <!-- <div class=""> -->
-                        <img class="w-100" src="/assets/Image.jpg" alt="">
-                        <h3 class="display-small pt-3">Pradhara</h3>
-                        <p class="body-small Opacity-1 pt-3">Apparently we had reached a great height in the
-                            atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
-                        <p><a class="text-decoration-none pt-3 font-3 text-warning" href="">view portfolio <span
-                                    class="ps-3"> <img src="/assetss-change/icons/Arrow yellow.svg" alt=""></span></a>
-                        </p>
-                        <!-- </div> -->
+                        <div class="col-lg-6 ps-0 ps-md-5 pt-5 pt-md-0">
+                            <!-- <div class=""> -->
+                            <img class="w-100" src="/assets/Image.jpg" alt="">
+                            <h3 class="display-small pt-3">Pradhara</h3>
+                            <p class="body-small Opacity-1 pt-3">Apparently we had reached a great height in the
+                                atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
+                            <p><a class="text-decoration-none pt-3 font-3 text-warning" href="">view portfolio <span
+                                        class="ps-3"> <img src="/assetss-change/icons/Arrow yellow.svg"
+                                            alt=""></span></a>
+                            </p>
+                            <!-- </div> -->
+                        </div>
                     </div>
-                </div>
-                <div class="center pt-3">
-                    <button class="btn bg-white rounded-pill button-text text-black px-4">See More</button>
+                    <div class="center pt-3">
+                        <button class="btn bg-white rounded-pill button-text text-black px-4">See More</button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- projects section end -->
+        <!-- projects section end -->
 
 
-            <!-- Faq section start -->
-            <section class="container-fluid py-1 py-lg-5 stars-bg">
-                <div class="container pt-5">
-                    <div class="row">
-                        <div class="d-flex flex-wrap justify-content-around">
-                            <div class="col-12 col-lg-4 col-md-6 pt-md-5 pt-lg-0 ">
-                                <p class="label-large Primary">FAQ</p>
-                                <h2 class="display-medium mt-3">Frequently Asked
-                                    Questions
-                                </h2>
-                                <p class="body-small Opacity pt-lg-3">A digital agency is a business you hire to outsource
-                                    your digital marketing efforts, instead of handling in-house.</p>
-                                <button class="btn secondary-button mt-lg-3" type="submit">Let's
-                                    Talk
-                                </button>
-                            </div>
-                            <!-- accordion start -->
-                            <div class="col-12 col-lg-5 col-md-6 ms-0 ms-lg-5 pt-5 pt-md-0 mb-5 mb-lg-0">
-                                <div class="accordion accordion-dark accordion-flush" id="accordionExample">
-                                    <div class="accordion-item border border-0">
-                                        <h2 class="accordion-header border border-0" id="headingOne">
-                                            <button
-                                                class="accordion-button collapsed border border-0 accordionHeading heading-small black rounded-3"
-                                                style="border: 0px !important;" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseOne" aria-expanded="true"
-                                                aria-controls="collapseOne">
-                                                A digital agency is a business
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse show p-0 border border-0"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <p class="body-small black">
-                                                    Digital
-                                                    marketing
-                                                    efforts, instead of handling in-house.
-                                                    They can provide your business with a variety of digital
-                                                    solutions to promote your product or service online and
-                                                    help you hit your marketing goals and grow your business.
-                                                </p>
-                                            </div>
+        <!-- Faq section start -->
+        <section class="container-fluid py-1 py-lg-5 stars-bg">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="d-flex flex-wrap justify-content-around">
+                        <div class="col-12 col-lg-4 col-md-6 pt-md-5 pt-lg-0 ">
+                            <p class="label-large Primary">FAQ</p>
+                            <h2 class="display-medium mt-3">Frequently Asked
+                                Questions
+                            </h2>
+                            <p class="body-small Opacity pt-lg-3">A digital agency is a business you hire to outsource
+                                your digital marketing efforts, instead of handling in-house.</p>
+                            <button class="btn secondary-button mt-lg-3" type="submit">Let's
+                                Talk
+                            </button>
+                        </div>
+                        <!-- accordion start -->
+                        <div class="col-12 col-lg-5 col-md-6 ms-0 ms-lg-5 pt-5 pt-md-0 mb-5 mb-lg-0">
+                            <div class="accordion accordion-dark accordion-flush" id="accordionExample">
+                                <div class="accordion-item border border-0">
+                                    <h2 class="accordion-header border border-0" id="headingOne">
+                                        <button
+                                            class="accordion-button collapsed border border-0 accordionHeading heading-small black rounded-3"
+                                            style="border: 0px !important;" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            A digital agency is a business
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show p-0 border border-0"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="body-small black">
+                                                Digital
+                                                marketing
+                                                efforts, instead of handling in-house.
+                                                They can provide your business with a variety of digital
+                                                solutions to promote your product or service online and
+                                                help you hit your marketing goals and grow your business.
+                                            </p>
                                         </div>
                                     </div>
-                                    <div class="accordion-item border border-0 rounded-3">
-                                        <h2 class="accordion-header rounded-3 bg-darkkk" id="headingTwo">
-                                            <button
-                                                class="accordion-button collapsed border border-0 accordionHeading heading-small bg-darkkk rounded-3"
-                                                style="border: 0px !important;" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseTwo" aria-expanded="false"
-                                                aria-controls="collapseTwo">
-                                                Hire to outsource your digital
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body bg-darkkk">
-                                                <p class="body-small text-white">Digital
-                                                    marketing
-                                                    efforts, instead of handling in-house.
-                                                    They can provide your business with a variety of digital
-                                                    solutions to promote your product or service online and
-                                                    help you hit your marketing goals and grow your business.
-                                                </p>
-                                            </div>
+                                </div>
+                                <div class="accordion-item border border-0 rounded-3">
+                                    <h2 class="accordion-header rounded-3 bg-darkkk" id="headingTwo">
+                                        <button
+                                            class="accordion-button collapsed border border-0 accordionHeading heading-small bg-darkkk rounded-3"
+                                            style="border: 0px !important;" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                            Hire to outsource your digital
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body bg-darkkk">
+                                            <p class="body-small text-white">Digital
+                                                marketing
+                                                efforts, instead of handling in-house.
+                                                They can provide your business with a variety of digital
+                                                solutions to promote your product or service online and
+                                                help you hit your marketing goals and grow your business.
+                                            </p>
                                         </div>
                                     </div>
-    
-                                    <div class="accordion-item border border-0 rounded-3">
-                                        <h2 class="accordion-header rounded-3 bg-darkkk" id="headingThree">
-                                            <button
-                                                class="accordion-button collapsed border border-0 accordionHeading heading-small bg-darkkk rounded-3"
-                                                style="border: 0px !important;" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseThree" aria-expanded="false"
-                                                aria-controls="collapseThree">
-                                                Marketing efforts
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body bg-darkkk">
-                                                <p class="body-small text-white">Digital
-                                                    marketing
-                                                    efforts, instead of handling in-house.
-                                                    They can provide your business with a variety of digital
-                                                    solutions to promote your product or service online and
-                                                    help you hit your marketing goals and grow your business.
-                                                </p>
-                                            </div>
+                                </div>
+
+                                <div class="accordion-item border border-0 rounded-3">
+                                    <h2 class="accordion-header rounded-3 bg-darkkk" id="headingThree">
+                                        <button
+                                            class="accordion-button collapsed border border-0 accordionHeading heading-small bg-darkkk rounded-3"
+                                            style="border: 0px !important;" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                            Marketing efforts
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body bg-darkkk">
+                                            <p class="body-small text-white">Digital
+                                                marketing
+                                                efforts, instead of handling in-house.
+                                                They can provide your business with a variety of digital
+                                                solutions to promote your product or service online and
+                                                help you hit your marketing goals and grow your business.
+                                            </p>
                                         </div>
                                     </div>
-    
-                                    <div class="accordion-item border border-0 rounded-0">
-                                        <h2 class="accordion-header" id="headingFour">
-                                            <button
-                                                class="accordion-button accordionBtnBg border border-0 accordionHeading accordionBg shadow shadow-lg heading-small bg-darkkk"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                                aria-expanded="false" aria-controls="collapseFour">
-                                                Can provide your business
-                                            </button>
-                                        </h2>
-                                        <div id="collapseFour" class="accordion-collapse collapse"
-                                            aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body bg-darkkk">
-                                                <p class="body-small text-white">Digital
-                                                    marketing
-                                                    efforts, instead of handling in-house.
-                                                    They can provide your business with a variety of digital
-                                                    solutions to promote your product or service online and
-                                                    help you hit your marketing goals and grow your business.
-                                                </p>
-                                            </div>
+                                </div>
+
+                                <div class="accordion-item border border-0 rounded-0">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button
+                                            class="accordion-button accordionBtnBg border border-0 accordionHeading accordionBg shadow shadow-lg heading-small bg-darkkk"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
+                                            Can provide your business
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body bg-darkkk">
+                                            <p class="body-small text-white">Digital
+                                                marketing
+                                                efforts, instead of handling in-house.
+                                                They can provide your business with a variety of digital
+                                                solutions to promote your product or service online and
+                                                help you hit your marketing goals and grow your business.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- accordion end -->
+                        </div>
+                        <!-- accordion end -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Faq section end -->
+
+        <!-- closing section start -->
+        <section class="container-fluid mb-5 ">
+            <div class="container pt-sm-0 pt-md-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-9 col-md-11 yellow-section p-5">
+                        <div class="justify-content-center d-flex">
+                            <h1 class="display-large text-dark thisIs">Don’t be shy, say hi! </h1>
+                        </div>
+                        <div class="justify-content-center d-flex pt-0 pt-md-3">
+                            <p class="body-medium text-dark">Nowadays, it isn't uncommon to see lenders rapidly
+                                adopting a
+                                digital lending strategy to <span class="justify-content-lg-center d-lg-flex">
+                                    streamline
+                                    the
+                                    lending process nowadays, it isn't uncommon to see lenders rapidly</span> </p>
+                        </div>
+                        <div class="justify-content-center d-flex border-3 border-bottom border-dark pb-5">
+                            <button
+                                class="btn btn-lg py-2 px-4 bg-dark rounded-pill text-white fs-6 mt-3 button-text">Schedule
+                                a Meeting</button>
+                        </div>
+                        <div class=" overflow-scroll example pt-3 ">
+                            <img src="/assetss-change/assets/All in.svg" class="" alt="">
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- Faq section end -->
-    
-            <!-- closing section start -->
-            <section class="container-fluid mb-5 ">
-                <div class="container pt-sm-0 pt-md-5">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-9 col-md-11 yellow-section p-5">
-                            <div class="justify-content-center d-flex">
-                                <h1 class="display-large text-dark thisIs">Don’t be shy, say hi! </h1>
-                            </div>
-                            <div class="justify-content-center d-flex pt-0 pt-md-3">
-                                <p class="body-medium text-dark">Nowadays, it isn't uncommon to see lenders rapidly
-                                    adopting a
-                                    digital lending strategy to <span class="justify-content-lg-center d-lg-flex">
-                                        streamline
-                                        the
-                                        lending process nowadays, it isn't uncommon to see lenders rapidly</span> </p>
-                            </div>
-                            <div class="justify-content-center d-flex border-3 border-bottom border-dark pb-5">
-                                <button
-                                    class="btn btn-lg py-2 px-4 bg-dark rounded-pill text-white fs-6 mt-3 button-text">Schedule
-                                    a Meeting</button>
-                            </div>
-                            <div class=" overflow-scroll example pt-3 ">
-                                <img src="/assetss-change/assets/All in.svg" class="" alt="">
-                            </div>
-                        </div>
-                    </div>
+            </div>
+        </section>
+        <!-- closing section end -->
+
+        <!-- footer section start -->
+        <footer class="footer-bg">
+            <h1 class="mx-lg-5 mx-2 pt-5 display-large ">Have an idea ?</h1>
+            <a class="btn bg-white rounded-pill button-text fw-bold mx-lg-5 mx-1 px-5 mb-4 fw-semibold" href="">Tell Us
+                About
+                It</a>
+            <div class="row ps-lg-5 px-1 ms-lg-3" style="justify-content: space-between;">
+                <div class="col-6 col-lg-2 mt-5">
+                    <h5 class="jost-font fw-semibold">NAVIGATION</h5><br>
+                    <p class="fw-light"><a href="">Home </a></p>
+                    <p><a href="">Services</a></p>
+                    <p><a href="">Industries </a></p>
+                    <p><a href="">Process</a></p>
+                    <p><a href="">About</a></p>
                 </div>
-            </section>
-            <!-- closing section end -->
-    
-            <!-- footer section start -->
-            <footer class="footer-bg">
-                <h1 class="mx-lg-5 mx-2 pt-5 display-large ">Have an idea ?</h1>
-                <a class="btn bg-white rounded-pill button-text fw-bold mx-lg-5 mx-1 px-5 mb-4 fw-semibold" href="">Tell Us
-                    About
-                    It</a>
-                <div class="row ps-lg-5 px-1 ms-lg-3" style="justify-content: space-between;">
-                    <div class="col-6 col-lg-2 mt-5">
-                        <h5 class="jost-font fw-semibold">NAVIGATION</h5><br>
-                        <p class="fw-light"><a href="">Home </a></p>
-                        <p><a href="">Services</a></p>
-                        <p><a href="">Industries </a></p>
-                        <p><a href="">Process</a></p>
-                        <p><a href="">About</a></p>
-                    </div>
-                    <div class="col-6 col-lg-3 mt-5">
-                        <h5 class="jost-font fw-semibold">WHAT WE DO</h5><br>
-                        <p><a href="">Encouraging Testing</a></p>
-                        <p><a href="">Strengthening Advocacy</a></p>
-                        <p><a href="">Sharing Information</a></p>
-                        <p><a href="">Building Leadership</a></p>
-                        <p><a href="">Engaging With Global Fund</a></p>
-                        <p><a href="">Shining a Light</a></p>
-                    </div>
-                    <div class="col-6 col-lg-2 mt-5">
-                        <h5 class="jost-font fw-semibold">LEGAL</h5><br>
-                        <p><a href="">General Info</a></p>
-                        <p><a href="">Privacy Policy</a></p>
-                        <p><a href="">Terms of Service</a></p>
-                    </div>
-                    <div class="col-6 col-lg-3 mt-5 ">
-                        <h5 class="jost-font fw-semibold">ADDRESS</h5><br>
-                        <p class="lh-lg w-75 "><a href="">DSL Abacus IT park, 207,
-                                near dsl virtue mall,
-                                Survey Colony, Industrial
-                                Uppal, Hyderabad,
-                                Telangana 500039</a>
-                        </p>
-                    </div>
+                <div class="col-6 col-lg-3 mt-5">
+                    <h5 class="jost-font fw-semibold">WHAT WE DO</h5><br>
+                    <p><a href="">Encouraging Testing</a></p>
+                    <p><a href="">Strengthening Advocacy</a></p>
+                    <p><a href="">Sharing Information</a></p>
+                    <p><a href="">Building Leadership</a></p>
+                    <p><a href="">Engaging With Global Fund</a></p>
+                    <p><a href="">Shining a Light</a></p>
                 </div>
-                <hr>
-                <div class="row justify-content-start d-flex" style="align-items: baseline;">
-                    <div class="col-lg-2 mt-5">
-                        <img src="/assetss-change/assets/echor logo.png" width="150px" height="30px">
-                    </div>
-                    <div class="col-lg-7   justify-content-start justify-content-lg-center d-flex ps-lg-5 mt-4 mt-md-5">
-                        <p>© 2023 Echor Tech - A Unit Of Cygnus Digital Innovations. All Rights Reserved.</p>
-                    </div>
-                    <div class="col-lg-3 mt-3 mt-md-5 justify-content-start justify-content-lg-end d-flex mb-5 mb-md-0">
-                        <button class="btn btn-outline-light rounded-pill ms-lg-3 mx-2 "><a href=""><i
-                                    class="fa-brands fa-facebook-f"></i><a></button>
-                        <button class="btn btn-outline-light rounded-pill mx-lg-2 mx-2"><a href=""><i
-                                    class="fa-brands fa-linkedin-in"></i></a></button>
-                        <button class="btn btn-outline-light rounded-pill mx-lg-2 mx-2"><a href=""><i
-                                    class="fa-brands fa-twitter"></a></i></button>
-                    </div>
+                <div class="col-6 col-lg-2 mt-5">
+                    <h5 class="jost-font fw-semibold">LEGAL</h5><br>
+                    <p><a href="">General Info</a></p>
+                    <p><a href="">Privacy Policy</a></p>
+                    <p><a href="">Terms of Service</a></p>
                 </div>
-            </footer>
-    
-    
-        </div>
-        <!-- bootstrap -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+                <div class="col-6 col-lg-3 mt-5 ">
+                    <h5 class="jost-font fw-semibold">ADDRESS</h5><br>
+                    <p class="lh-lg w-75 "><a href="">DSL Abacus IT park, 207,
+                            near dsl virtue mall,
+                            Survey Colony, Industrial
+                            Uppal, Hyderabad,
+                            Telangana 500039</a>
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-start d-flex" style="align-items: baseline;">
+                <div class="col-lg-2 mt-5">
+                    <img src="/assetss-change/assets/echor logo.png" width="150px" height="30px">
+                </div>
+                <div class="col-lg-7   justify-content-start justify-content-lg-center d-flex ps-lg-5 mt-4 mt-md-5">
+                    <p>© 2023 Echor Tech - A Unit Of Cygnus Digital Innovations. All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-3 mt-3 mt-md-5 justify-content-start justify-content-lg-end d-flex mb-5 mb-md-0">
+                    <button class="btn btn-outline-light rounded-pill ms-lg-3 mx-2 "><a href=""><i
+                                class="fa-brands fa-facebook-f"></i><a></button>
+                    <button class="btn btn-outline-light rounded-pill mx-lg-2 mx-2"><a href=""><i
+                                class="fa-brands fa-linkedin-in"></i></a></button>
+                    <button class="btn btn-outline-light rounded-pill mx-lg-2 mx-2"><a href=""><i
+                                class="fa-brands fa-twitter"></a></i></button>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>

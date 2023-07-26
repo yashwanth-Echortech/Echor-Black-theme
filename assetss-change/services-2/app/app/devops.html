@@ -37,6 +37,9 @@
         href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
+    <!-- aos animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/5772434fc2.js" crossorigin="anonymous"></script>
 </head>
@@ -50,11 +53,11 @@
                     <div class="container-fluid">
                         <a class="navbar-brand" href="/index.html"><img src="/assets/echor logo.svg" alt=""></a>
                         <div class="d-flex">
-                            <button type="button" class="btn d-none d-lg-block primary-button" type="submit"><a
+                            <button type="button" class="btn d-none d-lg-block primary-button" data-aos="fade-down" data-aos-duration="700" data-aos-delay="50" type="submit"><a
                                     class="text-decoration-none text-dark" href="/contact.html">Let's
                                     Talk</a>
                             </button>
-                            <img class="ms-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                            <img class="ms-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
                                 aria-controls="offcanvasTop" src="/assets/menu.svg" alt="">
                         </div>
                     </div>
@@ -99,11 +102,18 @@
                                         <p style="z-index: 10 !important;">e</p>
                                     </div>
                                     <div class="service-links">
-                                        <p><a class="service-color" href="/assetss-change/services-2/app/web-design.html">web-design</a></p>
-                                        <p><a class="service-color" href="/assetss-change/services-2/app/app/web-development.html">App/web-development</a></p>
-                                        <p><a class="service-color" href="/assetss-change/services-2/app/app/devops.html">Devops</a></p>
-                                        <p><a class="service-color" href="/assetss-change/services-2/app/app/ar-vr.html">AR/VR</a></p>
-                                        <p><a class="service-color" href="/assetss-change/services-2/app/app/blockchain.html">Blockchain</a></p>
+                                        <p><a class="service-color"
+                                                href="/assetss-change/services-2/app/web-design.html">web-design</a></p>
+                                        <p><a class="service-color"
+                                                href="/assetss-change/services-2/app/app/web-development.html">App/web-development</a>
+                                        </p>
+                                        <p><a class="service-color"
+                                                href="/assetss-change/services-2/app/app/devops.html">Devops</a></p>
+                                        <p><a class="service-color"
+                                                href="/assetss-change/services-2/app/app/ar-vr.html">AR/VR</a></p>
+                                        <p><a class="service-color"
+                                                href="/assetss-change/services-2/app/app/blockchain.html">Blockchain</a>
+                                        </p>
                                     </div>
                                 </div>
 
@@ -123,30 +133,30 @@
                                     </div>
                                 </a>
 
-                              <a class="black" href="/process.html">
-                                <div class="d-flex routeName cross-out">
-                                    <p style="z-index: 10 !important;">p</p>
-                                    <p>r</p>
-                                    <p style="z-index: 10 !important;">o</p>
-                                    <p>c</p>
-                                    <p style="z-index: 10 !important;">e</p>
-                                    <p>s</p>
-                                    <p style="z-index: 10 !important;">s</p>
-                                </div>
-                              </a>
+                                <a class="black" href="/process.html">
+                                    <div class="d-flex routeName cross-out">
+                                        <p style="z-index: 10 !important;">p</p>
+                                        <p>r</p>
+                                        <p style="z-index: 10 !important;">o</p>
+                                        <p>c</p>
+                                        <p style="z-index: 10 !important;">e</p>
+                                        <p>s</p>
+                                        <p style="z-index: 10 !important;">s</p>
+                                    </div>
+                                </a>
 
-                               <a class="black" href="/about.html">
-                                <div class="d-flex routeName cross-out">
-                                    <p style="z-index: 10 !important;">a</p>
-                                    <p>b</p>
-                                    <p style="z-index: 10 !important;">o</p>
-                                    <p>u</p>
-                                    <p style="z-index: 10 !important;">t</p>
-                                </div>
-                               </a>
+                                <a class="black" href="/about.html">
+                                    <div class="d-flex routeName cross-out">
+                                        <p style="z-index: 10 !important;">a</p>
+                                        <p>b</p>
+                                        <p style="z-index: 10 !important;">o</p>
+                                        <p>u</p>
+                                        <p style="z-index: 10 !important;">t</p>
+                                    </div>
+                                </a>
                             </ul>
                         </div>
-                    
+
                         <div class="col right-col mt-4 position-relative">
 
                             <div class="position-absolute bottom-0 end-0">
@@ -167,17 +177,27 @@
             <div class="container">
                 <div class="row py-5 center">
                     <div class="col-12">
-                        <p class="display-large center">DevOps</p>
-                        <p class="body-medium Opacity"><span class="center">At Echortech, we offer comprehensive DevOps services designed to streamline  </span>
-                            <span class="d-flex justify-content-start justify-content-lg-center">your software development lifecycle and drive operational efficiency.</span>
+                        <p class="display-large center" data-aos="fade-down" data-aos-offset="300"
+                            data-aos-easing="ease" data-aos-delay="20" data-aos-duration="1800">DevOps</p>
+                        <p class="body-medium Opacity"><span class="center" data-aos="fade-down" data-aos-offset="300"
+                                data-aos-easing="ease" data-aos-delay="18" data-aos-duration="1800">At Echortech, we
+                                offer comprehensive DevOps services designed to streamline </span>
+                            <span class="d-flex justify-content-start justify-content-lg-center" data-aos="fade-down"
+                                data-aos-offset="300" data-aos-easing="ease" data-aos-delay="18"
+                                data-aos-duration="1800">your software development lifecycle and drive operational
+                                efficiency.</span>
                         <div class="center pt-3">
-                            <button class="btn primary-outine-button button-text py-2">Let's Talk <span><img
+                            <button class="btn primary-outine-button button-text py-2" data-aos="fade-down"
+                                data-aos-offset="300" data-aos-easing="ease" data-aos-delay="20"
+                                data-aos-duration="1800">Let's Talk <span><img
                                         src="/assetss-change/icons/Arrow yellow.svg" alt=""
                                         style="width: 1rem;"></span></button>
                         </div>
                     </div>
                     <div class="col-4 d-flex justify-content-center pt-5">
-                        <img class="w-100" src="/updated-assets/images/devops-hero.png" alt="">
+                        <img class="w-100" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="20" data-aos-duration="1800" src="/updated-assets/images/devops-hero.png"
+                            alt="">
                     </div>
                 </div>
             </div>
@@ -187,7 +207,8 @@
         <!-- why devops start -->
         <section class="container-fluid">
             <div class="container">
-                <div class="row py-5 center">
+                <div class="row py-5 center" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease"
+                    data-aos-delay="20" data-aos-duration="1800">
                     <div class="col-12">
                         <p class="label-large Primary d-flex justify-content-start justify-content-md-center">What we
                             Serve</p>
@@ -198,38 +219,44 @@
                     </div>
                     <div class="center flex-wrap flex-md-nowrap pt-5">
                         <!-- cards start -->
-                        <div class="col-lg-3 col-md-4 col-12 devops-card me-3">
+                        <div class="col-lg-3 col-md-4 col-12 devops-card me-3" data-aos="fade-right"
+                            data-aos-offset="300" data-aos-easing="ease" data-aos-delay="20" data-aos-duration="1800">
                             <div class="">
                                 <img src="/updated-assets/icons/ci-cd.png" alt="">
                             </div>
                             <div class="pt-4">
                                 <p class="display-small">CI/CD</p>
-                                <p class="body-small"><span class="">Automating CI/CD pipelines for seamless integration and efficient application releases.</span> </p>
+                                <p class="body-small"><span class="">Automating CI/CD pipelines for seamless integration
+                                        and efficient application releases.</span> </p>
                             </div>
                         </div>
                         <!-- card end -->
 
                         <!-- card start -->
-                        <div class="col-lg-3 col-md-4 col-12 devops-card me-3 mt-3 mt-md-0">
+                        <div class="col-lg-3 col-md-4 col-12 devops-card me-3 mt-3 mt-md-0" data-aos="fade-right"
+                            data-aos-offset="300" data-aos-easing="ease" data-aos-delay="20" data-aos-duration="1800">
                             <div class="">
                                 <img src="/updated-assets/icons/iac.png" alt="">
                             </div>
                             <div class="pt-4">
                                 <p class="display-small ">IAC</p>
-                                <p class="body-small"><span class="">Achieve rapid scalability and repeatability with our Infrastructure as Code (IaC) approach</span> </p>
+                                <p class="body-small"><span class="">Achieve rapid scalability and repeatability with
+                                        our Infrastructure as Code (IaC) approach</span> </p>
                             </div>
                         </div>
                         <!-- card end -->
 
                         <!-- card start -->
-                        <div class="col-lg-3 col-md-4 col-12 devops-card me-3 mt-3 mt-md-0">
+                        <div class="col-lg-3 col-md-4 col-12 devops-card me-3 mt-3 mt-md-0" data-aos="fade-right"
+                            data-aos-offset="300" data-aos-easing="ease" data-aos-delay="20" data-aos-duration="1800">
                             <div class="">
                                 <img src="/updated-assets/icons/devsecops.png" alt="">
                             </div>
                             <div class="pt-4">
                                 <p class="display-small ">DevSecops</p>
-                                <p class="body-small"><span class="">Secure your digital assets with our DevOps approach, embedding robust security practices
-                                </span> </p>
+                                <p class="body-small"><span class="">Secure your digital assets with our DevOps
+                                        approach, embedding robust security practices
+                                    </span> </p>
                             </div>
                         </div>
                         <!-- card end -->
@@ -240,64 +267,78 @@
         <!-- why devops end -->
 
         <!-- our approach section start -->
-        <section class="container-fluid bg-black">
+        <section class="container-fluid">
             <div class="container pt-5 py-5">
-                <div class="row">
+                <div class="row" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease" data-aos-delay="20"
+                    data-aos-duration="1800">
                     <div class="col-12">
                         <p class="display-small center">Our Approach</p>
-                        <p class="body-medium Opacity"><span class="center">Supercharge software delivery and operational efficiency through our DevOps approach.
-                        </span>
+                        <p class="body-medium Opacity"><span class="center">Supercharge software delivery and
+                                operational efficiency through our DevOps approach.
+                            </span>
                         </p>
                     </div>
-                    <div class="d-flex flex-wrap flex-lg-nowrap mt-5 center">
+                    <div class="d-flex flex-wrap flex-lg-nowrap mt-5 center" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease" data-aos-delay="20" data-aos-duration="1800">
                         <!-- card start -->
                         <div class="col-lg-3 col-md-5 col-12 devops-card-2 me-lg-3 mt-3 mt-lg-0 me-0 me-md-1 me-lg-0">
-                            <img class="justify-content-start" src="/updated-assets/icons/seamless-collaboration.png" alt="">
+                            <img class="justify-content-start" src="/updated-assets/icons/seamless-collaboration.png"
+                                alt="">
                             <p class="heading-small">Seamless collaborations</p>
-                            <p class="body-medium Opacity text-black">Fostering seamless collaboration for empowered DevOps success.
+                            <p class="body-medium Opacity text-black">Fostering seamless collaboration for empowered
+                                DevOps success.
                             </p>
                         </div>
                         <!-- card end -->
 
                         <!-- card start -->
                         <div class="col-lg-3 col-md-5 col-12 devops-card-2 me-lg-3 mt-3 mt-lg-0 me-0 me-md-1 me-lg-0">
-                            <img class="justify-content-start" src="/updated-assets/icons/continuos integration.png" alt="">
+                            <img class="justify-content-start" src="/updated-assets/icons/continuos integration.png"
+                                alt="">
                             <p class="heading-small">Continuos Integration</p>
-                            <p class="body-medium Opacity text-black">Enabling continuous integration for agile and efficient DevOps workflows.
+                            <p class="body-medium Opacity text-black">Enabling continuous integration for agile and
+                                efficient DevOps workflows.
                             </p>
                         </div>
                         <!-- card end -->
 
                         <!-- card start -->
                         <div class="col-lg-3 col-md-5 col-12 devops-card-2 me-lg-1 mt-3 mt-lg-0">
-                            <img class="justify-content-start" src="/updated-assets/icons/rapid-automated-testing.png" alt="">
+                            <img class="justify-content-start" src="/updated-assets/icons/rapid-automated-testing.png"
+                                alt="">
                             <p class="heading-small">Rapid Automated Testing</p>
-                            <p class="body-medium Opacity text-black">Harnessing automated testing to drive rapid and reliable DevOps outcomes.
+                            <p class="body-medium Opacity text-black">Harnessing automated testing to drive rapid and
+                                reliable DevOps outcomes.
                             </p>
                         </div>
                         <!-- card end -->
                     </div>
-                    <div class="d-flex flex-wrap flex-lg-nowrap mt-5 center">
+                    <div class="d-flex flex-wrap flex-lg-nowrap mt-5 center" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease" data-aos-delay="40" data-aos-duration="1800">
                         <!-- card start -->
                         <div class="col-lg-3 col-md-5 col-12 devops-card-2 me-lg-3 mt-3 mt-lg-0 me-0 me-md-1 me-lg-0">
                             <img class="justify-content-start" src="/updated-assets/icons/error-free-deploy.png" alt="">
                             <p class="heading-small">Error-free Deployments</p>
-                            <p class="body-medium Opacity text-black">Achieving error-free app deployments with our DevOps expertise.
+                            <p class="body-medium Opacity text-black">Achieving error-free app deployments with our
+                                DevOps expertise.
                             </p>
                         </div>
                         <!-- card end -->
 
                         <!-- card start -->
                         <div class="col-lg-3 col-md-5 col-12 devops-card-2 me-lg-3 mt-3 mt-lg-0 me-0 me-md-1 me-lg-0">
-                            <img class="justify-content-start" src="/updated-assets/icons/unrivaled-efficency.png" alt="">
+                            <img class="justify-content-start" src="/updated-assets/icons/unrivaled-efficency.png"
+                                alt="">
                             <p class="heading-small">Unrivaled Efficiency</p>
-                            <p class="body-medium Opacity text-black">Unleashing unrivaled efficiency through our DevOps prowess.
+                            <p class="body-medium Opacity text-black">Unleashing unrivaled efficiency through our DevOps
+                                prowess.
                             </p>
                         </div>
                         <!-- card end -->
 
                         <!-- card start -->
-                        <div class="col-lg-3 col-md-5 col-12 adevops-card-2  me-lg-1 mt-3 mt-lg-0 invisible d-none d-md-block">
+                        <div
+                            class="col-lg-3 col-md-5 col-12 adevops-card-2  me-lg-1 mt-3 mt-lg-0 invisible d-none d-md-block">
                             <img class="justify-content-start" src="/assetss-change/icons/car-icon.svg" alt="">
                             <p class="heading-small">Devops</p>
                             <p class="body-medium Opacity text-black">We aim to attain the greatest satisfaction for our
@@ -313,61 +354,70 @@
         <!-- why choose us section start -->
         <section class="container-fluid mt-5">
             <div class="container mt-lg-5 pt-lg-5">
-                <div class="row center">
+                <div class="row center" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease"
+                    data-aos-delay="20" data-aos-duration="1800">
                     <div class="col-lg-6">
                         <p class="display-small">Why Choose Echortech for Your DevOps Transformation?</p>
-                    
-                    <div class="d-flex flex-wrap flex-md-nowrap pt-5">
-                        <!-- card-1 starts -->
-                        <div class="col-lg-6 col-12">
-                            <div>
-                                <img class="" src="/updated-assets/icons/team-of-professionals.png" alt="">
-                            </div>
-                            <div class=" pt-3">
-                                <p class="heading-small">Extensive Expertise</p>
-                                <p class="body-medium Opacity">Team of seasoned professionals <br> who possess deep expertise in DevOps practices, methodologies.
-                                </p>
-                            </div>
-                        </div>
-                        <!-- card-2 starts -->
-                        <div class="col-lg-6 col-12">
-                            <div>
-                                <img src="/updated-assets/icons/tailored-solutions.png" alt="">
-                            </div>
-                            <div class=" pt-3">
-                                <p class="heading-small">Tailored Solutions</p>
-                                <p class="body-medium Opacity">Tailored DevOps solutions designed to perfectly align with your unique business objectives
-                                </p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="d-flex flex-wrap flex-md-nowrap pt-lg-5">
-                        <!-- card-1 starts -->
-                        <div class="col-lg-6 col-12 ">
-                            <div>
-                                <img src="/updated-assets/icons/holistic-approach.png" alt="">
+                        <div class="d-flex flex-wrap flex-md-nowrap pt-5">
+                            <!-- card-1 starts -->
+                            <div class="col-lg-6 col-12" data-aos="fade-right" data-aos-offset="300"
+                                data-aos-easing="ease" data-aos-delay="20" data-aos-duration="1800">
+                                <div>
+                                    <img class="" src="/updated-assets/icons/team-of-professionals.png" alt="">
+                                </div>
+                                <div class=" pt-3">
+                                    <p class="heading-small">Extensive Expertise</p>
+                                    <p class="body-medium Opacity">Team of seasoned professionals <br> who possess deep
+                                        expertise in DevOps practices, methodologies.
+                                    </p>
+                                </div>
                             </div>
-                            <div class="pt-3">
-                                <p class="heading-small">Holistic Approach</p>
-                                <p class="body-medium Opacity">Fostering automation, collaboration, and a culture of continuous improvement.
-                                </p>
+                            <!-- card-2 starts -->
+                            <div class="col-lg-6 col-12" data-aos="fade-right" data-aos-offset="300"
+                                data-aos-easing="ease" data-aos-delay="40" data-aos-duration="1800">
+                                <div>
+                                    <img src="/updated-assets/icons/tailored-solutions.png" alt="">
+                                </div>
+                                <div class=" pt-3">
+                                    <p class="heading-small">Tailored Solutions</p>
+                                    <p class="body-medium Opacity">Tailored DevOps solutions designed to perfectly align
+                                        with your unique business objectives
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <!-- card-2 starts -->
-                        <div class="col-lg-6 col-12 ">
-                            <div>
-                                <img src="/updated-assets/icons/proven-track-record.png" alt="">
+
+                        <div class="d-flex flex-wrap flex-md-nowrap pt-lg-5">
+                            <!-- card-1 starts -->
+                            <div class="col-lg-6 col-12 " data-aos="fade-right" data-aos-offset="300"
+                                data-aos-easing="ease" data-aos-delay="20" data-aos-duration="1800">
+                                <div>
+                                    <img src="/updated-assets/icons/holistic-approach.png" alt="">
+                                </div>
+                                <div class="pt-3">
+                                    <p class="heading-small">Holistic Approach</p>
+                                    <p class="body-medium Opacity">Fostering automation, collaboration, and a culture of
+                                        continuous improvement.
+                                    </p>
+                                </div>
                             </div>
-                            <div class="pt-3">
-                                <p class="heading-small">Proven track record</p>
-                                <p class="body-medium Opacity">
-                                    Proven expertise guiding successful DevOps transformations, delivering tangible results in speed and quality.
-                                    
-                                </p>
+                            <!-- card-2 starts -->
+                            <div class="col-lg-6 col-12 " data-aos="fade-right" data-aos-offset="300"
+                                data-aos-easing="ease" data-aos-delay="40" data-aos-duration="1800">
+                                <div>
+                                    <img src="/updated-assets/icons/proven-track-record.png" alt="">
+                                </div>
+                                <div class="pt-3">
+                                    <p class="heading-small">Proven track record</p>
+                                    <p class="body-medium Opacity">
+                                        Proven expertise guiding successful DevOps transformations, delivering tangible
+                                        results in speed and quality.
+
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                     <div class="col-lg-5 pt-5">
                         <img class="w-100" src="/updated-assets/images/devops-transformation.png" alt="">
@@ -381,25 +431,40 @@
         <!-- comprehensive approach start -->
         <section class="container-fluid mt-5">
             <div class="container mt-md-5 pt-lg-5">
-                <div class="row center flex flex-lg-nowrap">
+                <div class="row center flex flex-lg-nowrap" data-aos="fade-up" data-aos-offset="300"
+                    data-aos-easing="ease" data-aos-delay="20" data-aos-duration="1800">
                     <div class="col-lg-5 col-12">
                         <div class="pt-lg-5 mt-lg-5">
-                            <p class="display-small">Unlock a world of benefits with our Devops services</p>
-                            <p class="body-medium">Experience accelerated development and operational excellence with our DevOps services.
+                            <p class="display-small" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                                data-aos-delay="20" data-aos-duration="1800">Unlock a world of benefits with our Devops
+                                services</p>
+                            <p class="body-medium" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                                data-aos-delay="40" data-aos-duration="1800">Experience accelerated development and
+                                operational excellence with our DevOps services.
                             </p>
                         </div>
                         <div class="pt-3 ">
-                            <p class="body-medium "><img class="pe-2" src="/assetss-change/icons/yello-check.svg"
-                                    alt=""><span>Faster time to market</a></span></p>
-                            <p class="body-medium"><img class="pe-2" src="/assetss-change/icons/yello-check.svg"
-                                    alt=""><span>Enhanced stability and reliability</a></span></p>
-                            <p class="body-medium"><img class="pe-2" src="/assetss-change/icons/yello-check.svg"
-                                    alt=""><span>Increase Efficiency and cost savings</a></span></p>
-                            <p class="body-medium"><img class="pe-2" src="/assetss-change/icons/yello-check.svg"
-                                    alt=""><span>Security and compliance</a></span></p>
+                            <p class="body-medium " data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                                data-aos-delay="20" data-aos-duration="1800"><img class="pe-2"
+                                    src="/assetss-change/icons/yello-check.svg" alt=""><span>Faster time to
+                                    market</a></span></p>
+                            <p class="body-medium" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                                data-aos-delay="40" data-aos-duration="1800"><img class="pe-2"
+                                    src="/assetss-change/icons/yello-check.svg" alt=""><span>Enhanced stability and
+                                    reliability</a></span></p>
+                            <p class="body-medium" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                                data-aos-delay="60" data-aos-duration="1800"><img class="pe-2"
+                                    src="/assetss-change/icons/yello-check.svg" alt=""><span>Increase Efficiency and
+                                    cost savings</a></span></p>
+                            <p class="body-medium" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                                data-aos-delay="80" data-aos-duration="1800"><img class="pe-2"
+                                    src="/assetss-change/icons/yello-check.svg" alt=""><span>Security and
+                                    compliance</a></span></p>
                         </div>
-                        <button class="btn secondary-button button-text mt-3">Let's talk <span><img
-                                    src="/assetss-change/icons/white-arrow.svg" alt=""></span></button>
+                        <button class="btn secondary-button button-text mt-3" data-aos="fade-right"
+                            data-aos-offset="300" data-aos-easing="ease" data-aos-delay="20"
+                            data-aos-duration="1800">Let's talk <span><img src="/assetss-change/icons/white-arrow.svg"
+                                    alt=""></span></button>
                     </div>
                     <div class="col-lg-5 col-12 ms-lg-5 pt-5 pt-lg-0">
                         <img class="w-100" src="/updated-assets/images/unlock-a-world.png" alt="">
@@ -411,13 +476,15 @@
 
 
         <!-- Faq section start -->
-        <section class="container-fluid py-1 py-lg-5 stars-bg">
+        <section class="container-fluid py-1 py-lg-5 ps-lg-5 ms-lg-5 stars-bg">
             <div class="container pt-5">
                 <div class="row">
-                    <div class="d-flex flex-wrap justify-content-around">
+                    <div class="d-flex flex-wrap justify-content-evenly">
                         <div class="col-12 col-lg-4 col-md-6 pt-md-5 pt-lg-0 ">
-                            <p class="label-large Primary">FAQ</p>
-                            <h2 class="display-medium mt-3">Frequently Asked
+                            <p class="label-large Primary" data-aos="fade-right" data-aos-offset="300"
+                                data-aos-easing="ease" data-aos-delay="20" data-aos-duration="1800">FAQ</p>
+                            <h2 class="display-medium mt-3" data-aos="fade-right" data-aos-offset="300"
+                                data-aos-easing="ease" data-aos-delay="20" data-aos-duration="1900">Frequently Asked
                                 Questions
                             </h2>
                             <p class="body-small Opacity pt-lg-3">A digital agency is a business you hire to outsource
@@ -427,9 +494,11 @@
                             </button>
                         </div>
                         <!-- accordion start -->
-                        <div class="col-12 col-lg-5 col-md-6 ms-0 ms-lg-5 pt-5 pt-md-0 mb-5 mb-lg-0">
-                            <div class="accordion accordion-dark accordion-flush" id="accordionExample">
-                                <div class="accordion-item border border-0 rounded-3">
+                        <div class="col-12 col-lg-5 col-md-6 ms-0 ms-lg-5 pt-5 pt-md-0 mb-5 mb-lg-0"
+                            data-aos="fade-down" data-aos-offset="300" data-aos-easing="ease" data-aos-delay="20"
+                            data-aos-duration="1800">
+                            <div class="accordion accordion-dark accordion-flush " id="accordionExample">
+                                <div class="accordion-item border border-0">
                                     <h2 class="accordion-header border border-0" id="headingOne">
                                         <button
                                             class="accordion-button collapsed border border-0 accordionHeading heading-small black rounded-3"
@@ -466,7 +535,7 @@
                                     <div id="collapseTwo" class="accordion-collapse collapse"
                                         aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div class="accordion-body bg-darkkk">
-                                            <p class="body-small text-white">Digital
+                                            <p class="body-small">Digital
                                                 marketing
                                                 efforts, instead of handling in-house.
                                                 They can provide your business with a variety of digital
@@ -476,21 +545,19 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="accordion-item border border-0 rounded-3">
-                                    <h2 class="accordion-header rounded-3 bg-darkkk" id="headingThree">
+                                    <h2 class="accordion-header" id="headingThree">
                                         <button
-                                            class="accordion-button collapsed border border-0 accordionHeading heading-small bg-darkkk rounded-3"
-                                            style="border: 0px !important;" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
+                                            class="accordion-button accordionBtnBg border border-0 accordionHeading accordionBg heading-small bg-darkkk rounded-3"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
                                             Marketing efforts
                                         </button>
                                     </h2>
                                     <div id="collapseThree" class="accordion-collapse collapse"
                                         aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div class="accordion-body bg-darkkk">
-                                            <p class="body-small text-white">Digital
+                                            <p class="body-small">Digital
                                                 marketing
                                                 efforts, instead of handling in-house.
                                                 They can provide your business with a variety of digital
@@ -501,7 +568,7 @@
                                     </div>
                                 </div>
 
-                                <div class="accordion-item border border-0 rounded-0">
+                                <div class="accordion-item border border-0">
                                     <h2 class="accordion-header" id="headingFour">
                                         <button
                                             class="accordion-button accordionBtnBg border border-0 accordionHeading accordionBg shadow shadow-lg heading-small bg-darkkk"
@@ -513,7 +580,7 @@
                                     <div id="collapseFour" class="accordion-collapse collapse"
                                         aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                         <div class="accordion-body bg-darkkk">
-                                            <p class="body-small text-white">Digital
+                                            <p class="body-small">Digital
                                                 marketing
                                                 efforts, instead of handling in-house.
                                                 They can provide your business with a variety of digital
@@ -535,28 +602,34 @@
         <!-- closing section start -->
         <section class="container-fluid mb-5">
             <div class="container pt-sm-0 pt-md-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-9 col-md-11 yellow-section p-5">
+                <div class="row justify-content-center" data-aos="fade-down" data-aos-offset="300"
+                    data-aos-easing="ease" data-aos-delay="20" data-aos-duration="1800">
+                    <div class="col-lg-9 col-md-11 yellow-section p-5 cta-bg">
                         <div class="justify-content-center d-flex">
-                            <h1 class="display-large text-dark thisIs">Don't be shy, say hi! </h1>
+                            <h1 class="display-large text-dark thisIs" data-aos="fade-up" data-aos-offset="300"
+                                data-aos-easing="ease" data-aos-delay="20" data-aos-duration="1900">Don’t be shy, say
+                                hi! </h1>
                         </div>
                         <div class="justify-content-center d-flex pt-0 pt-md-3">
-                            <p class="body-medium text-dark">Nowadays, it isn't uncommon to see lenders rapidly
+                            <p class="body-medium text-dark" data-aos="fade-up" data-aos-offset="300"
+                                data-aos-easing="ease" data-aos-delay="20" data-aos-duration="2000">Nowadays, it isn't
+                                uncommon to see lenders rapidly
                                 adopting a
                                 digital lending strategy to <span class="justify-content-lg-center d-lg-flex">
                                     streamline
                                     the
                                     lending process nowadays, it isn't uncommon to see lenders rapidly</span> </p>
                         </div>
-                        <div class="justify-content-center d-flex border-3 border-bottom border-dark pb-5">
+                        <div class="justify-content-center d-flex border-3 border-bottom border-dark pt-3 pb-5">
                             <button class="btn btn-lg primary-button button-text">Schedule
+
                                 a Meeting</button>
                         </div>
                         <div class=" overflow-scroll center example pt-4 d-flex">
-                           <img class="me-5" src="/updated-assets/images/cambay logo-1x.svg" alt="">
-                           <img class="me-5" src="/updated-assets/images/whip-rides.svg" alt="">
-                           <img class="me-5" src="/updated-assets/images/dairy-trends.svg" alt="">
-                           <img class="me-5" src="/updated-assets/images/landwey.svg" alt="">
+                            <img class="me-5" src="/updated-assets/images/cambay logo-1x.svg" alt="">
+                            <img class="me-5" src="/updated-assets/images/whip-rides.svg" alt="">
+                            <img class="me-5" src="/updated-assets/images/dairy-trends.svg" alt="">
+                            <img class="me-5" src="/updated-assets/images/landwey.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -627,6 +700,11 @@
     </div>
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 
 </body>
