@@ -363,6 +363,7 @@ i {
   position: absolute;
   right: 43%;
   top: 1%;
+  z-index: -1 !important;
 }
 
 /* about us page ends */
