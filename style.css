@@ -1162,6 +1162,18 @@ i {
   display: none;
 }
 
+@media (min-width: 820px) and (max-width: 1180px) {
+  .service-links {
+    position: absolute;
+    font-size: 1.6rem;
+    padding: 0px;
+    /* right: 10%; */
+    top: -90%;
+    display: none;
+    right: -10%;
+  }
+}
+
 
 .services:hover .service-links {
   display: block !important;
@@ -1373,3 +1385,36 @@ html {
   }
 }
 /* Phani styles end */
+
+
+/* nav bar */
+.dropdown-1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+width: max-content;
+font-size: 1.6rem;
+  z-index: 100;
+  line-height: 2em;
+}
+
+.dropdown-1:hover .dropdown-content {
+  display: block;
+}
+
+.have-an-idea{
+  position: absolute;
+  right: 0;
+}
+
+@media (min-width: 820px) and (max-width: 1180px) {
+  .have-an-idea{
+    position: absolute;
+    left: 0;
+  }
+}
