@@ -1,5 +1,6 @@
 body {
-  background-image: url(/updated-assets/images/body-bg.jpg);
+  background: url(/updated-assets/images/body-bg.png);
+  background-position: center;
   background-color: #222529 !important;
   margin: 0;
   padding: 0;
