@@ -1418,3 +1418,8 @@ font-size: 1.6rem;
     left: 0;
   }
 }
+
+.logo-et{
+  width: 70%;
+  height: max-content;
+}
