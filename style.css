@@ -2,6 +2,7 @@ body {
   background: url(/updated-assets/images/body-bg.png);
   background-position: center;
   background-color: #222529 !important;
+  /* background-repeat: repeat-y; */
   margin: 0;
   padding: 0;
   overflow-x: hidden !important;
