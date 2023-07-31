@@ -242,6 +242,9 @@ i {
     font-size: 12px;
   }
 }
+.tell-us:hover{
+  color: #000000;
+}
 
 .caard-1 {
   /* height: 300px; */
@@ -1376,7 +1379,7 @@ font-size: 1.6rem;
   background: #F9D423;
   border-radius: 30px;
   color: #121212;
-  padding: 10px 20px;
+  padding: 12px 30px;
  
 }
 .anti-1:hover{
