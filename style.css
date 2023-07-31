@@ -386,6 +386,10 @@ i {
   background-color: #437ef7;
 }
 
+.contact-button{
+  width: 100%;
+}
+
 /* services page start */
 .arrow-1:hover .arrow {
   visibility: visible !important;
