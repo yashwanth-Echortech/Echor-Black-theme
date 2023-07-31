@@ -1146,7 +1146,6 @@ i {
 .cross-out:hover:after {
   background: transparent;
   width: 100%;
-  transition: 0s;
 }
 
 
@@ -1157,11 +1156,12 @@ i {
   right: 10%;
   top: -90%;
   display: none;
+  transition: 3s ease-in-out !important;
 }
 
-@media (min-width: 820px) and (max-width: 1180px) {
+@media (min-width: 760px) and (max-width: 1180px) {
   .service-links {
-    position: absolute;
+    /* position: absolute; */
     font-size: 1.6rem;
     padding: 0px;
     /* right: 10%; */
@@ -1178,6 +1178,7 @@ i {
 
 .service-color {
   color: #000000;
+  transition: 3s;
 }
 
 .service-color:hover {
