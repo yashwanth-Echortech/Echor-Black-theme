@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Echor Tech</title>
     <meta name="description"
         content="Leading software agency focused on design and development. We develop complex websites, iOS/Android mobile applications and elaborate online business services.">
@@ -13,855 +13,577 @@
     <meta property="og:description"
         content="Leading software agency focused on design and development. We develop complex websites, iOS/Android mobile applications and elaborate online business services.">
     <meta name="theme-color" content="#ffffff">
+    <!-- external css -->
+    <link rel="stylesheet" href="/style.css">
     <!-- Bootstrap styles -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <!-- External styles -->
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
 
-        <!-- Animate css -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- font-2 -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Luckiest+Guy&display=swap"
+        rel="stylesheet">
 
-    <!-- Aos -->
+    <!-- open sans font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <!-- aos animations -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- animate css -->
-
-
-    <!-- Poppins & Gravitas One fonts -->
+    <!-- main font -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/5772434fc2.js" crossorigin="anonymous"></script>
 
-    <!-- Kursor stylesheet  -->
-    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+     <!-- google anlytics -->
+     <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-
+        gtag('config', 'G-BBVHYGL9BD');
+    </script>
 </head>
 
 <body>
-    <div class="body-wrap">
-
-        <!-- nav section start -->
-        <nav class="navbar navbar-expand-lg navbar-light px-sm-0 px-md-5  py-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/index.html"><img src="assets/echor logo.png" alt=""></a>
-                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class=" navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse nav justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item">
-                            <a class="nav-link text-white px-3 font-1" href="/work.html">Work</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white px-3 font-1" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Services</a>
-                            <ul class="dropdown-menu bg-black">
-                                <li><a class="dropdown-item  common-font" href="/services/app-development.html">app-development</a></li>
-                                <li><a class="dropdown-item  common-font" href="/services/web-development.html">website-development</a></li>
-                                <li><a class="dropdown-item  common-font" href="/services/app-website-design.html">App-website design</a></li>
-                                <li><a class="dropdown-item  common-font" href="/services/blockchain-development.html">Blockchain-development</a></li>
-                                <li><a class="dropdown-item  common-font" href="/services/devops.html">Devops</a></li>
-                            </ul>
-                          </li>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white px-3 font-1" href="/industries.html">Industries</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white px-3 font-1" href="/process.html">Process</a>
-                        </li>
-                        <li class="nav-item ps-3">
-                            <a class="nav-link text-white font-1 px-2 px-lg-0" href="/about.html">About</a>
-                        </li>
-                    </ul>
-                    </ul>
-                </div>
-                <button type="button"
-                    class="btn btn-lg btn-bggg text-white common-font d-none d-lg-block px-3 letsTalk"
-                    type="submit">Let's
-                    Talk</button>
+    <div class="body-wrap ">
+        <!-- nav bar starts  -->
+        <section class="container-fluid">
+            <div class="container px-0">
+                <nav class="navbar navbar-expand-lg navbar-dark py-3">
+                    <div class="container-fluid">
+                        <a class="navbar-brand logo-et" href="/index.html"><img  src="/assets/echor-logo.svg" alt=""></a>
+                        <div class="d-flex">
+                            <button type="button" class="btn d-none d-lg-block primary-button" data-aos="fade-down"
+                                data-aos-duration="700" data-aos-delay="50" type="submit"><a
+                                    class="text-decoration-none text-dark" href="/contact.html">Let's
+                                    talk</a>
+                            </button>
+                            <img class="ms-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"
+                                src="/assets/menu.svg" alt="">
+                        </div>
+                    </div>
+                </nav>
             </div>
-        </nav>
-        <!-- nav section end -->
+        </section>
+
+        <div class="offcanvas offcanvas-top" style="height: 100%;" tabindex="-1" id="offcanvasTop"
+            aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-body">
+                <div class="container">
+                    <div class="row mt-2  justify-content-between d-flex">
+                        <div class="col ">
+                            <img class="logo" src="/assetss-change/icons/echor-black-lgo.svg" alt="">
+                        </div>
+                        <div class="col d-flex justify-content-end" type="button" data-bs-dismiss="offcanvas"
+                            aria-label="Close">
+                            <img class="logo-x" src="/assets/nav-X-Button.png" alt="cross">
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <!-- content -->
+                        <div class="col-12 left-col content mt-4 position-relative">
+                            <ul class="p-0 m-0">
+                                <a class="black" href="/index.html">
+                                    <div class="d-flex routeName cross-out a">
+                                        <p style="z-index: 10 !important;" data-aos="fade-right" data-aos-offset="500"
+                                            data-aos-easing="ease-in-sine">H</p>
+                                        <p>o</p>
+                                        <p style="z-index: 10 !important;">m</p>
+                                        <p>e</p>
+                                    </div>
+                                </a>
+
+                                <a class="black" href="/work.html">
+                                    <div class="d-flex routeName cross-out b">
+                                        <p style="z-index: 10 !important;">W</p>
+                                        <p>o</p>
+                                        <p style="z-index: 10 !important;">r</p>
+                                        <p>k</p>
+                                    </div>
+                                </a>
+
+                                <div class="dropdown d-flex services d-none d-md-block">
+                                    <div class="d-flex routeName cross-out c">
+                                        <p style="z-index: 10 !important;">s</p>
+                                        <p>e</p>
+                                        <p style="z-index: 10 !important;">r</p>
+                                        <p>v</p>
+                                        <p style="z-index: 10 !important;">i</p>
+                                        <p>c</p>
+                                        <p style="z-index: 10 !important;">e</p>
+                                        <p>s</p>
+                                    </div>
+                                    <div class="service-links">
+                                        <p><a class="service-color"
+                                                href="/Services/web-design.html">web-design</a></p>
+                                        <p><a class="service-color"
+                                                href="/Services/web-development.html">App/web-development</a>
+                                        </p>
+                                        <p><a class="service-color"
+                                                href="/Services/devops.html">Devops</a></p>
+                                        <p><a class="service-color"
+                                                href="/Services/ar-vr.html">AR/VR</a></p>
+                                        <p><a class="service-color"
+                                                href="/Services/blockchain.html">Blockchain</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- mobile version services -->
+
+                                <div class="dropdown-1 d-block d-md-none">
+                                    <div class="d-flex routeName cross-out c">
+                                        <p style="z-index: 10 !important;">s</p>
+                                        <p>e</p>
+                                        <p style="z-index: 10 !important;">r</p>
+                                        <p>v</p>
+                                        <p style="z-index: 10 !important;">i</p>
+                                        <p>c</p>
+                                        <p style="z-index: 10 !important;">e</p>
+                                        <p>s</p>
+                                    </div>
+                                    <div class="service-links">
+                                        <p><a class="service-color"
+                                                href="/Services/web-design.html">web-design</a></p>
+                                        <p><a class="service-color"
+                                                href="/Services/web-development.html">App/web-development</a>
+                                        </p>
+                                        <p><a class="service-color"
+                                                href="/Services/devops.html">Devops</a></p>
+                                        <p><a class="service-color"
+                                                href="/Services/ar-vr.html">AR/VR</a></p>
+                                        <p><a class="service-color"
+                                                href="/Services/blockchain.html">Blockchain</a>
+                                        </p>
+                                    </div>
+                                  </div>
+
+                                  <!-- mobile version services end -->
+
+
+                                <a class="black" href="/industries.html">
+                                    <div class="d-flex routeName cross-out d">
+                                        <p style="z-index: 10 !important;">i</p>
+                                        <p>n</p>
+                                        <p style="z-index: 10 !important;">d</p>
+                                        <p>u</p>
+                                        <p style="z-index: 10 !important;">s</p>
+                                        <p>t</p>
+                                        <p style="z-index: 10 !important;">r</p>
+                                        <p>i</p>
+                                        <p style="z-index: 10 !important;">e</p>
+                                        <p>s</p>
+                                    </div>
+                                </a>
+
+                                <a class="black" href="/process.html">
+                                    <div class="d-flex routeName cross-out e">
+                                        <p style="z-index: 10 !important;">p</p>
+                                        <p>r</p>
+                                        <p style="z-index: 10 !important;">o</p>
+                                        <p>c</p>
+                                        <p style="z-index: 10 !important;">e</p>
+                                        <p>s</p>
+                                        <p style="z-index: 10 !important;">s</p>
+                                    </div>
+                                </a>
+
+                                <a class="black" href="/about.html">
+                                    <div class="d-flex routeName cross-out f">
+                                        <p style="z-index: 10 !important;">a</p>
+                                        <p>b</p>
+                                        <p style="z-index: 10 !important;">o</p>
+                                        <p>u</p>
+                                        <p style="z-index: 10 !important;">t</p>
+                                    </div>
+                                </a>
+                            </ul>
+                        </div>
+
+                        <div class="col right-col mt-4 position-relative">
+
+                            <div class="have-an-idea">
+                                <p>Have an Idea?</p>
+                                <div class="">
+                                    <a href="/contact.html"><button class="tell-us-abt button-text">Tell Us About
+                                       it.</button></a>
+                                   </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- nav bar end -->
 
         <!-- main section start -->
-        <section class="container-fluid">
-            <div class="container text-center pt-5 mt-lg-4 mt-xl-5">
-                <div class="position-relative mx-auto my-3" data-aos="fade-up" data-aos-duration="1500"
-                    style="max-width: 850px;">
-                    <h1 class="display-3 fw-semibold position-relative mb-0 common-font">Website Development</h1>
-                    <div class="text-warning position-absolute top-0 start-50 translate-middle-x w-100 mt-md-3">
-                        <svg class="w-100" width="608" height="66" viewBox="0 0 608 66" fill="currentColor"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path opacity=".35"
-                                d="M45.66 63.0651C48.1682 62.8708 50.692 62.5736 53.2046 62.482C55.5493 62.3949 57.8918 62.3033 60.232 62.2161C73.0671 61.7358 85.8977 61.1192 98.7394 60.9293C112.169 60.7304 125.603 60.402 139.035 60.3663C152.743 60.3328 166.446 60.2747 180.152 60.3417C206.867 60.4757 231.522 59.2366 258.233 59.3013C290.201 57.8797 306.797 56.9045 334.904 55.6546C348.07 55.5876 361.243 55.2681 374.408 55.0111C387.336 54.7632 399.538 53.6311 412.46 53.1396C415.299 53.0323 418.137 52.8201 420.972 52.6548C423.774 52.4894 426.583 52.3576 429.383 52.1432C436.572 51.5913 444.461 51.7091 451.639 51.0545C464.138 49.9061 476.595 48.378 489.11 47.4218C502.221 46.4209 515.361 45.8534 528.486 45.0379C534.408 44.6715 540.366 44.2135 546.249 43.4048C552.974 42.4865 559.639 41.3762 566.288 39.991C572.715 38.6505 579.137 37.2743 585.567 35.9584C588.655 35.3261 591.757 34.7497 594.873 34.2984C598.4 33.7868 601.894 33.2618 605.377 32.5044C607.052 32.138 607.381 29.8927 607.381 28.4494C607.388 27.6273 607.258 26.8297 606.995 26.0567C606.749 25.4065 606.232 24.3676 605.377 24.3967C599.094 24.6089 592.816 24.8234 586.535 25.1205C580.2 25.4177 573.853 25.6009 567.51 25.6903C555.192 25.8578 542.852 25.4311 530.548 24.9172C532.645 24.6335 534.742 24.3498 536.839 24.0638C544.371 23.0361 551.882 21.7448 559.453 21.0522C563.482 20.6813 567.524 20.373 571.541 19.8971C573.579 19.6581 575.599 19.381 577.614 18.9744C579.777 18.5365 581.91 17.9378 584.036 17.339C584.719 17.2653 585.234 16.9212 585.587 16.3158C586.213 15.4489 586.5 14.2872 586.608 13.1746C588.761 12.511 589.194 9.31622 589.194 7.39709C589.207 6.20853 589.022 5.05348 588.635 3.93417C588.261 2.94892 587.55 1.55034 586.297 1.53694C579.758 1.46321 573.23 1.01862 566.691 0.938188C565.93 0.931485 565.163 0.927017 564.397 0.927017C558.77 0.927017 553.155 1.17501 547.535 1.47885C535.016 2.1558 522.495 2.96679 509.989 3.87832C504.175 4.29834 498.369 4.79655 492.551 5.15178C485.435 5.58297 478.335 5.91139 471.212 6.19066C459.296 6.65536 447.361 6.83632 435.438 7.05527C421.763 7.3122 408.106 7.67189 394.447 8.31756C381.795 8.91631 369.155 9.7139 356.512 10.4757C343.816 11.2354 331.122 11.9905 318.427 12.7613C305.415 13.5499 292.394 14.1353 279.373 14.7206C272.783 15.02 266.185 15.1071 259.593 15.297C253.354 15.4758 247.107 15.5227 240.864 15.6143C228.574 15.7952 216.287 15.9069 203.998 16.0343C179.21 16.2867 154.428 16.6934 129.642 17.1067C116.025 17.3346 102.412 17.587 88.7943 17.8439C81.8486 17.9758 74.9007 18.2506 67.9594 18.4539C62.0236 18.6259 56.0901 19.0303 50.1565 19.3364C43.8406 19.6625 37.5247 20.0222 31.2089 20.3886C27.4542 20.6076 23.6952 20.8332 19.9362 21.0522C18.3053 21.1505 16.67 21.2443 15.0346 21.3426C13.5474 21.4297 12.0579 21.5415 10.5729 21.6554C9.51432 21.7358 8.47346 21.89 7.42818 22.0687C6.26798 22.2631 5.11442 22.7859 4.00063 23.1657C3.33545 23.7019 2.87138 24.381 2.61503 25.2099C2.24156 26.3002 2.05814 27.4217 2.0714 28.5768C2.05814 29.7341 2.24156 30.8556 2.61503 31.9459C2.81834 32.3569 3.02165 32.768 3.22496 33.1769C3.60506 33.8292 4.15974 34.1979 4.88901 34.2783C6.1818 34.6492 7.4547 35.0156 8.78063 35.2367C9.50548 35.1563 10.0602 34.7922 10.4381 34.142C10.5817 33.9432 10.7077 33.7309 10.8182 33.5075C11.5121 33.4896 12.2082 33.4919 12.9043 33.4919C13.5695 33.4919 14.2369 33.4874 14.9043 33.4718C16.407 33.4383 17.9053 33.4003 19.4058 33.3645C23.2709 33.2729 27.136 33.1791 31.0011 33.0875C35.1889 32.987 39.3766 32.911 43.5622 32.8373C43.129 32.8753 42.6981 32.9132 42.265 32.9467C32.3735 33.7242 22.4886 34.5062 12.606 35.3931C11.0038 35.5741 9.79056 36.3784 8.95301 37.806C7.71768 39.5129 7.04366 41.7135 6.70996 43.9231C4.97299 43.9075 3.2338 43.8873 1.49682 43.8739C0.28359 43.865 0.0449219 46.0031 0.0449219 46.8252C0.0449219 47.6608 0.28359 49.7564 1.50345 49.7698C3.1675 49.7855 4.83376 49.8145 6.49781 49.8369C6.64146 51.6934 7.01272 53.5098 7.62265 55.2882C8.06905 56.1908 8.51545 57.0934 8.96184 57.9937C9.79719 59.4213 15.9944 65.1786 17.5966 65.3596C26.9466 64.5218 36.3011 63.789 45.66 63.0651Z">
-                            </path>
-                        </svg>
-                    </div>
-                </div>
-                <p class="fs-lg pb-3 mb-2 mb-sm-3 mb-lg-4 mx-auto lead common-font" data-aos="fade-up" data-aos-duration="1500"
-                    style="max-width: 640px;">Building beautiful websites, one pixel at a time.</p>
-                <div class="ec-featured-more aos-init aos-animate" data-aos="fade-up" data-aos-duration="2500"><a
-                        class="ec-btn ec-btn_more" href="/contact.html" data-magnetic=""><span
-                            class="ec-btn_more-title"><span data-text="Let's talk">Let's
-                                talk</span></span><span class="ec-btn_more-ripple shadow"><span></span></span></a>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-sm-8">
-                        <img src="/assets/images/website-under-construction.gif" class="w-100 rounded pt-5" alt="" data-aos="zoom-up"
-                    data-aos-duration="1500">
-
-                    </div>
-
-                </div>
-                
-            </div>
-        </section>
-        <!-- main section end -->
-
-        <!-- Our services section start -->
-        <section class="container py-5 my-lg-4 my-xl-5">
-            <h2 class="h1 text-center pb-3 pb-lg-4 common-font">Our services</h2>
-            <p class="fs-lg lead text-center mb-4 mb-xl-5 common-font">Our team of experienced developers
-                specializes in building custom websites that are tailored to your business needs and goals. From design
-                and development, to testing and maintenance, we offer a full range of services.</p>
-
-            <div class="row gap-4 gap-sm-0 justify-content-start">
-                <!-- Item-->
-                <div class="col-sm-4" data-aos="zoom-in" data-aos-duration="1500">
-                    <a class="card bg-black border h-100 text-center text-decoration-none py-5" href="#">
-                        <div class="card-body">
-                            <h3 class="common-font">Website Development</h3>
-                            <p class="card-text">Leverage our professional website development services to bring a new
-                                look and feel to your web presence. Get more traffic and leads with our UI/UX audit,
-                                enhanced security, and website performance.</p>
-                        </div>
-                        <div class="border-0 mb-3">
-                            <div
-                                class="d-inline-flex align-items-center btn btn-icon btn-outline-primary rounded-circle stretched-link">
-                                <i class="fa-solid fa-arrow-right fs-4"></i>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Item-->
-                <div class="col-sm-4" data-aos="zoom-in" data-aos-duration="1500">
-                    <a class="card bg-black border h-100 text-center text-decoration-none py-5" href="#">
-                        <div class="card-body">
-                            <h3 class="common-font">React JS Development</h3>
-                            <p class="card-text">Leverage our React software development services to build a project
-                                from start to go. Share your project requirements for the perfect mix of talent and
-                                expertise.</p>
-                        </div>
-                        <div class="border-0 mb-3">
-                            <div
-                                class="d-inline-flex align-items-center btn btn-icon btn-outline-primary rounded-circle stretched-link">
-                                <i class="fa-solid fa-arrow-right fs-4"></i>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Item-->
-                <div class="col-sm-4" data-aos="zoom-in" data-aos-duration="1500">
-                    <a class="card bg-black border h-100 text-center text-decoration-none py-5" href="#">
-                        <div class="card-body">
-                            <h3 class="common-font">Node JS Development</h3>
-                            <p class="card-text">Our
-                                expert Node.js developers ensure that businesses meet their goals by leveraging unique
-                                and fast applications and back-end API services.</p>
-                        </div>
-                        <div class="border-0 mb-3">
-                            <div
-                                class="d-inline-flex align-items-center btn btn-icon btn-outline-primary rounded-circle stretched-link">
-                                <i class="fa-solid fa-arrow-right fs-4"></i>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-        </section>
-        <!-- Our services section end -->
-
-        <!-- Website development section start -->
-        <div class="container">
-            <div class="banner-start">
-                <div class="row align-items-md-center">
-                    <div class="col-md-6" data-aos="fade-left" data-aos-duration="1500">
-                        <div class="p-5 p-md-7">
-                            <!-- Heading -->
-                            <div class="mb-7">
-                                <span class="text-cap common-font">HTML/CSS/Bootstrap</span>
-                                <h3 class="common-font">Website Development</h3>
-                                <p class="common-font">Switch To an Easy To Develop Static Website Design</p>
-                            </div>
-                            <!-- End Heading -->
-
-                            <div class="d-grid gap-3">
-                                <!-- Info Block -->
-                                <div class="d-flex">
-                                    <div class="flex-shrink-0">
-                                        <span class="svg-icon svg-icon-sm text-primary">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M12 17C16.4183 17 20 13.4183 20 9C20 4.58172 16.4183 1 12 1C7.58172 1 4 4.58172 4 9C4 13.4183 7.58172 17 12 17Z"
-                                                    fill="#035A4B"></path>
-                                                <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M6.53819 9L10.568 19.3624L11.976 18.8149L13.3745 19.3674L17.4703 9H6.53819ZM9.46188 11H14.5298L11.9759 17.4645L9.46188 11Z"
-                                                    fill="#035A4B"></path>
-                                                <path opacity="0.3"
-                                                    d="M10 22H14V22C14 23.1046 13.1046 24 12 24V24C10.8954 24 10 23.1046 10 22V22Z"
-                                                    fill="#035A4B"></path>
-                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M8 17C8 16.4477 8.44772 16 9 16H15C15.5523 16 16 16.4477 16 17C16 17.5523 15.5523 18 15 18C15.5523 18 16 18.4477 16 19C16 19.5523 15.5523 20 15 20C15.5523 20 16 20.4477 16 21C16 21.5523 15.5523 22 15 22H9C8.44772 22 8 21.5523 8 21C8 20.4477 8.44772 20 9 20C8.44772 20 8 19.5523 8 19C8 18.4477 8.44772 18 9 18C8.44772 18 8 17.5523 8 17Z"
-                                                    fill="#035A4B"></path>
-                                            </svg>
-
-                                        </span>
-                                    </div>
-
-                                    <div class="flex-grow-1 ms-4">
-                                        <h5 class="text-primary">
-                                            <p>Scalable in Nature<i class="bi-chevron-right small ms-1 small"></i></p>
-                                        </h5>
-                                        <p class=" common-font">Dealing with enormous traffic on a dynamic website is
-                                            difficult due to its complex coding system. A static website with HTML
-                                            coding can be scaled up by simply expanding the transfer speed.
-                                        </p>
-                                    </div>
-                                </div>
-                                <h1></h1> <!-- End Info Block -->
-
-                                <!-- Info Block -->
-                                <div class="d-flex">
-                                    <div class="flex-shrink-0">
-                                        <span class="svg-icon svg-icon-sm text-primary">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path opacity="0.3"
-                                                    d="M21 18.3V4H20H5C4.4 4 4 4.4 4 5V20C10.9 20 16.7 15.6 19 9.5V18.3C18.4 18.6 18 19.3 18 20C18 21.1 18.9 22 20 22C21.1 22 22 21.1 22 20C22 19.3 21.6 18.6 21 18.3Z"
-                                                    fill="#035A4B"></path>
-                                                <path
-                                                    d="M22 4C22 2.9 21.1 2 20 2C18.9 2 18 2.9 18 4C18 4.7 18.4 5.29995 18.9 5.69995C18.1 12.6 12.6 18.2 5.70001 18.9C5.30001 18.4 4.7 18 4 18C2.9 18 2 18.9 2 20C2 21.1 2.9 22 4 22C4.8 22 5.39999 21.6 5.79999 20.9C13.8 20.1 20.1 13.7 20.9 5.80005C21.6 5.40005 22 4.8 22 4Z"
-                                                    fill="#035A4B"></path>
-                                            </svg>
-
-                                        </span>
-                                    </div>
-
-                                    <div class="flex-grow-1 ms-4">
-                                        <h5 class="text-primary">
-                                            <p>Affordable to Host<i class="bi-chevron-right small ms-1 small"></i></p>
-                                        </h5>
-                                        <p class="common-font">Static websites have fundamental HTML documents which
-                                            require less space. This makes making the hosting process of these websites
-                                            less expensive to that of dynamic websites.</p>
-                                    </div>
-                                </div>
-                                <!-- End Info Block -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Col -->
-
-                    <div class="col-md-6 content-space-md-1">
-                        <div class="w-85 w-md-100 mx-auto me-md-auto">
-                            <img class="img-fluid w-100" src="/assetss-change/images/web-design-concept-3d-rendering.jpg"
-                                alt="Image Description">
-                        </div>
-                    </div>
-                    <!-- End Col -->
-                </div>
-                <!-- End Row -->
-            </div>
-        </div>
-        <!-- Website development section end -->
-
-        <!-- react js development section start -->
-        <div class="container my-5">
-            <div class="banner-start">
-                <div class="row align-items-md-center">
-                    <div class="col-md-6" data-aos="fade-left" data-aos-duration="1500">
-                        <div class="p-5 p-md-7">
-                            <!-- Heading -->
-                            <div class="mb-7">
-                                <span class="common-font">React JS/Bootstrap</span>
-                                <h3 class="common-font">React JS Development</h3>
-                                <p class="common-font">Our React.js developers build robust web applications, portals, and websites with
-                                    rich functionality and impeccable performance.</p>
-                            </div>
-                            <!-- End Heading -->
-
-                            <div class="d-grid gap-3">
-                                <!-- Info Block -->
-                                <div class="d-flex">
-                                    <div class="flex-shrink-0">
-                                        <span class="svg-icon svg-icon-sm text-primary">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M12 17C16.4183 17 20 13.4183 20 9C20 4.58172 16.4183 1 12 1C7.58172 1 4 4.58172 4 9C4 13.4183 7.58172 17 12 17Z"
-                                                    fill="#035A4B"></path>
-                                                <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M6.53819 9L10.568 19.3624L11.976 18.8149L13.3745 19.3674L17.4703 9H6.53819ZM9.46188 11H14.5298L11.9759 17.4645L9.46188 11Z"
-                                                    fill="#035A4B"></path>
-                                                <path opacity="0.3"
-                                                    d="M10 22H14V22C14 23.1046 13.1046 24 12 24V24C10.8954 24 10 23.1046 10 22V22Z"
-                                                    fill="#035A4B"></path>
-                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M8 17C8 16.4477 8.44772 16 9 16H15C15.5523 16 16 16.4477 16 17C16 17.5523 15.5523 18 15 18C15.5523 18 16 18.4477 16 19C16 19.5523 15.5523 20 15 20C15.5523 20 16 20.4477 16 21C16 21.5523 15.5523 22 15 22H9C8.44772 22 8 21.5523 8 21C8 20.4477 8.44772 20 9 20C8.44772 20 8 19.5523 8 19C8 18.4477 8.44772 18 9 18C8.44772 18 8 17.5523 8 17Z"
-                                                    fill="#035A4B"></path>
-                                            </svg>
-
-                                        </span>
-                                    </div>
-
-                                    <div class="flex-grow-1 ms-4">
-                                        <h5 class="common-font">
-                                            <p class="text-primary">High performance<i class="bi-chevron-right small ms-1 small"></i></p>
-                                        </h5>
-                                        <p class="common-font">React.js uses a virtual DOM (Document Object Model) that
-                                            helps increase the performance of the app by minimizing the amount of DOM
-                                            manipulation required for updates. This results in a more responsive and
-                                            smoother user experience for the end-users.
-                                        </p>
-                                    </div>
-                                </div>
-                                <h1></h1> <!-- End Info Block -->
-
-                                <!-- Info Block -->
-                                <div class="d-flex">
-                                    <div class="flex-shrink-0">
-                                        <span class="svg-icon svg-icon-sm text-primary">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path opacity="0.3"
-                                                    d="M21 18.3V4H20H5C4.4 4 4 4.4 4 5V20C10.9 20 16.7 15.6 19 9.5V18.3C18.4 18.6 18 19.3 18 20C18 21.1 18.9 22 20 22C21.1 22 22 21.1 22 20C22 19.3 21.6 18.6 21 18.3Z"
-                                                    fill="#035A4B"></path>
-                                                <path
-                                                    d="M22 4C22 2.9 21.1 2 20 2C18.9 2 18 2.9 18 4C18 4.7 18.4 5.29995 18.9 5.69995C18.1 12.6 12.6 18.2 5.70001 18.9C5.30001 18.4 4.7 18 4 18C2.9 18 2 18.9 2 20C2 21.1 2.9 22 4 22C4.8 22 5.39999 21.6 5.79999 20.9C13.8 20.1 20.1 13.7 20.9 5.80005C21.6 5.40005 22 4.8 22 4Z"
-                                                    fill="#035A4B"></path>
-                                            </svg>
-
-                                        </span>
-                                    </div>
-
-                                    <div class="flex-grow-1 ms-4">
-                                        <h5 class="text-primary">
-                                            <p>Code Quality<i class="bi-chevron-right small ms-1 small"></i></p>
-                                        </h5>
-                                        <p class="common-font">Our coders guarantee that your mobile or web application
-                                            code is clean, bug-free, and well-documented, following the industry and our
-                                            React development company standards.</p>
-                                    </div>
-                                </div>
-                                <!-- End Info Block -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Col -->
-
-                    <div class="col-md-6 content-space-md-1">
-                        <div class="w-85 w-md-100 mx-auto me-md-auto">
-                            <img class="img-fluid w-100" src="/assetss-change/images/laptop_mockup.jpg"
-                                alt="Image Description">
-                        </div>
-                    </div>
-                    <!-- End Col -->
-                </div>
-                <!-- End Row -->
-            </div>
-        </div>
-        <!-- react js  development section end -->
-
-        <!-- Node JS development section start -->
-        <div class="container">
-            <div class="banner-start">
-                <div class="row align-items-md-center">
-                    <div class="col-md-6" data-aos="fade-left" data-aos-duration="1500">
-                        <div class="p-5 p-md-7">
-                            <!-- Heading -->
-                            <div class="mb-7">
-                                <span class="text-cap common-font">Node JS</span>
-                                <h3 class="common-font">Node JS Development</h3>
-                                <p class="common-font">Our Node.js developers are equipped with and well-versed in all the latest
-                                    technologies and have partnered with our clients to deliver world-class
-                                    applications.</p>
-                            </div>
-                            <!-- End Heading -->
-
-                            <div class="d-grid gap-3">
-                                <!-- Info Block -->
-                                <div class="d-flex">
-                                    <div class="flex-shrink-0">
-                                        <span class="svg-icon svg-icon-sm text-primary">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M12 17C16.4183 17 20 13.4183 20 9C20 4.58172 16.4183 1 12 1C7.58172 1 4 4.58172 4 9C4 13.4183 7.58172 17 12 17Z"
-                                                    fill="#035A4B"></path>
-                                                <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M6.53819 9L10.568 19.3624L11.976 18.8149L13.3745 19.3674L17.4703 9H6.53819ZM9.46188 11H14.5298L11.9759 17.4645L9.46188 11Z"
-                                                    fill="#035A4B"></path>
-                                                <path opacity="0.3"
-                                                    d="M10 22H14V22C14 23.1046 13.1046 24 12 24V24C10.8954 24 10 23.1046 10 22V22Z"
-                                                    fill="#035A4B"></path>
-                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M8 17C8 16.4477 8.44772 16 9 16H15C15.5523 16 16 16.4477 16 17C16 17.5523 15.5523 18 15 18C15.5523 18 16 18.4477 16 19C16 19.5523 15.5523 20 15 20C15.5523 20 16 20.4477 16 21C16 21.5523 15.5523 22 15 22H9C8.44772 22 8 21.5523 8 21C8 20.4477 8.44772 20 9 20C8.44772 20 8 19.5523 8 19C8 18.4477 8.44772 18 9 18C8.44772 18 8 17.5523 8 17Z"
-                                                    fill="#035A4B"></path>
-                                            </svg>
-
-                                        </span>
-                                    </div>
-
-                                    <div class="flex-grow-1 ms-4">
-                                        <h5 class="text-primary">
-                                            <p>Variety of solutions<i class="bi-chevron-right small ms-1 small"></i></p>
-                                        </h5>
-                                        <p class="common-font">Our Node.js developers are well versed in building complex
-                                            web-based applications, dynamic web applications, and enterprise-grade
-                                            solutions. Whatever the option, we make it real-time, function-rich, and
-                                            scalable.
-                                        </p>
-                                    </div>
-                                </div>
-                                <h1></h1> <!-- End Info Block -->
-
-                                <!-- Info Block -->
-                                <div class="d-flex">
-                                    <div class="flex-shrink-0">
-                                        <span class="svg-icon svg-icon-sm text-primary">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path opacity="0.3"
-                                                    d="M21 18.3V4H20H5C4.4 4 4 4.4 4 5V20C10.9 20 16.7 15.6 19 9.5V18.3C18.4 18.6 18 19.3 18 20C18 21.1 18.9 22 20 22C21.1 22 22 21.1 22 20C22 19.3 21.6 18.6 21 18.3Z"
-                                                    fill="#035A4B"></path>
-                                                <path
-                                                    d="M22 4C22 2.9 21.1 2 20 2C18.9 2 18 2.9 18 4C18 4.7 18.4 5.29995 18.9 5.69995C18.1 12.6 12.6 18.2 5.70001 18.9C5.30001 18.4 4.7 18 4 18C2.9 18 2 18.9 2 20C2 21.1 2.9 22 4 22C4.8 22 5.39999 21.6 5.79999 20.9C13.8 20.1 20.1 13.7 20.9 5.80005C21.6 5.40005 22 4.8 22 4Z"
-                                                    fill="#035A4B"></path>
-                                            </svg>
-
-                                        </span>
-                                    </div>
-
-                                    <div class="flex-grow-1 ms-4">
-                                        <h5 class="text-primary">
-                                            <p>Industry experience<i class="bi-chevron-right small ms-1 small"></i></p>
-                                        </h5>
-                                        <p class="common-font">We combine our technical proficiency with industry-focused
-                                            experience. Our team of developers’ builder solutions aimed to solve unique
-                                            business challenges and eliminate inefficiencies.</p>
-                                    </div>
-                                </div>
-                                <!-- End Info Block -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Col -->
-
-                    <div class="col-md-6 content-space-md-1">
-                        <div class="w-85 w-md-100 mx-auto me-md-auto">
-                            <img class="img-fluid w-100" src="/assetss-change/images/responsive-devices-with-website-builder-home-blue-studio.jpg"
-                                alt="Image Description">
-                        </div>
-                    </div>
-                    <!-- End Col -->
-                </div>
-                <!-- End Row -->
-            </div>
-        </div>
-        <!-- Website development section end -->
-
-        <!-- why choose us section start -->
-        <section class="container pt-5 pb-2 mt-3 mt-sm-4 mt-xl-5">
-            <h2 class="h1 text-center pb-3 pb-lg-4 common-font">Echor — Why choose us?</h2>
-
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs flex-nowrap justify-content-lg-center overflow-auto pb-2 mb-3 mb-lg-4"
-                role="tablist">
-                <li class="nav-item">
-                    <button class="nav-link text-nowrap active" id="project-management-tab" data-bs-toggle="tab"
-                        data-bs-target="#project-management" type="button" role="tab" aria-controls="project-management"
-                        aria-selected="true" fdprocessedid="fjxk1t">
-                        <i class="bx bx-star fs-lg opacity-60 me-2"></i>
-                        Reason 1
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link text-nowrap" id="remote-work-tab" data-bs-toggle="tab"
-                        data-bs-target="#remote-work" type="button" role="tab" aria-controls="remote-work"
-                        aria-selected="false" fdprocessedid="u8hqyi" tabindex="-1">
-                        <i class="bx bx-briefcase-alt-2 fs-lg opacity-60 me-2"></i>
-                        Reason 2
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link text-nowrap" id="product-release-tab" data-bs-toggle="tab"
-                        data-bs-target="#product-release" type="button" role="tab" aria-controls="product-release"
-                        aria-selected="false" fdprocessedid="3br43i" tabindex="-1">
-                        <i class="bx bx-rocket fs-lg opacity-60 me-2"></i>
-                        Reason 3
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link text-nowrap" id="campaign-planning-tab" data-bs-toggle="tab"
-                        data-bs-target="#campaign-planning" type="button" role="tab" aria-controls="campaign-planning"
-                        aria-selected="false" fdprocessedid="rq4km5" tabindex="-1">
-                        <i class="bx bx-bar-chart-alt-2 fs-lg opacity-60 me-2"></i>
-                        Reason 4
-                    </button>
-                </li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content rounded py-4">
-
-                <!-- Project Management -->
-                <div class="tab-pane fade show active" id="project-management" role="tabpanel"
-                    aria-labelledby="project-management-tab">
-                    <div
-                        class="row align-items-center justify-content-evenly pt-3 pt-sm-4 pt-md-0 px-3 px-sm-4 px-lg-0">
-                        <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start" data-aos="zoom-in-down"
-                            data-aos-duration="1500">
-                            <h3 class="mb-lg-4 common-font">Providing 24/7 Support</h3>
-                            <p class="common-font">As one of the fastest growing Blockchain and DevOps company, we offer 24/7 end-to-end
-                                support to your infrastructures, workloads, and operations.</p>
-                        </div>
-                        <div class="col-lg-4 mt-md-4" data-aos="fade-left" data-aos-duration="2000">
-                            <img src="/assetss-change/images/reason-support.svg" class="d-block my-lg-2 mx-auto w-100 me-md-0"
-                                width="595" alt="Image">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Remote Work -->
-                <div class="tab-pane fade" id="remote-work" role="tabpanel" aria-labelledby="remote-work-tab">
-                    <div
-                        class="row align-items-center justify-content-evenly pt-3 pb-2 pb-sm-3 pt-sm-4 pt-md-0 px-3 px-sm-4 px-lg-0">
-                        <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
-                            <h3 class="mb-lg-4 common-font">Skilled designer's and developer's</h3>
-                            <p class="common-font">Our designer's and developer's have expertise and experience in all the state-of-the-art
-                                technologies,
-                                offering you excellence at every stage of your website transformation journey.</p>
-                        </div>
-                        <div class="col-lg-4 mt-md-4">
-                            <img src="/assetss-change/images/designer-developer.svg"
-                                class="d-block my-lg-2 mx-auto w-100 me-md-0" width="502" alt="Image">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product Release -->
-                <div class="tab-pane fade" id="product-release" role="tabpanel" aria-labelledby="product-release-tab">
-                    <div
-                        class="row align-items-center justify-content-evenly pt-3 pt-sm-4 pt-md-0 px-3 pe-sm-4 pe-md-0 ps-sm-4 ps-lg-0">
-                        <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
-                            <h3 class="mb-lg-4 common-font">On-time Delivery</h3>
-                            <p class="common-font">We set clear and realistic timelines with our clients and ensure that we have regular
-                                check-ins during the project to ensure that everything is on track and that our client's
-                                are updated on the progress.</p>
-                        </div>
-                        <div class="col-lg-4 mt-n3 mt-md-1">
-                            <img src="/assetss-change/images/on-time-delivery.svg" class="d-block mb-lg-2 mx-auto w-100 me-md-0"
-                                width="525" alt="Image">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Campaign Planning -->
-                <div class="tab-pane fade" id="campaign-planning" role="tabpanel"
-                    aria-labelledby="campaign-planning-tab">
-                    <div
-                        class="row align-items-center justify-content-evenly pt-3 pt-sm-4 pt-md-0 px-3 pe-sm-4 pe-md-0 ps-sm-4 ps-lg-0">
-                        <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
-                            <h3 class="mb-lg-4 common-font">100% Assurance</h3>
-                            <p class="common-font">We take a user-centered and data-driven approach to website and app design and
-                                development, and we use the latest technologies and techniques to ensure that the final
-                                product is not only visually pleasing and easy to use, but also performant, secure and
-                                scalable.</p>
-                        </div>
-                        <div class="col-lg-4 mt-n3 mt-md-1">
-                            <img src="/assetss-change/images/assurance.svg" class="d-block mb-lg-2 mx-auto me-md-0 w-100"
-                                width="545" alt="Image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- why choose us section end -->
-
-        <!-- faq section start -->
-        <section class="container-fluid bg-black py-2 py-md-4 py-lg-5">
+        <section class="container-fluid py-5">
             <div class="container">
-                <div class="card border-0 p-md-5 px-sm-2 pt-4 pb-3 bg-black">
-                    <div class="card-body mx-auto" style="max-width: 860px;">
-                        <h2 class="h1 mb-4 text-center common-font">FAQ's by our clients</h2>
-                        <p class="mb-4 pb-3 fs-lg text-center common-font">We fully understand your business. If you need
-                            to
-                            update something, we are more than happy to help you with the services we are providing.</p>
-
-                        <!-- Accordion: Alternative style -->
-                        <div class="accordion" id="accordion-services">
-
-                            <!-- Item -->
-                            <div class="accordion-item border-0 rounded-3 shadow-sm mb-3 bg-black">
-                                <h3 class="accordion-header" id="heading-1">
-                                    <button class="accordion-button fs-xl shadow-none rounded-3 bg-black common-font" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true"
-                                        aria-controls="collapse-1" fdprocessedid="67q8g7">How long does your website
-                                        redesign take?</button>
-                                </h3>
-                                <div class="accordion-collapse collapse show" id="collapse-1"
-                                    aria-labelledby="heading-1" data-bs-parent="#accordion-services">
-                                    <div class="accordion-body pt-0">
-                                        <div class="d-flex flex-md-row flex-column align-items-md-center">
-                                            <img src="/assets/images/faq-develop-1.png" width="200" alt=""
-                                                class="me-md-4 mb-md-0 mb-3">
-                                            <div class="ps-md-3">
-                                                <p class="mb-0 common-font">Depending on the size, complexity and, most critically,
-                                                    the client’s active involvement in the process, a website takes
-                                                    anywhere between six and 24 weeks to build and launch. Some
-                                                    incredibly large projects have broken the year mark. We have the
-                                                    team of developers and web designers, as well as the project
-                                                    management processes, in place to build and deliver the most
-                                                    friendly, accessible and speed-optimized websites available.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="row center flex-wrap flex-lg-nowrap">
+                    <div class="col-lg-6 col-12 me-lg-5">
+                        <p class="display-large" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="20" data-aos-duration="1800">App and Website Development</p>
+                        <p class="body-medium Opacity" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="50" data-aos-duration="1800">At our core, we embrace innovative technology to shape the future
+                            of businesses. With our app and website development services, we empower you to connect,
+                            engage, and thrive in the dynamic digital landscape.</p>
+                       <a href="/contact.html"> <button class="btn btn-lg primary-outine-button button-text mt-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="70" data-aos-duration="1800">let's Talk <span>
+                                <img style="width: 1rem;" src="/assetss-change/icons/Arrow yellow.svg" alt=""></span>
+                        </button></a>
+                        <div class="d-flex mt-5 flex-wrap flex-md-nowrap" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="20" data-aos-duration="1800">
+                            <div class="me-5 col-12 col-md-6">
+                                <img src="/updated-assets/icons/app-dev.png" alt="">
+                                <p class="heading-small pt-3">Application Development</p>
+                                <p class="body-medium Opacity pt-2">Our specialized team crafts top-notch,
+                                    user-friendly, and feature-rich mobile apps, tailored to your vision for iOS,
+                                    Android, or cross-platform experiences.</p>
                             </div>
-
-                            <!-- Item -->
-                            <div class="accordion-item border-0 rounded-3 shadow-sm mb-3 bg-black">
-                                <h3 class="accordion-header" id="heading-2">
-                                    <button class="accordion-button fs-xl shadow-none rounded-3 collapsed bg-black common-font" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true"
-                                        aria-controls="collapse-2" fdprocessedid="63u4j4">Can you handle ongoing
-                                        maintenance?</button>
-                                </h3>
-                                <div class="accordion-collapse collapse" id="collapse-2" aria-labelledby="heading-2"
-                                    data-bs-parent="#accordion-services">
-                                    <div class="accordion-body pt-0">
-                                        <div class="d-flex flex-md-row flex-column align-items-md-center">
-                                            <img src="/assets/images/faq-develop-2.png" width="200" alt=""
-                                                class="me-md-4 mb-md-0 mb-3">
-                                            <div class="ps-md-3">
-                                                <p class="mb-0 common-font">Yes! In fact, if we develop your website, we’d really
-                                                    love to handle maintenance. We’re going to be the party most
-                                                    intimately familiar with how your website works, and are going to be
-                                                    on top of upgrades and patches to keep the site in top shape.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Item -->
-                            <div class="accordion-item border-0 rounded-3 shadow-sm mb-3 bg-black">
-                                <h3 class="accordion-header" id="heading-3">
-                                    <button class="accordion-button fs-xl shadow-none rounded-3 collapsed common-font bg-black" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="true"
-                                        aria-controls="collapse-3" fdprocessedid="cbf2yj">Will my website be
-                                        mobile-friendly?</button>
-                                </h3>
-                                <div class="accordion-collapse collapse" id="collapse-3" aria-labelledby="heading-3"
-                                    data-bs-parent="#accordion-services">
-                                    <div class="accordion-body pt-0">
-                                        <div class="d-flex flex-md-row flex-column align-items-md-center">
-                                            <img src="/assets/images/faq-develop-3.png" width="200" alt=""
-                                                class="me-md-4 mb-md-0 mb-3">
-                                            <div class="ps-md-3">
-                                                <p class="mb-0 common-font">Let it be a ticket booking, online order, browsing, etc.
-                                                    people are keen to do these tasks on the go. So, developing a
-                                                    responsive website will help in increasing the look and feel of your
-                                                    website on both small and large devices. It also increases the
-                                                    number of visitors, rankings in search engines. Yes, we ensure to
-                                                    develop a responsive website that would make your visitors appealing
-                                                    and deliver an optimized browsing experience.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Item -->
-                            <div class="accordion-item border-0 rounded-3 shadow-sm mb-3 bg-black">
-                                <h3 class="accordion-header" id="heading-4">
-                                    <button class="accordion-button fs-xl shadow-none rounded-3 collapsed bg-black common-font" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="true"
-                                        aria-controls="collapse-4" fdprocessedid="yc3ley">How do you build my
-                                        website?</button>
-                                </h3>
-                                <div class="accordion-collapse collapse" id="collapse-4" aria-labelledby="heading-4"
-                                    data-bs-parent="#accordion-services">
-                                    <div class="accordion-body pt-0">
-                                        <div class="d-flex flex-md-row flex-column align-items-md-center">
-                                            <img src="/assets/images/faq-develop-4.png" width="200" alt=""
-                                                class="me-md-4 mb-md-0 mb-3">
-                                            <div class="ps-md-3">
-                                                <p class="mb-0 common-font">We build your website by understanding your
-                                                    requirements. We ensure to configure the best and suitable domain
-                                                    name, hosting providers, customized design and content. Furthermore,
-                                                    we build your website tailoring your needs, with SEO and speed
-                                                    optimization</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Item -->
-                            <div class="accordion-item border-0 rounded-3 shadow-sm mb-3 bg-black">
-                                <h3 class="accordion-header" id="heading-5">
-                                    <button class="accordion-button fs-xl shadow-none rounded-3 collapsed bg-black common-font" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="true"
-                                        aria-controls="collapse-5" fdprocessedid="zjbsaf">How much does a new website
-                                        cost?</button>
-                                </h3>
-                                <div class="accordion-collapse collapse" id="collapse-5" aria-labelledby="heading-5"
-                                    data-bs-parent="#accordion-services">
-                                    <div class="accordion-body pt-0">
-                                        <div class="d-flex flex-md-row flex-column align-items-md-center">
-                                            <img src="/assets/images/faq-develop-5.png" width="200" alt=""
-                                                class="me-md-4 mb-md-0 mb-3">
-                                            <div class="ps-md-3">
-                                                <p class="mb-0 common-font">At Echor Tech, we come up with the pricing after a
-                                                    separate analysis has been conducted on the projects and after
-                                                    brainstorming we work towards achieving the desired results.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="col-12 col-md-6">
+                                <img src="/updated-assets/icons/web-dev.png" alt="">
+                                <p class="heading-small pt-3">Website Development</p>
+                                <p class="body-medium Opacity pt-2">Our web development services empower businesses with
+                                    captivating, responsive websites, driving growth and online prominence.</p>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-lg-6 col-12 pt-5 pt-lg-0">
+                        <img class="w-100" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="20" data-aos-duration="1800" src="/updated-assets/images/app-web-dev-hero.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- main section ends -->
+
+        <!-- benefits section start -->
+        <section class="container-fluid">
+            <div class="container">
+                <div class="row justify-content-center pt-5">
+                    <div class="col-12">
+                        <p class="display-medium center" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="20" data-aos-duration="1800">Benefits Sections</p>
+                        <p class="body-medium"><span class="center" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="40" data-aos-duration="1800">We’ve been told it is possible to revolutionize the
+                                payment industry. We have not reinvented the wheel, we</span>
+                            <span class="d-flex justify-content-start justify-content-lg-center" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="40" data-aos-duration="1800">decided to build upon
+                                it,&nbsp;<span class="Primary"> Successfully.</span></span>
+                        </p>
+                        <div class="center pt-3" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="60" data-aos-duration="1800">
+                            <a href="/contact.html"><button class="btn primary-button button-text me-3">Let's Talk</button></a>
+                            <a href="/work.html"><button class="btn secondary-button button-text">our Work</button></a>
+                        </div>
+                    </div>
+                    <div class="col-6 center pt-5 pt-lg-0">
+                        <img class="w-100" data-aos="flip-right" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="20" data-aos-duration="1800" src="/updated-assets/images/app-dev-benefits.png" alt="">
                     </div>
                 </div>
 
             </div>
         </section>
-        <!-- faq section end -->
+        <!-- benefits section ends -->
 
-        <!-- footer section start -->
-        <footer>
-            <h1 class="mx-lg-5 mx-2 pt-5 haveAn ">Have an idea ?</h1>
-            <a class="btn btn-outline-light mx-lg-5 mx-2 px-4 pt-2 mb-4" href="" style="font-size: small;">TELL US ABOUT
-                IT</a>
-            <div class="row ps-lg-5 px-1 ms-lg-3" style="justify-content: space-between;">
-                <div class="col-6 col-lg-2 mt-5">
-                    <h5 class="common-font fw-semibold">NAVIGATION</h5><br>
-                    <p class="fw-light"><a href="">Home </a></p>
-                    <p><a href="">Services</a></p>
-                    <p><a href="">Industries </a></p>
-                    <p><a href="">Process</a></p>
-                    <p><a href="">About</a></p>
-                </div>
-                <div class="col-6 col-lg-3 mt-5">
-                    <h5 class="common-font fw-semibold">WHAT WE DO</h5><br>
-                    <p><a href="">Encouraging Testing</a></p>
-                    <p><a href="">Strengthening Advocacy</a></p>
-                    <p><a href="">Sharing Information</a></p>
-                    <p><a href="">Building Leadership</a></p>
-                    <p><a href="">Engaging With Global Fund</a></p>
-                    <p><a href="">Shining a Light</a></p>
-                </div>
-                <div class="col-6 col-lg-2 mt-5">
-                    <h5 class="common-font fw-semibold">LEGAL</h5><br>
-                    <p><a href="">General Info</a></p>
-                    <p><a href="">Privacy Policy</a></p>
-                    <p><a href="">Terms of Service</a></p>
-                </div>
-                <div class="col-6 col-lg-3 mt-5 ">
-                    <h5 class="common-font fw-semibold">ADDRESS</h5><br>
-                    <p class="lh-lg w-75 "><a href="">DSL Abacus IT park, 207,
-                            near dsl virtue mall,
-                            Survey Colony, Industrial
-                            Uppal, Hyderabad,
-                            Telangana 500039</a>
-                    </p>
-                </div>
-            </div>
-            <hr>
-            <div class="row justify-content-start d-flex" style="align-items: baseline;">
-                <div class="col-lg-2 mt-5">
-                    <img src="/assetss-change/assets/echor logo.png" width="150px" height="30px">
-                </div>
-                <div class="col-lg-7   justify-content-start justify-content-lg-center d-flex ps-lg-5 mt-4 mt-md-5">
-                    <p>© 2023 Echor Tech - A Unit Of Cygnus Digital Innovations. All Rights Reserved.</p>
-                </div>
-                <div class="col-lg-3 mt-3 mt-md-5 justify-content-start justify-content-lg-end d-flex mb-5 mb-md-0">
-                    <button class="btn btn-outline-light rounded-pill ms-lg-3 mx-2 "><a href=""><i
-                                class="fa-brands fa-facebook-f"></i><a></button>
-                    <button class="btn btn-outline-light rounded-pill mx-lg-2 mx-2"><a href=""><i
-                                class="fa-brands fa-linkedin-in"></i></a></button>
-                    <button class="btn btn-outline-light rounded-pill mx-lg-2 mx-2"><a href=""><i
-                                class="fa-brands fa-twitter"></a></i></button>
+        <!-- comprehensive approach start -->
+        <section class="container-fluid mt-5">
+            <div class="container mt-md-5 pt-lg-5">
+                <div class="row center flex flex-lg-nowrap">
+                    <div class="col-lg-5 col-12">
+                        <p class="display-small" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="20" data-aos-duration="2000">A comprehensive approach to app and website development</p>
+                        <p class="body-medium" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="40" data-aos-duration="2000">Our all-encompassing app and website development services drive success,
+                            engaging users and empowering businesses to flourish in the digital domain.</p>
+                        <div class="pt-3 ">
+                            <p class="body-medium " data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="20" data-aos-duration="1800"><img class="pe-2" src="/assetss-change/icons/yello-check.svg"
+                                    alt=""><span>Thorough Requirement Gathering</a></span></p>
+                            <p class="body-medium" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="30" data-aos-duration="1900"><img class="pe-2" src="/assetss-change/icons/yello-check.svg"
+                                    alt=""><span>Wire framing and user centric design</a></span></p>
+                            <p class="body-medium" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="40" data-aos-duration="2000"><img class="pe-2" src="/assetss-change/icons/yello-check.svg"
+                                    alt=""><span>Agile development</a></span></p>
+                            <p class="body-medium" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="50" data-aos-duration="2100"><img class="pe-2" src="/assetss-change/icons/yello-check.svg"
+                                    alt=""><span>Quality assurance and cross platform compatability</a></span></p>
+                            <p class="body-medium" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="60" data-aos-duration="2200"><img class="pe-2" src="/assetss-change/icons/yello-check.svg"
+                                    alt=""><span>Scalability and future readiness</a></span></p>
+                            <p class="body-medium" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease"
+                            data-aos-delay="70" data-aos-duration="2300"><img class="pe-2" src="/assetss-change/icons/yello-check.svg"
+                                    alt=""><span>Ongoing support</a></span></p>
+                        </div>
+                        <a href="/contact.html"><button class="btn secondary-button button-text mt-3">Let's talk <span><img
+                            src="/assetss-change/icons/white-arrow.svg" alt=""></span></button></a>
+                    </div>
+                    <div class="col-lg-5 col-12 ms-lg-5 pt-5 pt-lg-0">
+                        <img class="w-100" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease"
+                        data-aos-delay="20" data-aos-duration="3000" src="/updated-assets/images/comprehensive approach.png" alt="">
+                    </div>
                 </div>
             </div>
-        </footer>
-        <!-- footer section end -->
+        </section>
+        <!-- comprehensive approach ends -->
+
+        <!-- projects section start -->
+        <section class="container-fluid mt-5">
+            <div class="container py-5">
+                <div class="row center">
+                    <p class="display-medium">Our Work Portfolio</p>
+                    <div class="flex-wrap flex-md-nowrap d-flex pt-lg-5 center pt-4 pt-lg-0">
+                        <div class="col-lg-6 pe-0 pe-md-5">
+                            <!-- <div class=""> -->
+                                <img class="w-100" src="/updated-assets/images/whiprides-1.jpg" alt="">
+                                <div class="d-flex justify-content-between border-bottom pt-4">
+                                    <p><a class="text-decoration-none pt-3 heading-small text-white" href="">WhipRide Pvt
+                                            Ltd</a>
+                                    </p>
+                                    <p><a class="text-decoration-none pt-3 body-medium text-white" href="">Travel</a>
+                                    </p>
+                                </div>
+                                <!-- </div> -->
+                            </div>
+    
+                            <div class="col-lg-6 ps-0 ps-md-5" data-aos="zoom-in-up" data-aos-duration="1500">
+                                <!-- <div class=""> -->
+                                <img class="w-100" src="/updated-assets/images/landwey-1.jpg" alt="">
+                                <div class="d-flex justify-content-between border-bottom pt-4">
+                                    <p><a class="text-decoration-none pt-3 heading-small text-white" href="">Landwey</a>
+                                    </p>
+                                    <p><a class="text-decoration-none pt-3 body-medium text-white" href="">Real Estate</a>
+                                    </p>
+                                </div>
+                                <!-- </div> -->
+                            </div>
+                    </div>
+                    <div class="center pt-5">
+                        <a href="/work.html"><button class="btn bg-white rounded-pill button-text text-black px-4">See More</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- projects section end -->
 
 
+        <!-- Faq section start -->
+        <section class="container-fluid py-1 py-lg-5 stars-bg">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="d-flex flex-wrap justify-content-around">
+                        <div class="col-12 col-lg-4 col-md-6 pt-md-5 pt-lg-0 ">
+                            <p class="label-large Primary">FAQ</p>
+                            <h2 class="display-medium mt-3">Frequently Asked
+                                Questions
+                            </h2>
+                            <p class="body-small Opacity pt-lg-3">We fully understand your business. If you need to update something, we are more than happy to help you with the services we are providing.</p>
+                            <a href="/contact.html"><button class="btn secondary-button mt-lg-3" type="submit">Let's
+                                Talk
+                            </button></a>
+                        </div>
+                        <!-- accordion start -->
+                        <div class="col-12 col-lg-5 col-md-6 ms-0 ms-lg-5 pt-5 pt-md-0 mb-5 mb-lg-0"
+                        data-aos="fade-down" data-aos-offset="300" data-aos-easing="ease" data-aos-delay="20"
+                        data-aos-duration="1800">
+                        <div class="accordion accordion-dark accordion-flush" id="accordionExample">
+                            <div class="accordion-item border border-0 rounded-3">
+                                <h2 class="accordion-header border border-0" id="headingOne">
+                                    <button
+                                        class="accordion-button collapsed border border-0 accordionHeading heading-small black rounded-3"
+                                        style="border: 0px !important;" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        What are the platforms on which we develop apps?                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show p-0 border border-0"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="body-small black">
+                                            We specialize in developing high-quality, user-friendly apps for a variety of platforms, including iOS and Android. expertise in React-native, Xamarin, Ionic, flutter etc.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border border-0 rounded-3">
+                                <h2 class="accordion-header rounded-3 bg-darkkk" id="headingTwo">
+                                    <button
+                                        class="accordion-button collapsed border border-0 accordionHeading heading-small bg-darkkk rounded-3"
+                                        style="border: 0px !important;" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        How long does it take to develop an app?                                                                            
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body bg-darkkk">
+                                        <p class="body-small text-white">We understand that time is a valuable resource and we strive to deliver high-quality apps to our clients as quickly as possible. While the time it takes to develop an app can vary depending on the complexity and features of the project, we typically estimate a development time frame of 1-2 months for a full-featured app.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
+                            <div class="accordion-item border border-0 rounded-3">
+                                <h2 class="accordion-header rounded-3 bg-darkkk" id="headingThree">
+                                    <button
+                                        class="accordion-button collapsed border border-0 accordionHeading heading-small bg-darkkk rounded-3"
+                                        style="border: 0px !important;" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        How does UX UI help businesses?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body bg-darkkk">
+                                        <p class="body-small text-white">The time it takes to design a app/website can vary depending on the complexity and scope of the project. Our team works closely with each client to fully understand their needs and goals.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
+                            <div class="accordion-item border border-0 rounded-3">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button
+                                        class="accordion-button accordionBtnBg border border-0 accordionHeading accordionBg shadow shadow-lg heading-small bg-darkkk rounded-3"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                        aria-expanded="false" aria-controls="collapseFour">
+                                        Who will own the intellectual property rights to my App?                                    
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body bg-darkkk">
+                                        <p class="body-small text-white">As it’s your idea, concept, and your business you own the rights of the App, The team will just provide consultation and help you in building the App for your customers.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- accordion end -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Faq section end -->
 
+        <!-- closing section start -->
+        <section class="container-fluid mb-5">
+            <div class="container pt-sm-0 pt-md-5">
+                <div class="row justify-content-center" data-aos="fade-down" data-aos-offset="300"
+                    data-aos-easing="ease" data-aos-delay="20" data-aos-duration="1800">
+                    <div class="col-lg-9 col-md-11 yellow-section p-5 cta-bg">
+                        <div class="justify-content-center d-flex">
+                            <h1 class="display-medium text-dark thisIs" data-aos="fade-up" data-aos-offset="300"
+                                data-aos-easing="ease" data-aos-delay="20" data-aos-duration="1900">Your Success Starts Here - Say Hi and Let's <span class="justify-content-start justify-content-lg-center d-flex">Make it Happen!</span></h1>
+                        </div>
+                        <div class="justify-content-center d-flex pt-0 pt-md-3">
+                            <p class="body-medium text-dark" data-aos="fade-up" data-aos-offset="300"
+                                data-aos-easing="ease" data-aos-delay="20" data-aos-duration="2000">Partner with us to bring your concepts to life, crafting scalable applications and websites tailored <span class="justify-content-lg-center d-lg-flex">
+                                    precisely to your requirements, optimized for performance across platforms.</span> </p>
+                        </div>
+                        <div class="justify-content-center d-flex border-3 border-bottom border-dark pt-3 pb-5">
+                           <a href="/contact.html"><button class="btn btn-lg primary-button button-text">Schedule
+                            a Meeting</button></a>
+                        </div>
+                        <div class=" overflow-scroll center example pt-4 d-flex">
+                            <img class="me-5" src="/updated-assets/images/cambay logo-1x.svg" alt="">
+                            <img class="me-5" src="/updated-assets/images/whip-rides.svg" alt="">
+                            <img class="me-5" src="/updated-assets/images/dairy-trends.svg" alt="">
+                            <img class="me-5" src="/updated-assets/images/landwey-2.svg" alt="">
+                            <img class="me-5" src="/updated-assets/images/divinity.svg" alt="">
+                            <img class="me-5" src="/updated-assets/images/Endless-logo.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- closing section end -->
 
-
-
+    <!-- footer section start -->
+    <footer class="footer-bg">
+        <h1 class="mx-lg-5 mx-2 pt-5 display-large ">Have an idea ?</h1>
+        <a class="btn bg-white rounded-pill button-text fw-bold mx-lg-5 mx-1 px-5 mb-4 fw-semibold tell-us"
+            href="/contact.html">Tell Us
+            About
+            It</a>
+        <div class="row ps-lg-5 px-1 ms-lg-3" style="justify-content: space-between;">
+            <div class="col-6 col-lg-2 mt-5">
+                <h5 class="jost-font fw-semibold">NAVIGATION</h5><br>
+                <p class="fw-light"><a class="footer-text" href="/index.html">Home </a></p>
+                <p><a class="footer-text" href="/work.html">Work</a></p>
+                <p><a class="footer-text" href="/industries.html">Industries </a></p>
+                <p><a class="footer-text" href="/process.html">Process</a></p>
+                <p><a class="footer-text" href="/about.html">About</a></p>
+            </div>
+            <div class="col-6 col-lg-3 mt-5">
+                <h5 class="jost-font fw-semibold">SERVICES</h5><br>
+                <p><a class="footer-text" href="/Services/web-design.html">App/Web Design</a></p>
+                <p><a class="footer-text" href="/Services/web-development.html">App/Web Development</a></p>
+                <p><a class="footer-text" href="/Services/devops.html">Devops</a></p>
+                <p><a class="footer-text" href="/Services/blockchain.html">Blockchain</a></p>
+                <p><a class="footer-text" href="/Services/ar-vr.html">AR/VR</a></p>
+            </div>
+            <div class="col-6 col-lg-2 mt-5">
+                <h5 class="jost-font fw-semibold ">LEGAL</h5><br>
+                <p><a class="footer-text" href="">General Info</a></p>
+                <p><a class="footer-text" href="">Privacy Policy</a></p>
+                <p><a class="footer-text" href="">Terms of Service</a></p>
+            </div>
+            <div class="col-6 col-lg-3 mt-5 ">
+                <h5 class="jost-font fw-semibold">ADDRESS</h5><br>
+                <p class="lh-lg w-75 ">DSL Abacus IT park, 207,
+                    near dsl virtue mall,
+                    Survey Colony, Industrial
+                    Uppal, Hyderabad,
+                    Telangana 500039.
+                </p>
+                <p><a class="footer-text" target="_blank" href="mailto:contact@echortech.com">contact@echortech.com</a></p>
+            </div>
+        </div>
+        <hr>
+        <div class="row justify-content-start d-flex" style="align-items: baseline;">
+            <div class="col-lg-2 mt-5">
+                <img src="/updated-assets/icons/footer-logo.svg" width="150px" height="30px">
+            </div>
+            <div class="col-lg-7   justify-content-start justify-content-lg-center d-flex ps-lg-5 mt-4 mt-md-5">
+                <p>© 2023 Echor Tech - A Unit Of Cygnus Digital Innovations. All Rights Reserved.</p>
+            </div>
+            <div class="col-lg-3 mt-3 mt-md-5 justify-content-start justify-content-lg-end d-flex mb-5 mb-md-0">
+                <button class="btn btn-outline-light rounded-pill ms-lg-3 mx-2 "><a target="_blank"
+                        href="https://in.linkedin.com/company/echor-tech"><i
+                            class="fa-brands fa-facebook-f"></i><a></button>
+                <button class="btn btn-outline-light rounded-pill mx-lg-2 mx-2"><a target="_blank"
+                        href="https://in.linkedin.com/company/echor-tech"><i
+                            class="fa-brands fa-linkedin-in"></i></a></button>
+                <button class="btn btn-outline-light rounded-pill mx-lg-2 mx-2"><a target="_blank"
+                        href="https://in.linkedin.com/company/echor-tech"><i
+                            class="fa-brands fa-twitter"></a></i></button>
+            </div>
+        </div>
+    </footer>
     </div>
 
-    <!-- Bootstrap Javascript bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
-
-    <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
-        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous">
-        </script>
-
-
-
-
-
-    <script src="/assets/js/animate.js"></script>
-    <script>
-        setTransformEffect('hero-img')
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-    <script src="/assets/js/cursor.js"></script>
-    <!-- kursor js -->
-    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
-    <script>
-        new kursor({
-            type: 5
-        })
-    </script>
-
-    <script src="/assets/js/animate.js"></script>
-    <script>
-        setTransformEffect('web-develop-hero')
-    </script>
+    <!-- footer section end -->
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init(
-            {
-                startEvent: 'load',
-            }
-        );
+        AOS.init();
     </script>
-
 </body>
 
 </html>
