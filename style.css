@@ -204,6 +204,10 @@ body {
   background-color: black !important;
 } */
 
+.accordion{
+  --bs-accordion-border-width: 0 !important;
+}
+
 .bg-darkkk {
   background-color: #000000 !important;
 }
