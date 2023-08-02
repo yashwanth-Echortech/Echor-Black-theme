@@ -99,6 +99,9 @@ body {
 .bgChange {
   background: black !important;
 }
+.bgChange:hover{
+  background: black !important;
+}
 
 .bgChange:hover {
   background: #ffffff !important;
@@ -191,15 +194,15 @@ body {
   font-family: "Epilogue", sans-serif;
 }
 
-.accordionHeading {
+/* .accordionHeading {
   color: white !important;
   font-weight: 600;
   font-size: 1rem !important;
-}
+} */
 
-.accordionBg {
+/* .accordionBg {
   background-color: black !important;
-}
+} */
 
 .bg-darkkk {
   background-color: #000000 !important;
@@ -1097,7 +1100,6 @@ i {
   flex-shrink: 0;
   width: 2.5rem !important;
   height: 2.5rem !important;
-  /* width: 100%; */
   margin-left: auto;
   content: "";
   background-image: url("/assetss-change/icons/up.svg") !important;
@@ -1106,7 +1108,7 @@ i {
   background: #FED11B;
   transition: transform .2s ease-in-out;
   border-radius: 50px !important;
-  /* padding: 10px 10px 10px 10px !important; */
+  padding: 10px !important;
 }
 
 .btn-check:active+.btn,
@@ -1226,11 +1228,11 @@ label:hover {
 }
 
 
-.accordion-button:not(.collapsed) {
+/* .accordion-button:not(.collapsed) {
   color: var(--bs-accordion-active-color);
   background-color: var(--bs-accordion-active-bg);
-  /* box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 var(--bs-accordion-border-color); */
-}
+  box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 var(--bs-accordion-border-color);
+} */
 
 /* card animations */
 
@@ -1415,4 +1417,12 @@ font-size: 1.6rem;
 .anti-1:hover{
   color: #000000;
   background-color: #ffffff;
+}
+
+/* accordion */
+#collapseOne{
+  border: 0px solid red !important;
+}
+.bg-black{
+  background-color: #141213 !important;
 }
