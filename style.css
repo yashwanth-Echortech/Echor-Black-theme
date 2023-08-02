@@ -339,6 +339,9 @@ i {
   font-weight: 700;
 }
 
+.explore-2:hover{
+  color: #e6b224;
+}
 .industries-btn:hover {
   background: #437ef7;
   border: 0 !important;
@@ -747,6 +750,20 @@ i {
 .yellow-section {
   background: #ffffff;
   border-radius: 50px;
+}
+
+@media (min-width: 350px) and (max-width: 819px) {
+  .yellow-section {
+    background: #ffffff;
+    border-radius: 20px;
+  }
+}
+
+@media (min-width: 355px) and (max-width: 670px) {
+  .yellow-section {
+    background: #ffffff;
+    border-radius: 20px;
+  }
 }
 
 .footer-bg {
@@ -1443,6 +1460,7 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 text-transform: capitalize;
+padding: 0;
 }
 
 @media (min-width: 375.98px) and (max-width: 850px) {
@@ -1452,6 +1470,7 @@ text-transform: capitalize;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    padding: 0;
     }
 }
 
@@ -1462,6 +1481,7 @@ text-transform: capitalize;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    padding: 0;
     }
 }
 
@@ -1472,6 +1492,7 @@ text-transform: capitalize;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    padding: 0;
     }
 }
 
