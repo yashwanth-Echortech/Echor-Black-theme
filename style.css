@@ -1382,10 +1382,10 @@ font-size: 1.6rem;
   display: block;
 }
 
-.have-an-idea{
+/* .have-an-idea{
   position: absolute;
   right: 0;
-}
+} */
 
 @media (min-width: 820px) and (max-width: 1180px) {
   .have-an-idea{
@@ -1425,4 +1425,10 @@ font-size: 1.6rem;
 }
 .bg-black{
   background-color: #141213 !important;
+}
+/* navbar */
+.navBar-bg{
+  background-image: url(/updated-assets/images/NavbarBg.jpg);
+  background-position: contain;
+  /* height: 100vh; */
 }
