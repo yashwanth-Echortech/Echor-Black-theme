@@ -5,14 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Echor Tech</title>
+    <title>AR/VR</title>
     <meta name="description"
-        content="Leading software agency focused on design and development. We develop complex websites, iOS/Android mobile applications and elaborate online business services.">
-    <meta property="og:title" content="Echor.Tech">
+        content="Echortech: Your go-to Software Agency for Innovative Development, Creative Design, Secure Blockchain Solutions, and Expert DevOps Services.">
     <meta property="og:type" content="website">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords"
+        content="Echortech, app development, web development, app design, web design, Blockchain solutions, DevOps services, software agency, development, design, technology, innovation, applications, websites, Blockchain technology, DevOps practices, expert, software solutions">
     <meta property="og:description"
-        content="Leading software agency focused on design and development. We develop complex websites, iOS/Android mobile applications and elaborate online business services.">
+        content="Echortech: Expert Software Agency for Innovative Development, Design, Blockchain Solutions & DevOps Services.">
+    <meta property="og:title" content="Echortech - Expert Software Agency for App/Web Development, Design & Blockchain">
     <meta name="theme-color" content="#ffffff">
+    <meta property="og:url" content="https://www.echortech.com">
+    <meta property="og:image" content="/assets/echor-logo.svg">
     <!-- external css -->
     <link rel="stylesheet" href="/style.css">
     <!-- Bootstrap styles -->
@@ -51,110 +56,139 @@
 
         gtag('config', 'G-BBVHYGL9BD');
     </script>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.2.min.js"></script>
 </head>
 
 <body>
     <div class="body-wrap ">
-    <!-- nav bar starts  -->
-    <section class="container-fluid">
-        <div class="container px-0">
-            <nav class="navbar navbar-expand-lg navbar-dark py-3">
-                <div class="container-fluid">
-                    <a class="navbar-brand logo-et" href="/index.html"><img src="/assets/echor-logo.svg" alt=""></a>
-                    <div class="d-flex">
-                        <button type="button" class="btn d-none d-lg-block primary-button" data-aos="fade-down"
-                            data-aos-duration="700" data-aos-delay="50" type="submit"><a
-                                class="text-decoration-none text-dark" href="/contact.html">Let's
-                                talk</a>
-                        </button>
-                        <img class="ms-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"
-                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"
-                            src="/assets/menu.svg" alt="">
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </section>
-
-    <div class="offcanvas offcanvas-top navBar-bg" style="height: 100vh;" tabindex="-1" id="offcanvasTop"
-        aria-labelledby="offcanvasTopLabel">
-        <div class="offcanvas-body">
-            <div class="container">
-                <div class="row mt-2  justify-content-between d-flex">
-                    <div class="col ">
+        <!-- nav bar starts  -->
+        <section class="container-fluid">
+            <div class="container px-0">
+                <nav class="navbar navbar-expand-lg navbar-dark py-3">
+                    <div class="container-fluid">
                         <a class="navbar-brand logo-et" href="/index.html"><img src="/assets/echor-logo.svg" alt=""></a>
+                        <div class="d-flex">
+                            <button type="button" class="btn d-none d-lg-block primary-button" data-aos="fade-down"
+                                data-aos-duration="700" data-aos-delay="50" type="submit"><a
+                                    class="text-decoration-none text-dark" href="/contact.html">Let's
+                                    talk</a>
+                            </button>
+                            <img class="ms-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"
+                                src="/assets/menu.svg" alt="">
+                        </div>
                     </div>
-                    <div class="col d-flex justify-content-end" type="button" data-bs-dismiss="offcanvas"
-                        aria-label="Close">
-                        <img class="logo-x" src="/updated-assets/images/close.png" alt="cross">
+                </nav>
+            </div>
+        </section>
+
+        <div class="offcanvas offcanvas-top navBar-bg" style="height: 100vh;" tabindex="-1" id="offcanvasTop"
+            aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-body">
+                <div class="container">
+                    <div class="row mt-2  justify-content-between d-flex">
+                        <div class="col ">
+                            <a class="navbar-brand logo-et" href="/index.html"><img src="/assets/echor-logo.svg"
+                                    alt=""></a>
+                        </div>
+                        <div class="col d-flex justify-content-end" type="button" data-bs-dismiss="offcanvas"
+                            aria-label="Close">
+                            <img class="logo-x" src="/updated-assets/images/close.png" alt="cross">
+                        </div>
                     </div>
-                </div>
-                <div class="row mt-3">
-                    <!-- content -->
-                    <div class="col-8 mt-4 position-relative">
-                        <div class="justify-content-sm-start justify-content-lg-center d-flex">
-                            <ul class="nav-items">
-                                <a class="text-decoration-none text-white" href="/index.html"><h2 class="nav-text">Home</h2></a>
-                                <a class="text-decoration-none text-white" href="/work.html"><h2 class="nav-text">Work</h2></a>                                <div class="dropdown">
-                                    <button class="dropbtn nav-text">Services </button>
-                                    <div class="dropdown-content">
-                                        <a class="nav-text" href="/Services/web-design.html">App/Web Design <span class=""><img
-                                                    class="d-none right-arrow"
-                                                    src="/updated-assets/images/arrow-right.png" alt=""></span></a>
-                                        <a class="nav-text" href="/Services/web-development.html">App/Web Development <span class=""><img
-                                                    class="d-none right-arrow"
-                                                    src="/updated-assets/images/arrow-right.png" alt=""></span></a>
-                                        <a class="nav-text" href="/Services/ar-vr.html">AR/VR <span class=""><img
-                                                    class="d-none right-arrow"
-                                                    src="/updated-assets/images/arrow-right.png" alt=""></span></a>
-                                        <a class="nav-text" href="/Services/blockchain.html">Blockchain <span class=""><img
-                                                    class="d-none right-arrow"
-                                                    src="/updated-assets/images/arrow-right.png" alt=""></span></a>
-                                        <a class="nav-text" href="/Services/devops.html">DevOps <span class=""><img
-                                                    class="d-none right-arrow"
-                                                    src="/updated-assets/images/arrow-right.png" alt=""></span></a>
+                    <div class="row mt-3">
+                        <!-- content -->
+                        <div class="col-12 center mt-4 position-relative flex-wrap">
+                            <div class="justify-content-sm-start justify-content-lg-center d-flex col-lg-6 col-12">
+                                <ul class="nav-items">
+                                    <a class="text-decoration-none text-white" href="/index.html">
+                                        <h2 class="nav-text">Home</h2>
+                                    </a>
+                                    <a class="text-decoration-none text-white" href="/work.html">
+                                        <h2 class="nav-text">Work</h2>
+                                    </a>
+                                    <!-- <div class="dropdown">
+                                        <button class="dropbtn nav-text">Services </button>
+                                        <div class="dropdown-content">
+
+                                        </div>
+                                    </div> -->
+
+                                    <div id="container">
+                                        <ul id="nav1">
+                                          <li><a class="nav-text text-decoration-none" href="#">Services</a>
+                                          <ul class="">
+                                            <li> <a class="nav-text" href="/Services/web-design.html">App/Web Design <span
+                                                class=""><img class="d-none right-arrow"
+                                                    src="/updated-assets/images/arrow-right.png" alt=""></span></a></li>
+                                            <li> <a class="nav-text" href="/Services/web-development.html">App/Web
+                                                Development <span class=""><img class="d-none right-arrow"
+                                                        src="/updated-assets/images/arrow-right.png" alt=""></span></a>/li>
+                                            <li><a class="nav-text" href="/Services/ar-vr.html">AR/VR <span class=""><img
+                                                class="d-none right-arrow"
+                                                src="/updated-assets/images/arrow-right.png" alt=""></span></a></li>
+                                            <li> <a class="nav-text" href="/Services/blockchain.html">Blockchain <span
+                                                class=""><img class="d-none right-arrow"
+                                                    src="/updated-assets/images/arrow-right.png" alt=""></span></a></li>
+                                            <li><a class="nav-text" href="/Services/devops.html">DevOps <span class=""><img
+                                                class="d-none right-arrow"
+                                                src="/updated-assets/images/arrow-right.png" alt=""></span></a></li>
+
+                                          </ul>
+                                          </li>
+                                      </ul>
+                                      <div>
+                                    <a class="text-decoration-none text-white" href="/industries.html">
+                                        <h2 class="nav-text">Industries</h2>
+                                    </a>
+                                    <a class="text-decoration-none text-white" href="/process.html">
+                                        <h2 class="nav-text">process</h2>
+                                    </a>
+                                    <a class="text-decoration-none text-white" href="/about.html">
+                                        <h2 class="nav-text">About</h2>
+                                    </a>
+                                </ul>
+                            </div>
+
+
+                            <div class="right-col  position-relative mt-5 pt-5 col-lg-6 col-12">
+                                <div class="d-none d-lg-block">
+                                    <p class="display-medium text-white">Contact info:</p>
+                                </div>
+                                <div class="pt-4 d-none d-lg-block">
+                                    <h5 class="heading-small">E-MAIL</h5>
+                                    <p class="body-medium Opacity"><a class="text-decoration-none text-white"
+                                            href="mailto:contact@echortech.com">contact@echortech.com</a></p>
+                                </div>
+                                <div class="pt-4 d-none d-lg-block">
+                                    <h5 class="heading-small">ADDRESS</h5>
+                                    <p class="body-medium text-white Opacity">DSL Abacus IT park, 207, near dsl
+                                        virtue
+                                        mall, Survey Colony, Industrial Development Area, Uppal, Hyderabad, Telangana
+                                        500039
+                                    </p>
+                                    <div class="d-flex">
+                                        <a class="me-3" href=""><img src="/updated-assets/icons/dribbble.svg"
+                                                alt=""></a>
+                                        <a href=""><img src="/updated-assets/icons/linkedin.svg" alt=""></a>
                                     </div>
                                 </div>
-                                <a class="text-decoration-none text-white" href="/industries.html"><h2 class="nav-text">Industries</h2></a>
-                                <a class="text-decoration-none text-white" href="/process.html"><h2 class="nav-text">process</h2></a>
-                                <a class="text-decoration-none text-white" href="/about.html"><h2 class="nav-text">About</h2></a>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-12 right-col  position-relative mt-5 pt-5 ">
-                        <div class="d-none d-lg-block">
-                            <p class="display-medium text-white">Contact info:</p>
-                        </div>
-                        <div class="pt-4 d-none d-lg-block">
-                            <h5 class="heading-small">E-MAIL</h5>
-                            <p class="body-medium Opacity"><a class="text-decoration-none text-white"
-                                    href="mailto:contact@echortech.com">contact@echortech.com</a></p>
-                        </div>
-                        <div class="pt-4 d-none d-lg-block">
-                            <h5 class="heading-small">ADDRESS</h5>
-                            <p class="body-medium text-white Opacity">DSL Abacus IT park, 207, near dsl
-                                virtue
-                                mall, Survey Colony, Industrial Development Area, Uppal, Hyderabad, Telangana 500039
-                            </p>
-                            <div class="d-flex">
-                                <a class="me-3" href=""><img src="/updated-assets/icons/dribbble.svg" alt=""></a>
-                                <a href=""><img src="/updated-assets/icons/linkedin.svg" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="pt-5">
-                            <p class="text-white display-large">Have an Idea?</p>
-                            <div class="">
-                                <a href="/contact.html"><button class="tell-us-abt button-text">Tell Us About
-                                        it.</button></a>
+                                <div class="pt-5">
+                                    <p class="text-white display-large">Have an Idea?</p>
+                                    <div class="">
+                                        <a href="/contact.html"><button class="tell-us-abt button-text">Tell Us About
+                                                it.</button></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- nav bar end -->
+        <!-- nav bar end -->
 
         <!-- main section start -->
         <section class="container-fluid">
@@ -316,10 +350,10 @@
                         <!-- card-1 -->
                         <div class="horizontal-cards d-flex" data-aos="fade-right" data-aos-offset="300"
                             data-aos-easing="ease" data-aos-delay="20" data-aos-duration="1800">
-                            <div class="">
-                                <img class="w-100 mt-2" src="/updated-assets/icons/ecommerce-enhancement.png" alt="">
+                            <div class="me-3">
+                                <img class="w-100 mt-2 " src="/updated-assets/icons/ecommerce-enhancement.png" alt="">
                             </div>
-                            <div>
+                            <div class="">
                                 <p class="heading-small">E-Commerce Enhancement</p>
                                 <p class="body-small Opacity text-black">Creating extraordinary shopping journeys by
                                     engaging and empowering customers like never before.</p>
@@ -328,7 +362,7 @@
                         <!-- card-2 -->
                         <div class="horizontal-cards d-flex mt-2" data-aos="fade-right" data-aos-offset="300"
                             data-aos-easing="ease" data-aos-delay="40" data-aos-duration="1800">
-                            <div class="">
+                            <div class="me-3">
                                 <img class="w-100 mt-2" src="/updated-assets/icons/training-and.png" alt="">
                             </div>
                             <div>
@@ -341,7 +375,7 @@
                         <!-- card-3 -->
                         <div class="horizontal-cards d-flex mt-2" data-aos="fade-right" data-aos-offset="300"
                             data-aos-easing="ease" data-aos-delay="60" data-aos-duration="1800">
-                            <div class="">
+                            <div class="me-3">
                                 <img class="w-100 mt-2" src="/updated-assets/icons/education-and.png" alt="">
                             </div>
                             <div>
@@ -507,7 +541,7 @@
 
         <!-- footer section start -->
         <footer class="footer-bg">
-            <h1 class="mx-lg-5 mx-2 pt-5 display-large ">Have an idea ?</h1>
+            <h1 class="mx-lg-5 mx-2 pt-5 display-medium">Have an idea ?</h1>
             <a class="btn bg-white rounded-pill button-text fw-bold mx-lg-5 mx-1 px-5 mb-4 fw-semibold tell-us"
                 href="/contact.html">Tell Us
                 About
@@ -543,7 +577,7 @@
                         Uppal, Hyderabad,
                         Telangana 500039.
                     </p>
-                    <p><a class="footer-text" target="_blank"
+                    <p><a class="footer-text Primary" target="_blank"
                             href="mailto:contact@echortech.com">contact@echortech.com</a></p>
                 </div>
             </div>
@@ -576,6 +610,19 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+
+    <!-- jquery -->
+    <script>
+        $(document).ready(function () {
+            $("#nav1 li").hover(
+                function () {
+                    $(this).find('ul').slideDown();
+                },
+                function () {
+                    $(this).find('ul').slideUp();
+                });
+        });
     </script>
 
 </body>
