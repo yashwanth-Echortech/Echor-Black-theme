@@ -6,8 +6,8 @@ body {
   padding: 0;
   overflow-x: hidden !important;
   color: #ffffff !important;
+  scroll-behavior: smooth !important;
 }
-
 
 /* work page */
 .Z-index {
@@ -26,8 +26,6 @@ body {
 .image-1 {
   margin-top: -1% !important;
 }
-
-
 
 .cardds {
   color: white !important;
@@ -127,7 +125,6 @@ i {
   opacity: 1;
 }
 
-
 .carouselImage {
   z-index: 3 !important;
 }
@@ -202,9 +199,6 @@ i {
 /* about us page ends */
 
 /* contact us page */
-
-
-
 
 .contact-button{
   width: 50%;
@@ -692,7 +686,7 @@ i {
   height: 2.5rem !important;
   margin-left: auto;
   content: "";
-  background-image: url("/assetss-change/icons/up.svg") !important;
+  background-image: url("/updated-assets/icons/up-1.svg") !important;
   background-repeat: no-repeat;
   background-size: 2.6rem !important;
   background: #FED11B;
@@ -700,10 +694,6 @@ i {
   border-radius: 50px !important;
   padding: 10px !important;
 }
-
-
-
-
 
 /* 2 card */
 
@@ -773,8 +763,6 @@ font-size: 1.6rem;
   height: max-content;
 }
 
-
-
 /* buttons */
 
 /* accordion */
@@ -833,11 +821,9 @@ padding: 0;
     }
 }
 
-
 .nav-text:hover{
   color: #F9D423;
 }
-
 
 /* service drop down */
 .dropbtn {
@@ -953,8 +939,6 @@ padding: 0;
 .card__img {
   width: 100%;
 }
-
-
 
 .card_1:hover .card__icon {
   transform: rotate(0);
