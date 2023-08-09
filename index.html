@@ -32,7 +32,7 @@
     <!-- <meta name="theme-color" content="#ffffff"> -->
 
     <!-- css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -56,124 +56,117 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- aos animations -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- locomotive -->
-    <link rel="stylesheet" href="locomotive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- magnetic button -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
-        <!-- nav bar starts  -->
-        <section class="container-fluid">
-            <div class="container px-0">
-                <nav class="navbar navbar-expand-lg navbar-dark py-3">
-                    <div class="container-fluid">
-                        <a class="navbar-brand logo-et" href="/index.html"><img src="/updated-assets/images/logo.svg" alt=""></a>
-                        <div class="d-flex">
-                            <button type="button" class="btn d-none d-lg-block primary-button" data-aos="fade-down"
-                                data-aos-duration="700" data-aos-delay="50" type="submit"><a
-                                    class="text-decoration-none text-dark" href="/contact.html">Let's
-                                    talk</a>
-                            </button>
-                            <img class="ms-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"
-                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"
-                                src="/updated-assets/icons/menu.svg" alt="">
-                        </div>
+    <!-- nav bar starts  -->
+    <section class="container-fluid">
+        <div class="container px-0">
+            <nav class="navbar navbar-expand-lg navbar-dark py-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand logo-et" href="/index.html"><img src="/updated-assets/images/logo.svg"
+                            alt=""></a>
+                    <div class="d-flex">
+                        <button type="button" class="btn d-none d-lg-block primary-button" data-aos="fade-down"
+                            data-aos-duration="700" data-aos-delay="50" type="submit"><a
+                                class="text-decoration-none text-dark" href="/contact.html">Let's
+                                talk</a>
+                        </button>
+                        <img class="ms-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"
+                            src="/updated-assets/icons/menu.svg" alt="">
                     </div>
-                </nav>
-            </div>
-        </section>
+                </div>
+            </nav>
+        </div>
+    </section>
 
-        <div class="offcanvas offcanvas-top navBar-bg" style="height: 100vh;" tabindex="-1" id="offcanvasTop"
-            aria-labelledby="offcanvasTopLabel">
-            <div class="offcanvas-body">
-                <div class="container">
-                    <div class="row mt-2  justify-content-between d-flex">
-                        <div class="col ">
-                            <a class="navbar-brand logo-et" href="/index.html"><img src="/updated-assets/images/logo.svg"
-                                    alt=""></a>
-                        </div>
-                        <div class="col d-flex justify-content-end" type="button" data-bs-dismiss="offcanvas"
-                            aria-label="Close">
-                            <img class="logo-x" src="/updated-assets/images/close.png" alt="cross">
-                        </div>
+    <div class="offcanvas offcanvas-top navBar-bg" style="height: 100vh;" tabindex="-1" id="offcanvasTop"
+        aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-body">
+            <div class="container">
+                <div class="row mt-2  justify-content-between d-flex">
+                    <div class="col ">
+                        <a class="navbar-brand logo-et" href="/index.html"><img src="/updated-assets/images/logo.svg"
+                                alt=""></a>
                     </div>
-                    <div class="row mt-3">
-                        <!-- content -->
-                        <div class="col-12 center mt-4 position-relative flex-wrap">
-                            <div class="justify-content-sm-start justify-content-lg-center d-flex col-lg-6 col-12">
-                                <ul class="nav-items">
-                                    <a class="text-decoration-none text-white" href="/index.html">
-                                        <h2 class="nav-text">Home</h2>
-                                    </a>
-                                    <a class="text-decoration-none text-white" href="/work.html">
-                                        <h2 class="nav-text">Work</h2>
-                                    </a>
-                                    <div class="dropdown">
-                                        <button class="dropbtn nav-text">Services </button>
-                                        <div class="dropdown-content">
-                                            <a class="nav-text" href="/Services/web-design.html">App/Web Design <span
-                                                    class=""><img class="d-none right-arrow"
-                                                        src="/updated-assets/images/arrow-right.png" alt=""></span></a>
-                                            <a class="nav-text" href="/Services/web-development.html">App/Web
-                                                Development <span class=""><img class="d-none right-arrow"
-                                                        src="/updated-assets/images/arrow-right.png" alt=""></span></a>
-                                            <a class="nav-text" href="/Services/ar-vr.html">AR/VR <span class=""><img
-                                                        class="d-none right-arrow"
-                                                        src="/updated-assets/images/arrow-right.png" alt=""></span></a>
-                                            <a class="nav-text" href="/Services/blockchain.html">Blockchain <span
-                                                    class=""><img class="d-none right-arrow"
-                                                        src="/updated-assets/images/arrow-right.png" alt=""></span></a>
-                                            <a class="nav-text" href="/Services/devops.html">DevOps <span class=""><img
-                                                        class="d-none right-arrow"
-                                                        src="/updated-assets/images/arrow-right.png" alt=""></span></a>
-                                        </div>
+                    <div class="col d-flex justify-content-end" type="button" data-bs-dismiss="offcanvas"
+                        aria-label="Close">
+                        <img class="logo-x" src="/updated-assets/images/close.png" alt="cross">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <!-- content -->
+                    <div class="col-12 center mt-4 position-relative flex-wrap">
+                        <div class="justify-content-sm-start justify-content-lg-center d-flex col-lg-6 col-12">
+                            <ul class="nav-items">
+                                <a class="text-decoration-none text-white" href="/index.html">
+                                    <h2 class="nav-text">Home</h2>
+                                </a>
+                                <a class="text-decoration-none text-white" href="/work.html">
+                                    <h2 class="nav-text">Work</h2>
+                                </a>
+                                <div class="dropdown">
+                                    <button class="dropbtn nav-text">Services </button>
+                                    <div class="dropdown-content">
+                                        <a class="nav-text" href="/Services/web-design.html">App/Web Design <span
+                                                class=""><img class="d-none right-arrow"
+                                                    src="/updated-assets/images/arrow-right.png" alt=""></span></a>
+                                        <a class="nav-text" href="/Services/web-development.html">App/Web
+                                            Development <span class=""><img class="d-none right-arrow"
+                                                    src="/updated-assets/images/arrow-right.png" alt=""></span></a>
+                                        <a class="nav-text" href="/Services/ar-vr.html">AR/VR <span class=""><img
+                                                    class="d-none right-arrow"
+                                                    src="/updated-assets/images/arrow-right.png" alt=""></span></a>
+                                        <a class="nav-text" href="/Services/blockchain.html">Blockchain <span
+                                                class=""><img class="d-none right-arrow"
+                                                    src="/updated-assets/images/arrow-right.png" alt=""></span></a>
+                                        <a class="nav-text" href="/Services/devops.html">DevOps <span class=""><img
+                                                    class="d-none right-arrow"
+                                                    src="/updated-assets/images/arrow-right.png" alt=""></span></a>
                                     </div>
-                                    <a class="text-decoration-none text-white" href="/industries.html">
-                                        <h2 class="nav-text">Industries</h2>
-                                    </a>
-                                    <a class="text-decoration-none text-white" href="/process.html">
-                                        <h2 class="nav-text">process</h2>
-                                    </a>
-                                    <a class="text-decoration-none text-white" href="/about.html">
-                                        <h2 class="nav-text">About</h2>
-                                    </a>
-                                </ul>
+                                </div>
+                                <a class="text-decoration-none text-white" href="/industries.html">
+                                    <h2 class="nav-text">Industries</h2>
+                                </a>
+                                <a class="text-decoration-none text-white" href="/process.html">
+                                    <h2 class="nav-text">process</h2>
+                                </a>
+                                <a class="text-decoration-none text-white" href="/about.html">
+                                    <h2 class="nav-text">About</h2>
+                                </a>
+                            </ul>
+                        </div>
+
+
+                        <div class="right-col  position-relative mt-5 pt-5 col-lg-6 col-12">
+                            <div class="d-none d-lg-block">
+                                <p class="display-medium text-white">Contact info:</p>
                             </div>
-
-
-                            <div class="right-col  position-relative mt-5 pt-5 col-lg-6 col-12">
-                                <div class="d-none d-lg-block">
-                                    <p class="display-medium text-white">Contact info:</p>
+                            <div class="pt-4 d-none d-lg-block">
+                                <h5 class="heading-small">E-MAIL</h5>
+                                <p class="body-medium Opacity"><a class="text-decoration-none text-white"
+                                        href="mailto:contact@echortech.com">contact@echortech.com</a></p>
+                            </div>
+                            <div class="pt-4 d-none d-lg-block">
+                                <h5 class="heading-small">ADDRESS</h5>
+                                <p class="body-medium text-white Opacity">DSL Abacus IT park, 207, near dsl
+                                    virtue
+                                    mall, Survey Colony, Industrial Development Area, Uppal, Hyderabad, Telangana
+                                    500039
+                                </p>
+                                <div class="d-flex">
+                                    <a class="me-3" href=""><img src="/updated-assets/icons/dribbble.svg" alt=""></a>
+                                    <a href=""><img src="/updated-assets/icons/linkedin.svg" alt=""></a>
                                 </div>
-                                <div class="pt-4 d-none d-lg-block">
-                                    <h5 class="heading-small">E-MAIL</h5>
-                                    <p class="body-medium Opacity"><a class="text-decoration-none text-white"
-                                            href="mailto:contact@echortech.com">contact@echortech.com</a></p>
-                                </div>
-                                <div class="pt-4 d-none d-lg-block">
-                                    <h5 class="heading-small">ADDRESS</h5>
-                                    <p class="body-medium text-white Opacity">DSL Abacus IT park, 207, near dsl
-                                        virtue
-                                        mall, Survey Colony, Industrial Development Area, Uppal, Hyderabad, Telangana
-                                        500039
-                                    </p>
-                                    <div class="d-flex">
-                                        <a class="me-3" href=""><img src="/updated-assets/icons/dribbble.svg"
-                                                alt=""></a>
-                                        <a href=""><img src="/updated-assets/icons/linkedin.svg" alt=""></a>
-                                    </div>
-                                </div>
-                                <div class="pt-5">
-                                    <p class="text-white display-large">Have an Idea?</p>
-                                    <div class="">
-                                        <a href="/contact.html"><button class="tell-us-abt button-text">Tell Us About
-                                                it.</button></a>
-                                    </div>
+                            </div>
+                            <div class="pt-5">
+                                <p class="text-white display-large">Have an Idea?</p>
+                                <div class="">
+                                    <a href="/contact.html"><button class="tell-us-abt button-text">Tell Us About
+                                            it.</button></a>
                                 </div>
                             </div>
                         </div>
@@ -181,14 +174,16 @@
                 </div>
             </div>
         </div>
-        <!-- nav bar end -->
+    </div>
+    <!-- nav bar end -->
     <!-- main section start -->
     <section class="container-fluid px-sm-0 px-md-5 Z-index" data-aos="fade-up" data-aos-duration="1900"
-        data-aos-easing="ease-in-out">
+        data-aos-easing="ease-in-out" id="stick" data-scroll-section>
         <div class="container py-2 py-sm-5">
             <div class="row justify-content-between align-items-center">
                 <div class="col-12 col-lg-5 order-2 order-sm-1">
-                    <p class="label-large pt-5 pt-md-0" data-aos="fade-up" data-aos-delay="400">USER FOCUSSED
+                    <p class="label-large pt-5 pt-md-0" data-aos="fade-up" data-aos-delay="400" data-scroll
+                        data-scroll-sticky data-scroll-target="#stick">USER FOCUSSED
                         STUDIO</p>
                     <h1 class="display-large text-white" data-aos="fade-up" data-aos-delay="600">Creative Design &
                         Development studio</h1>
@@ -224,11 +219,11 @@
                     <div class="col-12 col-xl-5 col-lg-5 rounded-3 p-0 p-md-4 cardds white-bg bg-black"
                         data-aos="fade-down" data-aos-offset="300" data-aos-easing="ease" data-aos-delay="20"
                         data-aos-duration="800">
-                        <div class="d-flex p-3 py-lg-0">
+                        <div class="d-flex p-3">
                             <div class="round-icon">
                                 <img class="w-100" src="/updated-assets/icons/growth-presentation-1.svg" alt="">
                             </div>
-                            <div class="ps-2 ps-md-3 pt-3 pt-md-3">
+                            <div class="ps-2 ps-md-3 pt-3">
                                 <h3 class="jost-font text-warning fw-bold ">Growth over Beauty</h3>
                             </div>
                         </div>
@@ -936,7 +931,8 @@
                     Uppal, Hyderabad,
                     Telangana 500039.
                 </p>
-                <p><a class="footer-text Primary" target="_blank" href="mailto:contact@echortech.com">contact@echortech.com</a>
+                <p><a class="footer-text Primary" target="_blank"
+                        href="mailto:contact@echortech.com">contact@echortech.com</a>
                 </p>
             </div>
         </div>
@@ -979,6 +975,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
     <script src="/gsap.js"></script>
     <script src="/animations.js"></script>
+    <!-- locomotive -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
 
 
 </body>
