@@ -57,7 +57,7 @@
     <!-- aos animations -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
 </head>
 
 <body>
@@ -84,18 +84,16 @@
                                     <a class=" text-decoration-none text-white px-3 common-font "
                                         href="/work.html">Work</a>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle text-decoration-none text-white px-3 common-font" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
                                       Dropdown
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                      <li><a class="dropdown-item" href="/assetss-change/services-2/app/app/ar-vr.html">ar/vr</a></li>
-                                      <li><a class="dropdown-item" href="/assetss-change/services-2/app/app/blockchain.html">blockchain</a></li>
-                                      <li><a class="dropdown-item" href="/assetss-change/services-2/app/app/devops.html">devops</a></li>
-                                      <li><a class="dropdown-item" href="/assetss-change/services-2/app/app/web-development.html">web-development</a></li>
-                                      <li><a class="dropdown-item" href="/assetss-change/services-2/app/web-design.html">web-design</a></li>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                      <li><button class="dropdown-item" type="button">Action</button></li>
+                                      <li><button class="dropdown-item" type="button">Another action</button></li>
+                                      <li><button class="dropdown-item" type="button">Something else here</button></li>
                                     </ul>
-                                  </li>
+                                  </div>
                                 <li class="nav-item">
                                     <a class="text-decoration-none text-white px-3 font-1"
                                         href="/industries.html">Industries</a>
@@ -113,11 +111,11 @@
                     </div>
                     <div class="d-none d-lg-block">
                         <ul class="navbar-nav ">
-                            <li class="nav-item">
-                                <a class=" text-decoration-none text-white px-3 font-1" href="/work.html">Work</a>
+                            <li class="nav-item pt-2">
+                                <a class=" text-decoration-none text-white px-3 font-1 " href="/work.html">Work</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle text-decoration-none text-white px-3 font-1 " href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="true">
                                   Dropdown
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
@@ -126,18 +124,15 @@
                                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                               </li>
-                              <li class="nav-item">
-                                <a class=" text-decoration-none text-white px-3 font-1" href="/work.html">Work</a>
-                            </li>
-                            
-                            <li class="nav-item">
+
+                            <li class="nav-item pt-2">
                                 <a class="text-decoration-none text-white px-3 font-1"
                                     href="/industries.html">Industries</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item pt-2">
                                 <a class="text-decoration-none text-white px-3 font-1" href="/process.html">Process</a>
                             </li>
-                            <li class="nav-item ps-3">
+                            <li class="nav-item ps-3 pt-2">
                                 <a class="text-decoration-none text-white font-1 px-2 px-lg-0"
                                     href="/about.html">About</a>
                             </li>
@@ -151,7 +146,6 @@
             </nav>
         </div>
     </div>
-
     <!-- nav bar end -->
         <!-- main section start -->
         <section class="container-fluid px-sm-0 px-md-5 Z-index" >
@@ -714,7 +708,7 @@
                                         <img src="/assetss-change/assets/Logo.svg" alt="">
                                     </div> -->
                                     </div>
-                                    <div class="carousel-item  p-5">
+                                    <!-- <div class="carousel-item  p-5">
                                         <p class="text-dark fs-5 fw-semibold">"Kudos to Echortech for their exceptional
                                             work
                                             on our crypto project! Their expertise and dedication ensured a seamless and
@@ -722,11 +716,7 @@
                                             platform they delivered."
                                             <br> <span class="justify-content-end d-flex">- CryptoPatel</span>
                                         </p>
-                                        <!-- <div class=" d-flex justify-content-between">
-                                        <img src="/assetss-change/assets/Person.svg" alt="" style="width: 50%;">
-                                        <img src="/assetss-change/assets/Logo.svg" alt="">
                                     </div> -->
-                                    </div>
                                 </div>
 
                             </div>
@@ -954,9 +944,7 @@
 
     <!-- footer section end -->
     <!-- bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Aos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
