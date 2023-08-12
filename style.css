@@ -995,4 +995,9 @@ padding: 0;
 }
 
 /* nav bar */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 0px !important;
+}
 
